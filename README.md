@@ -215,3 +215,20 @@ source devel/setup.bash
 roslaunch assignment2 main.launch
 ```
 
+### RQT Graph
+
+To view the `rqt_graph` execute the command given below:
+
+```bashscript
+rosrun rqt_graph rqt_graph
+```
+
+<p align="center">
+  <img width="2500" height="200" src="https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_II/blob/16b9333feadb5807eb8990bed5772e79feca807c/rosgraph.png">
+</p>
+
+<p align="center">
+    <em>RQT Graph</em>
+</p> 
+
+The figure above shows the `rqt_graph`. 
