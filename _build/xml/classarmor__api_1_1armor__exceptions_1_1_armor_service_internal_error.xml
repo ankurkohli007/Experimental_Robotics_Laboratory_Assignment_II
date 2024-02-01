@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error" kind="class" language="Python" prot="public">
+    <compoundname>armor_api::armor_exceptions::ArmorServiceInternalError</compoundname>
+    <basecompoundref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception" prot="public" virt="non-virtual">armor_api.armor_exceptions.ArmorPyException</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1a5668c2b62eadc24b60c8456ae12f4c62" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_exceptions.ArmorServiceInternalError::msg</definition>
+        <argsstring></argsstring>
+        <name>msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="30" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1a2586cf1605fbc7644d10491d5564738a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_exceptions.ArmorServiceInternalError::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="31" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1acc9abbf99724a3de8776e9304d170b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_exceptions.ArmorServiceInternalError.__init__</definition>
+        <argsstring>(self, message, exit_code)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>message</type>
+          <defname>message</defname>
+        </param>
+        <param>
+          <type>exit_code</type>
+          <defname>exit_code</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="29" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="29" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>armor_api.armor_exceptions.ArmorPyException</label>
+        <link refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>armor_api.armor_exceptions.ArmorServiceInternalError</label>
+        <link refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>armor_api.armor_exceptions.ArmorPyException</label>
+        <link refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>armor_api.armor_exceptions.ArmorServiceInternalError</label>
+        <link refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="utilities/armor_api/armor_exceptions.py" line="28" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="28" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1acc9abbf99724a3de8776e9304d170b16" prot="public" virt="non-virtual"><scope>armor_api::armor_exceptions::ArmorServiceInternalError</scope><name>__init__</name></member>
+      <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1ae8977bd8f05ae51646afa56a14c56cec" prot="public" virt="non-virtual" ambiguityscope="armor_api::armor_exceptions::ArmorPyException."><scope>armor_api::armor_exceptions::ArmorServiceInternalError</scope><name>__init__</name></member>
+      <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1a2586cf1605fbc7644d10491d5564738a" prot="public" virt="non-virtual"><scope>armor_api::armor_exceptions::ArmorServiceInternalError</scope><name>code</name></member>
+      <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1a5668c2b62eadc24b60c8456ae12f4c62" prot="public" virt="non-virtual"><scope>armor_api::armor_exceptions::ArmorServiceInternalError</scope><name>msg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

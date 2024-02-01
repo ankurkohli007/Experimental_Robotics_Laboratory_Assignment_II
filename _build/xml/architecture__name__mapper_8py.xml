@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="architecture__name__mapper_8py" kind="file" language="Python">
+    <compoundname>architecture_name_mapper.py</compoundname>
+    <innernamespace refid="namespaceassignment__1_1_1architecture__name__mapper">assignment_1::architecture_name_mapper</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceassignment__1_1_1architecture__name__mapper" refkind="compound"><highlight class="comment">#!/usr/bin/env<sp/>python3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">..<sp/>File::<sp/>architecture_name_mapper</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:synopsis:<sp/>Python<sp/>module<sp/>containing<sp/>the<sp/>name<sp/>of<sp/>each<sp/>node,<sp/>topic,<sp/>server,<sp/>actions<sp/>and<sp/>parameters<sp/>used<sp/>in<sp/>this<sp/>architecture.</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">..<sp/>author::<sp/>Aatheethyaa<sp/>Dhanasekaran</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">This<sp/>module<sp/>was<sp/>created<sp/>to<sp/>define<sp/>some<sp/>useful<sp/>parameters<sp/>and<sp/>the<sp/>names<sp/>of<sp/>servers,<sp/>nodes<sp/>and<sp/>topics,<sp/>so<sp/>that<sp/>if<sp/>the<sp/>user<sp/>wants<sp/>to<sp/>change<sp/>them,<sp/>they<sp/>do<sp/>not</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">have<sp/>to<sp/>do<sp/>so<sp/>in<sp/>every<sp/>file,<sp/>it<sp/>is<sp/>sufficient<sp/>to<sp/>change<sp/>them<sp/>here.</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>rospy</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>parameter<sp/>to<sp/>define<sp/>the<sp/>environment<sp/>size.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">#<sp/>It<sp/>should<sp/>be<sp/>a<sp/>list<sp/>[max_x,<sp/>max_y]<sp/>such<sp/>that<sp/>x:[0,<sp/>max_x)<sp/>and<sp/>y:[0,<sp/>max_y).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">PARAM_ENVIRONMENT_SIZE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;config/environment_size&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>parameter<sp/>to<sp/>set<sp/>the<sp/>initial<sp/>robot<sp/>position.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">PARAM_INITIAL_POSE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;state/initial_pose&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">#<sp/>---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">PARAM_RANDOM_ACTIVE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;test/random_sense/active&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>node<sp/>that<sp/>sets/gets<sp/>the<sp/>pose<sp/>of<sp/>the<sp/>robot<sp/>and<sp/>manages<sp/>its<sp/>battery.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">NODE_ROBOT_STATE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;robot_states&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>server<sp/>to<sp/>get<sp/>the<sp/>current<sp/>robot<sp/>pose.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">SERVER_GET_POSE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;state/get_pose&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>server<sp/>to<sp/>set<sp/>the<sp/>current<sp/>robot<sp/>pose.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">SERVER_SET_POSE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;state/set_pose&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>topic<sp/>where<sp/>the<sp/>battery<sp/>state<sp/>is<sp/>published.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">TOPIC_BATTERY_LOW<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;state/battery_low&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">#<sp/>---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">ACTION_MOVEBASE=<sp/></highlight><highlight class="stringliteral">&apos;move_base&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Parameter<sp/>indicating<sp/>the<sp/>sleep<sp/>time<sp/>[s]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">SLEEP_TIME<sp/>=<sp/>0.3</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Parameter<sp/>indicating<sp/>the<sp/>battery<sp/>time<sp/>[s]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">PARAM_BATTERY_TIME<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;test/random_sense/battery_time&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">#<sp/>---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">MONITOR_TIME<sp/>=<sp/>5</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>planner<sp/>node.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">NODE_PLANNER<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;planner&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>action<sp/>server<sp/>solving<sp/>the<sp/>motion<sp/>planning<sp/>problem.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">ACTION_PLANNER<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;motion/planner&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>number<sp/>of<sp/>points<sp/>in<sp/>the<sp/>plan.<sp/>It<sp/>should<sp/>be<sp/>a<sp/>list<sp/>[min_n,<sp/>max_n],</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Where<sp/>the<sp/>number<sp/>of<sp/>points<sp/>is<sp/>a<sp/>random<sp/>value<sp/>in<sp/>the<sp/>interval<sp/>[min_n,<sp/>max_n).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">PARAM_PLANNER_POINTS<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;test/random_plan_points&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>delay<sp/>between<sp/>the<sp/>computation<sp/>of<sp/>the<sp/>next<sp/>via<sp/>points.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">#<sp/>It<sp/>should<sp/>be<sp/>a<sp/>list<sp/>`[min_time,<sp/>max_time]`,<sp/>and<sp/>the<sp/>computation<sp/>will<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">#<sp/>last<sp/>for<sp/>a<sp/>random<sp/>number<sp/>of<sp/>seconds<sp/>in<sp/>such<sp/>an<sp/>interval.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">PARAM_PLANNER_TIME<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;test/random_plan_time&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">#<sp/>-------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>controller<sp/>node.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">NODE_CONTROLLER<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;controller&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>name<sp/>of<sp/>the<sp/>action<sp/>server<sp/>solving<sp/>the<sp/>motion<sp/>control<sp/>problem.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">ACTION_CONTROLLER<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;motion/controller&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">#<sp/>The<sp/>time<sp/>required<sp/>to<sp/>reach<sp/>a<sp/>via<sp/>points.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">#<sp/>It<sp/>should<sp/>be<sp/>a<sp/>list<sp/>`[min_time,<sp/>max_time]`,<sp/>and<sp/>the<sp/>time<sp/>to<sp/>reach<sp/>a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">#<sp/>via<sp/>point<sp/>will<sp/>be<sp/>a<sp/>random<sp/>number<sp/>of<sp/>seconds<sp/>in<sp/>such<sp/>an<sp/>interval.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">PARAM_CONTROLLER_TIME<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;test/random_motion_time&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">#<sp/>-------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespaceassignment__1_1_1architecture__name__mapper_1a878608bbc9a39ac4bba58349e7476d97" kindref="member">tag_log</ref>(msg,<sp/>producer_tag):</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="79"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Function<sp/>used<sp/>to<sp/>label<sp/>each<sp/>log<sp/>with<sp/>a<sp/>producer<sp/>tag.</highlight></codeline>
+<codeline lineno="80"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Args:</highlight></codeline>
+<codeline lineno="82"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>msg(Str):<sp/>message<sp/>that<sp/>will<sp/>be<sp/>visualized</highlight></codeline>
+<codeline lineno="83"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>producer_tag(Str):<sp/>tag<sp/>identifying<sp/>the<sp/>log<sp/>producer</highlight></codeline>
+<codeline lineno="84"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Returns:</highlight></codeline>
+<codeline lineno="86"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log_msg(Str):<sp/>message<sp/>for<sp/>the<sp/>log</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>f</highlight><highlight class="stringliteral">&apos;@{producer_tag}&gt;&gt;<sp/>{msg}&apos;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="utilities/assignment_1/architecture_name_mapper.py"/>
+  </compounddef>
+</doxygen>

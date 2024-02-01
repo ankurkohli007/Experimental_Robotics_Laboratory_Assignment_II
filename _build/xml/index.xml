@@ -1,0 +1,1022 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors" kind="class"><name>armor_api::armor_utils_client::ArmorUtilsClient::__TermColors</name>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors_1a619a6639c2f8f92f817d9c6572eb237a" kind="variable"><name>HEADER</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors_1aefd04985a2756eb94a282759864da2cb" kind="variable"><name>OKBLUE</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors_1a631e6497d2cf452a750d66f976e84385" kind="variable"><name>OKGREEN</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors_1a910f60d2358572f97bd0845f09d4857c" kind="variable"><name>WARNING</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors_1ad8595477d84e1a7944edfe8f81a0aea4" kind="variable"><name>FAIL</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors_1a9c8fa332d42642209dcfb02c82b357a6" kind="variable"><name>ENDC</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors_1a631cf4a227ba366f1ceb8bb00b28254d" kind="variable"><name>BOLD</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors_1a28a29ebdce61369590f205161e6aea30" kind="variable"><name>UNDERLINE</name></member>
+  </compound>
+  <compound refid="classscripts_1_1helper_1_1_action_client_helper" kind="class"><name>scripts::helper::ActionClientHelper</name>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a2a44abef2befe88cd8cfbb4cdc8517e4" kind="variable"><name>_service_name</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1ad0b46b10d9d0596bcf1a47528c70a1e3" kind="variable"><name>_mutex</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a996237a3caeecc7b322966906297e6cd" kind="variable"><name>_client</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a5182073e49894f2a2f2204906e0dc1a7" kind="variable"><name>_external_done_cb</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a39a3fde40d24dff191669243aadfd6b4" kind="variable"><name>_external_feedback_cb</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1aee12a3388737e53b9e7e3fd1126a8b34" kind="variable"><name>_is_running</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1aaf63e1fff68f178fe4e04b682b6b220c" kind="variable"><name>_is_done</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a2b9851a3cedeaa142eb5697d96e328f7" kind="variable"><name>_results</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a36cb72ca39003913e4bb84fe2a690c3b" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a80f26fd99e46d4806586f9c2ce8bd9e3" kind="function"><name>send_goal</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1abeb79d32bc78aba104ae1e92e13d7a42" kind="function"><name>cancel_goals</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1af3273b7ef317c3a9d013f51068624a19" kind="function"><name>reset_client_states</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a97de940e73e2e7b2578a5d2863ee3d12" kind="function"><name>feedback_callback_</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1ae91da8cd3bd112c6b994cdc05278934b" kind="function"><name>done_callback_</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a2bcb62a73fbd7bfc1cd9e307ccaa6fba" kind="function"><name>is_done</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1a89748f9e1b8c387dd8010f3304be543a" kind="function"><name>is_running</name></member>
+    <member refid="classscripts_1_1helper_1_1_action_client_helper_1ab2d184ef44061ee0c16c56d62c0d5f6e" kind="function"><name>get_results</name></member>
+  </compound>
+  <compound refid="classarmor__api_1_1armor__client_1_1_armor_client" kind="class"><name>armor_api::armor_client::ArmorClient</name>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a4aa034dfd63c295f18747cf7e7b2b4ef" kind="variable"><name>_handle</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1aad699d31f13c567067675986114f2b16" kind="variable"><name>_serial_handle</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a50dc7200c5756522134205fcad9559d3" kind="variable"><name>_service_name</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a0059723b7ddf18d1fc5e9a63fce426bc" kind="variable"><name>_serial_service_name</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1acf2bbfdc1bce69e31ffb4abbf2df79df" kind="variable"><name>_buffered_commands_list</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a40ca3f8e5a9ab3d65c77e4858d535779" kind="variable"><name>reference_name</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a99bc7c3c95717c99ccb73dfa7e445d94" kind="variable"><name>client_id</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1aacb177b5c9b2968b41491d58d89545b9" kind="variable"><name>timeout</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a0d24eba637b6a85afbc2e6d763ead20e" kind="variable"><name>manipulation</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a1f67596c11bdbf5c10b367d53481c2d3" kind="variable"><name>query</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a40fe59806af0d77072c14ed1f418d1a6" kind="variable"><name>utils</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1ad2572ed53d3de2eb347ffac95996c424" kind="variable"><name>timeout</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1ac530f89a2e81980ef3484b00f3b70361" kind="function"><name>__init__</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a43087b28f88045f26e19738e490fcbe4" kind="function"><name>call</name></member>
+    <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a4c46d50a6d0abdbba2538ffa2ac49081" kind="function"><name>_prepare_request</name></member>
+  </compound>
+  <compound refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client" kind="class"><name>armor_api::armor_manipulation_client::ArmorManipulationClient</name>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a79e729cb94c0d58b094ad2a6b4095b12" kind="variable"><name>_client</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a502c5f0547c5a125ff8ee71eab4d25d5" kind="function"><name>__init__</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a838c86bd80987124f99079377c0e1a1a" kind="function"><name>add_ind_to_class</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a782b9e79036681e0b5843e5227327e86" kind="function"><name>disj_inds_of_class</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5cc24c19cd97e8b4573d08916e5835fa" kind="function"><name>add_objectprop_to_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a59f27571b6cf703c977a7499012f56e4" kind="function"><name>add_dataprop_to_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a8ffd218532e67bf47c4adb32cc1d2779" kind="function"><name>add_batch_dataprop_to_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a2813162318cc5273002159a5f0dec265" kind="function"><name>replace_objectprop_b2_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a92edeab75032afbd267e205a345dab60" kind="function"><name>replace_dataprop_b2_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a37b26fbf899745e4798f0027d79c8a4d" kind="function"><name>replace_one_dataprop_b2_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5a9a16c71dd6b4f5bd6052057456a73b" kind="function"><name>replace_one_objectprop_b2_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5d996c8c0a4e46405284f959525bc9ee" kind="function"><name>remove_dataprop_from_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a209e25049f32e4931db9b8b7c9674acf" kind="function"><name>remove_objectprop_from_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1aed759f30953773abf599082dc8ddbd6a" kind="function"><name>remove_batch_dataprop_to_ind</name></member>
+    <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a8e12bb41653ea5f4ff279141cab415dd" kind="function"><name>remove_ind_from_class</name></member>
+  </compound>
+  <compound refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception" kind="class"><name>armor_api::armor_exceptions::ArmorPyException</name>
+    <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1a8d82ddb2fb30134207c9e180d614eba4" kind="variable"><name>msg</name></member>
+    <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1ae8977bd8f05ae51646afa56a14c56cec" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client" kind="class"><name>armor_api::armor_query_client::ArmorQueryClient</name>
+    <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a429f26db4142823d58837da87b3ae5f1" kind="variable"><name>_client</name></member>
+    <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a9dfd344b3e0b1bc13190654730759fa8" kind="function"><name>__init__</name></member>
+    <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a08205a074391e51560a22f05c3f4c227" kind="function"><name>ind_b2_class</name></member>
+    <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a88effa5efd5431851eebb6074163df99" kind="function"><name>dataprop_b2_ind</name></member>
+    <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a44fe7c07bb71f046e73e2583378efea8" kind="function"><name>objectprop_b2_ind</name></member>
+    <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a911b5bfa62873258e1d283bc3eb3c6fb" kind="function"><name>check_ind_exists</name></member>
+  </compound>
+  <compound refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_call_error" kind="class"><name>armor_api::armor_exceptions::ArmorServiceCallError</name>
+    <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_call_error_1a2e52af74206e564019f261e11ff55f79" kind="variable"><name>msg</name></member>
+    <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_call_error_1a4b428d330758b5c3fe0ba395aa3560d9" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error" kind="class"><name>armor_api::armor_exceptions::ArmorServiceInternalError</name>
+    <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1a5668c2b62eadc24b60c8456ae12f4c62" kind="variable"><name>msg</name></member>
+    <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1a2586cf1605fbc7644d10491d5564738a" kind="variable"><name>code</name></member>
+    <member refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1acc9abbf99724a3de8776e9304d170b16" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client" kind="class"><name>armor_api::armor_utils_client::ArmorUtilsClient</name>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ae06ad75f9653b01e5ccd5684ca8edafc" kind="variable"><name>_client</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1afa8bdaf3252bb1199461fd8dc143120f" kind="function"><name>__init__</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a6c2fe0c604513040cc50b9328aa22156" kind="function"><name>apply_buffered_changes</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a8c696cc0f2bbe4c01fa9e73e4992455c" kind="function"><name>sync_buffered_reasoner</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a7f2cda0054c2d106c831462166056c41" kind="function"><name>save_ref_with_inferences</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1acb51d0d1292825fd4a96c8fddf3e697b" kind="function"><name>save</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ad187705429c497b8b9d5622a4167c1a8" kind="function"><name>load_ref_from_file</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ac41f9254c044369c968e34f052ad18d1" kind="function"><name>mount_on_ref</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a9d96024401aacf9a4f07b448ca971db7" kind="function"><name>unmount_from_ref</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a5bff71857c916177525a0a54aeaac318" kind="function"><name>set_log_to_terminal</name></member>
+    <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a89ab9ee17a7e13b2e9015e00ad01a710" kind="function"><name>set_log_to_file</name></member>
+  </compound>
+  <compound refid="class_aruco_marker_publisher" kind="class"><name>ArucoMarkerPublisher</name>
+    <member refid="class_aruco_marker_publisher_1a722ad1906595df0f214dafcbbf2386af" kind="variable"><name>mDetector_</name></member>
+    <member refid="class_aruco_marker_publisher_1aecc14ed3f0b8ce536253fc70eedec593" kind="variable"><name>markers_</name></member>
+    <member refid="class_aruco_marker_publisher_1aefbf53abfcd8c79fc408bf79e339fd41" kind="variable"><name>camParam_</name></member>
+    <member refid="class_aruco_marker_publisher_1a0e7ecfe298afe6df225bdafc58b8bb8b" kind="variable"><name>marker_size_</name></member>
+    <member refid="class_aruco_marker_publisher_1adeff6491226221611e95f8964a41e676" kind="variable"><name>useCamInfo_</name></member>
+    <member refid="class_aruco_marker_publisher_1aee015eb899107c77d1dfb6426787d4a8" kind="variable"><name>nh_</name></member>
+    <member refid="class_aruco_marker_publisher_1afaf2edc55cad47ee43ff800fc1fe277c" kind="variable"><name>it_</name></member>
+    <member refid="class_aruco_marker_publisher_1a77eb2ae5863f34f1e58ea09d8bb4abfa" kind="variable"><name>image_sub_</name></member>
+    <member refid="class_aruco_marker_publisher_1a7ed5150dba78318c202d4026820207ed" kind="variable"><name>image_pub_</name></member>
+    <member refid="class_aruco_marker_publisher_1a3b8f8307838477c121192adf7f55d92e" kind="variable"><name>debug_pub_</name></member>
+    <member refid="class_aruco_marker_publisher_1a2c01d522e1856616428b45e7a6327158" kind="variable"><name>inImage_</name></member>
+    <member refid="class_aruco_marker_publisher_1a8dbc7d04a0f234864611a14291b85769" kind="variable"><name>scan_pub</name></member>
+    <member refid="class_aruco_marker_publisher_1aec143789ef81aca65f0f7cc1380e7fb5" kind="function"><name>ArucoMarkerPublisher</name></member>
+    <member refid="class_aruco_marker_publisher_1aa44e8391a543176e7b52c7ad382be7a2" kind="function"><name>image_callback</name></member>
+  </compound>
+  <compound refid="class_aruco_simple" kind="class"><name>ArucoSimple</name>
+    <member refid="class_aruco_simple_1af3bb350a72474018773b5249c9ec3e89" kind="variable"><name>inImage</name></member>
+    <member refid="class_aruco_simple_1ad8af732876af8f4875d859bb6c987b41" kind="variable"><name>camParam</name></member>
+    <member refid="class_aruco_simple_1a41eadeff26487d7cadd50a07b003c46a" kind="variable"><name>rightToLeft</name></member>
+    <member refid="class_aruco_simple_1a3fcf02095c93ad7a7e1324dec2364881" kind="variable"><name>useRectifiedImages</name></member>
+    <member refid="class_aruco_simple_1acbd51e70a69d59d9ae042ec2946e4f41" kind="variable"><name>mDetector</name></member>
+    <member refid="class_aruco_simple_1a8835456ca7d69c2aa0a50b9df5a3cec0" kind="variable"><name>markers</name></member>
+    <member refid="class_aruco_simple_1afc5e592ce0fadb473a1f57aea3687bf9" kind="variable"><name>cam_info_sub</name></member>
+    <member refid="class_aruco_simple_1adf3796c7f2f4484d8f179d5cdfb2e285" kind="variable"><name>cam_info_received</name></member>
+    <member refid="class_aruco_simple_1abe0d5a484027e4259da58b9344f5d915" kind="variable"><name>image_pub</name></member>
+    <member refid="class_aruco_simple_1acc004e680799d097484ef61b7fdff3b7" kind="variable"><name>debug_pub</name></member>
+    <member refid="class_aruco_simple_1a996d6d4911c7f2e919f7ee55243893d8" kind="variable"><name>pose_pub</name></member>
+    <member refid="class_aruco_simple_1a3273dd6abea63fd722638c3e1e9380a8" kind="variable"><name>transform_pub</name></member>
+    <member refid="class_aruco_simple_1a23a2c4f2488e6b31ce9b3180ee9ad642" kind="variable"><name>position_pub</name></member>
+    <member refid="class_aruco_simple_1a075fb6464e83681d288e1f91ced256f1" kind="variable"><name>marker_pub</name></member>
+    <member refid="class_aruco_simple_1a3a64588554b702b5b90800c52675e18d" kind="variable"><name>pixel_pub</name></member>
+    <member refid="class_aruco_simple_1a3d73dfa0875c0268013d808cc0f9f95c" kind="variable"><name>marker_frame</name></member>
+    <member refid="class_aruco_simple_1a4c1bfdcbb0587575f09c2ffdf2031b5f" kind="variable"><name>camera_frame</name></member>
+    <member refid="class_aruco_simple_1acf859282a52a0d025b636ef32c36ebf5" kind="variable"><name>reference_frame</name></member>
+    <member refid="class_aruco_simple_1a4e858b4920e5323ee797f73ffc709034" kind="variable"><name>marker_size</name></member>
+    <member refid="class_aruco_simple_1a3a8e1118c529d7a44b7d69081df8eb57" kind="variable"><name>marker_id</name></member>
+    <member refid="class_aruco_simple_1a64a584304ce05dd066257699dab3d666" kind="variable"><name>nh</name></member>
+    <member refid="class_aruco_simple_1a6a626450dc3fc71e608af28876090982" kind="variable"><name>it</name></member>
+    <member refid="class_aruco_simple_1a3f9f58eebe0a03c00ecd190c9bd74bf5" kind="variable"><name>image_sub</name></member>
+    <member refid="class_aruco_simple_1a301d840fb7527f9d06cf5fe1f9e53bb1" kind="variable"><name>_tfListener</name></member>
+    <member refid="class_aruco_simple_1aa8956f151e8606a69c65290515cb3dac" kind="variable"><name>dyn_rec_server</name></member>
+    <member refid="class_aruco_simple_1a274c023c4c1558e33930718910ba1139" kind="function"><name>ArucoSimple</name></member>
+    <member refid="class_aruco_simple_1a77841a85544c9871bcdeb309bab5ba8f" kind="function"><name>getTransform</name></member>
+    <member refid="class_aruco_simple_1a4187d02eb1f8af79b91dc901c3f96586" kind="function"><name>image_callback</name></member>
+    <member refid="class_aruco_simple_1a26a273ac0a8990045c98e5ddab939e93" kind="function"><name>cam_info_callback</name></member>
+    <member refid="class_aruco_simple_1a0e9ec3c4c943c8e98dd840288e60ef23" kind="function"><name>reconf_callback</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_camera_parameters" kind="class"><name>aruco::CameraParameters</name>
+    <member refid="classaruco_1_1_camera_parameters_1a5210f7dd5f0f4f0fea728357005d6bcd" kind="variable"><name>CameraMatrix</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a33a5ab0b2f00a4753a2fda307e24360a" kind="variable"><name>Distorsion</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a08fdd4888daf7140cf31bdd341c3f303" kind="variable"><name>CamSize</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1aceb1bd577d65e459a8946e44b04e6c99" kind="variable"><name>ExtrinsicMatrix</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a23e30ef777f22f819a332592bf3db075" kind="function"><name>CameraParameters</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a8abee4cd106b36900f0860b39ea7ef2a" kind="function"><name>CameraParameters</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1af51ad02ac8a968ed20161baa18ca6435" kind="function"><name>setParams</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a9f9c0c3a68c29f3f5dd2b718de5217e1" kind="function"><name>CameraParameters</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1ab5ff265805e264fb13f119b97e0597f7" kind="function"><name>isValid</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a4c13267368caccb7d05e79769460e1b3" kind="function"><name>operator=</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1aa648ee51d375fd3f74e45eecf1f489f4" kind="function"><name>saveToFile</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a1bad10cf93f5e1fd201a18b3c53b5a20" kind="function"><name>readFromXMLFile</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1aabf139725fb75759b4172a53de63100f" kind="function"><name>resize</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1adbfb82ecadfbe6c59c47798f558064ac" kind="function"><name>glGetProjectionMatrix</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1adb5924aaec7e149ba5ea509158663540" kind="function"><name>OgreGetProjectionMatrix</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1ab3f102b448814ed007788d9d6020beb2" kind="function"><name>getCameraLocation</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a6e57ad32936286f1ea16476e1d32cd72" kind="function"><name>getRTMatrix</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a8c482bc5333d206e3342eb33e5690e2a" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1ae3053c3706efe5c2ae9e77e6000032f4" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1ad498a612c9625ece5c9ab9f7f9387c6b" kind="function"><name>argConvGLcpara2</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1adf5f7f0c00a740e307081f0d6c5a6f51" kind="function"><name>arParamDecompMat</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1aa36d1dbd66dc9365abcc6c11fb07b7c7" kind="function"><name>norm</name></member>
+    <member refid="classaruco_1_1_camera_parameters_1a9a4f28d311fd393e2aa87e41717c1352" kind="function"><name>dot</name></member>
+  </compound>
+  <compound refid="classscripts_1_1finite__statemachine_1_1_charge_management" kind="class"><name>scripts::finite_statemachine::ChargeManagement</name>
+    <member refid="classscripts_1_1finite__statemachine_1_1_charge_management_1a15034befe5c2a96197b2b670d293cc96" kind="variable"><name>_helper</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_charge_management_1a2fe33e2f406e4842ff2f81fba921591f" kind="variable"><name>_knowledge</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_charge_management_1a9e62c8dd495341cfd6db2711cdbf0d33" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_charge_management_1a80d7f05c95740a8c84a843f0c9a189c4" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower" kind="class"><name>scripts::finite_statemachine::CorridorPathFollower</name>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1a8e995eb2aa487bab0562a4a20a761ef1" kind="variable"><name>_helper</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1af8e23b7a4690f45fce3910d5646236c3" kind="variable"><name>_knowledge</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1aea88f0f2813e2eadf64bc5dd555b4aa9" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1a4ee8579a444766cb37c20df81dcc49e1" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker" kind="class"><name>scripts::finite_statemachine::CorridorRoomDecisionMaker</name>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1aff5b88764fc3f24bc8282eb59b1ee431" kind="variable"><name>_helper</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a985182f538473cf1770da9ea445da47e" kind="variable"><name>_knowledge</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1ab3f9da93a6e18c6cbb2c839dd4656fd9" kind="variable"><name>environment_size</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a3ae3b58c67aefe9d826329ada8887d7a" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a2af7d90b8ec6db63537882b58fbf80c3" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_cv_drawing_utils" kind="class"><name>aruco::CvDrawingUtils</name>
+    <member refid="classaruco_1_1_cv_drawing_utils_1aad06546c17df82056b5592342635530f" kind="function"><name>draw3dAxis</name></member>
+    <member refid="classaruco_1_1_cv_drawing_utils_1a401f7c58975c90e9f2ca5a2e0076637b" kind="function"><name>draw3dAxis</name></member>
+    <member refid="classaruco_1_1_cv_drawing_utils_1a6f56214524fc8bf68245a8683de30e04" kind="function"><name>draw3dCube</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_debug" kind="class"><name>aruco::Debug</name>
+    <member refid="classaruco_1_1_debug_1a7a3f9039dfac0449c2f3bbae3ca67d7f" kind="variable"><name>level</name></member>
+    <member refid="classaruco_1_1_debug_1acc13361a4e76fbcd755f3e2b8cd38125" kind="variable"><name>isInited</name></member>
+    <member refid="classaruco_1_1_debug_1a03593e28921e3708e0059339dbe8f316" kind="variable"><name>strings</name></member>
+    <member refid="classaruco_1_1_debug_1a13baae2a3e3f669db2cb2c08651e63de" kind="function"><name>init</name></member>
+    <member refid="classaruco_1_1_debug_1a46549d39524efbc532fbb326c8a2b69e" kind="function"><name>setLevel</name></member>
+    <member refid="classaruco_1_1_debug_1adcf806a912b0163fe448b87e490951ab" kind="function"><name>getLevel</name></member>
+    <member refid="classaruco_1_1_debug_1a20c108b9a6587ff385a6978df993067a" kind="function"><name>addString</name></member>
+    <member refid="classaruco_1_1_debug_1afa005eec39f246696a32cacd3d15570e" kind="function"><name>getString</name></member>
+    <member refid="classaruco_1_1_debug_1ab1c1a200731fc70abd9bcf18881f2801" kind="function"><name>getFileName</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_dictionary" kind="class"><name>aruco::Dictionary</name>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4" kind="enum"><name>DICT_TYPES</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4aff46f066390fe041dce4c4efacde66eb" kind="enumvalue"><name>ARUCO_MIP_36h12</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a022129fdf47e1f1b69b20559882f31d4" kind="enumvalue"><name>ARUCO</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a2ab934e9b1505324a38a6ee00998ba4a" kind="enumvalue"><name>ARUCO_MIP_25h7</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a625e54474d85baa599d3f8abd42c8bce" kind="enumvalue"><name>ARUCO_MIP_16h3</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4ab9a9b0457a114d4f6ca346645016cbe8" kind="enumvalue"><name>ARTAG</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4aaf016d583b3baca8e0c4dab595af0429" kind="enumvalue"><name>ARTOOLKITPLUS</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a500e65bb131bc81007c63b99fa22ef02" kind="enumvalue"><name>ARTOOLKITPLUSBCH</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a45c6dab34ee3dc193552e1200ffbd773" kind="enumvalue"><name>TAG16h5</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a02bb9eb65163745e6d41cbcdc5e8d85d" kind="enumvalue"><name>TAG25h7</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4abc7eb6dc3ece31e0c16d5563486c8252" kind="enumvalue"><name>TAG25h9</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4ab715a65441cbc2e751db60e47ea5aa46" kind="enumvalue"><name>TAG36h11</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a557284d899195cedb48a476ffd557e8c" kind="enumvalue"><name>TAG36h10</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a21fe98f012c25cb819d0832783bbe919" kind="enumvalue"><name>CHILITAGS</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a2d8518d452a3ae92cc73f728cefc5f5d" kind="enumvalue"><name>CUSTOM</name></member>
+    <member refid="classaruco_1_1_dictionary_1ab854c54cccb529c9351ab5fbbf92b7b4a5f8f247a86f6dc56a8b6d368a4213e98" kind="enumvalue"><name>ALL_DICTS</name></member>
+    <member refid="classaruco_1_1_dictionary_1a1a4d81e39152a8f57c9befd0a0a96f04" kind="variable"><name>_code_id</name></member>
+    <member refid="classaruco_1_1_dictionary_1ad8a82874aa61793c40cf28a7e5148ee2" kind="variable"><name>_nbits</name></member>
+    <member refid="classaruco_1_1_dictionary_1a1822a17106215670fcf086f552a8bc6c" kind="variable"><name>_tau</name></member>
+    <member refid="classaruco_1_1_dictionary_1af35449603741c3d6f13db7ace102460d" kind="variable"><name>_type</name></member>
+    <member refid="classaruco_1_1_dictionary_1add63b0cd9f6ed2f67496d8d8207edd53" kind="variable"><name>_name</name></member>
+    <member refid="classaruco_1_1_dictionary_1ad6478c47862ad93e331a8a4a9cf3ff46" kind="function"><name>is</name></member>
+    <member refid="classaruco_1_1_dictionary_1a9ffa66333c3f1fa4ee840b1d344df2c0" kind="function"><name>getType</name></member>
+    <member refid="classaruco_1_1_dictionary_1a804492bee4045465a0c10e0b613e0ee8" kind="function"><name>size</name></member>
+    <member refid="classaruco_1_1_dictionary_1af2a95bf6aae3ef53b74d8b1bb314a047" kind="function"><name>nbits</name></member>
+    <member refid="classaruco_1_1_dictionary_1aaaa782b353bcbc58e511a63ac263a166" kind="function"><name>tau</name></member>
+    <member refid="classaruco_1_1_dictionary_1a612a8494921b810c9ddbd19e22bfa797" kind="function"><name>getName</name></member>
+    <member refid="classaruco_1_1_dictionary_1ad685f0e8b403c35f7ea3a340ce42fc8a" kind="function"><name>getMapCode</name></member>
+    <member refid="classaruco_1_1_dictionary_1a2bac9fc9b68e0b6a1351281e23fc7b16" kind="function"><name>operator[]</name></member>
+    <member refid="classaruco_1_1_dictionary_1a1f653dc4ee1b62982a2d82ba4c11db75" kind="function"><name>at</name></member>
+    <member refid="classaruco_1_1_dictionary_1a285798638893f5f3069d322afbe8efa2" kind="function"><name>getMarkerImage_id</name></member>
+    <member refid="classaruco_1_1_dictionary_1a283574d1fa128c868902ec6ac3a49735" kind="function"><name>createMarkerMap</name></member>
+    <member refid="classaruco_1_1_dictionary_1a8c8446cc7ed26e15e03cb4395f07bfbf" kind="function"><name>loadPredefined</name></member>
+    <member refid="classaruco_1_1_dictionary_1af29bbcef70a66fa68d1abf4404b655c5" kind="function"><name>loadPredefined</name></member>
+    <member refid="classaruco_1_1_dictionary_1a30922d02184d4816b0fb9bb6d4f1e1c3" kind="function"><name>loadFromFile</name></member>
+    <member refid="classaruco_1_1_dictionary_1a231435611507f2300166173ec9b8761f" kind="function"><name>load</name></member>
+    <member refid="classaruco_1_1_dictionary_1abc76f6e1e6b572944f7f8e3937d97999" kind="function"><name>computeDictionaryDistance</name></member>
+    <member refid="classaruco_1_1_dictionary_1a0f593b448bc900c89bd40c872c5f19b5" kind="function"><name>getTypeFromString</name></member>
+    <member refid="classaruco_1_1_dictionary_1ae42944fd1d2e9d744b66c0bf85c5d8a0" kind="function"><name>getTypeString</name></member>
+    <member refid="classaruco_1_1_dictionary_1abc0945ddadf2120fab2d909ae58953e1" kind="function"><name>isPredefinedDictinaryString</name></member>
+    <member refid="classaruco_1_1_dictionary_1a7aafbcfaa69b81cfa063d3d3422c2703" kind="function"><name>getDicTypes</name></member>
+    <member refid="classaruco_1_1_dictionary_1a8995dc5b6736b792fbffe3c7cd55d5c7" kind="function"><name>insert</name></member>
+    <member refid="classaruco_1_1_dictionary_1aaaf606e741e8cd200e2d21233ba6a053" kind="function"><name>fromVector</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_dictionary_based" kind="class"><name>aruco::DictionaryBased</name>
+    <member refid="classaruco_1_1_dictionary_based_1ab2a0b368ce0ce6152c69e7b825f8f120" kind="variable"><name>vdic</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1a8ff2e3d08911c2efdb2cb471ee48ae2a" kind="variable"><name>_nsubdivisions</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1a68c5af4ed2dfe6b41853d4e80dd548ff" kind="variable"><name>_max_correction_rate</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1a8f9462f931794a75ad2ec6e5af04b3da" kind="variable"><name>dicttypename</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1af8bac38f5480b306592ec012fc444f09" kind="variable"><name>nbits_dict</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1afc55784a102a098b623f786da7941890" kind="function"><name>~DictionaryBased</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1a0b80cf303de665772e59ce7ed4473a11" kind="function"><name>setParams</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1a52bdd094306122899e0bb545563e8b4b" kind="function"><name>detect</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1ad600c0a0da948e0b07ea542db3543da8" kind="function"><name>getName</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1a87694143a5c5729ef333f31e90cb715e" kind="function"><name>getNSubdivisions</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1aad49c9525ce955c9ae1fd46b8ce37d44" kind="function"><name>getInnerCode</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1a84f0a3fc891db0965090bd59b09013b2" kind="function"><name>rotate</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1ac0f58e06a06010b5be29ea7c2b22d7b2" kind="function"><name>touulong</name></member>
+    <member refid="classaruco_1_1_dictionary_based_1ae6776ca521b3f996c25c8c95b25d5713" kind="function"><name>toMat</name></member>
+  </compound>
+  <compound refid="classscripts_1_1finite__statemachine_1_1_environment___scanning" kind="class"><name>scripts::finite_statemachine::Environment_Scanning</name>
+    <member refid="classscripts_1_1finite__statemachine_1_1_environment___scanning_1a376926b413e01405b5093d64c542aa47" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_environment___scanning_1a1fc159c1d98f35de5d4517b1f99be5b5" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="classscripts_1_1finite__statemachine_1_1_environment_initializer" kind="class"><name>scripts::finite_statemachine::EnvironmentInitializer</name>
+    <member refid="classscripts_1_1finite__statemachine_1_1_environment_initializer_1a597dd3f818a6c5116b95fd3026e52362" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_environment_initializer_1a1b8dcdefd2865127a55edcfb4db2feb2" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="classscripts_1_1helper_1_1_interface_helper" kind="class"><name>scripts::helper::InterfaceHelper</name>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1a4af586f9c051bc6ed185497516e933fe" kind="variable"><name>mutex</name></member>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1a1b5ddbc05746177a9923c3d1a88a2447" kind="variable"><name>planner_client</name></member>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1a82111907b4975d2ef2394ae36ddca117" kind="variable"><name>controller_client</name></member>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1a1a676e1018646046bc82434288d2051f" kind="variable"><name>_battery_low</name></member>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1a596cfc29bec05654fcd9f9696f86bfec" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1aeb73b53d49243ab745d169b4fa04948a" kind="function"><name>reset_states</name></member>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1a01b2d00360a4ae90ba428e4012cfa3cc" kind="function"><name>battery_callback_</name></member>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1af0f568770822d23f775f79983c1343f4" kind="function"><name>is_battery_low</name></member>
+    <member refid="classscripts_1_1helper_1_1_interface_helper_1a2ed15ac28e35d484f946799b2eaefefc" kind="function"><name>init_robot_pose</name></member>
+  </compound>
+  <compound refid="classscripts_1_1helper_1_1_knowledge_graph_helper" kind="class"><name>scripts::helper::KnowledgeGraphHelper</name>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1af9c967facc31ea51b8b123fda913a35c" kind="variable"><name>survillancerobot</name></member>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a7ce28a25b505800359913fdb4ecf2bd5" kind="variable"><name>survillancerobot_position</name></member>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a1536ad7dfb16369233e3dcd3f8e8683d" kind="variable"><name>survillancerobot_reachable_rooms</name></member>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a87457a40fc97baf84ef18b31b872d9ad" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a5aebb6a31b001f150d049a9c4233dd17" kind="function"><name>list_section_formatter</name></member>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1ad84108c8be0162152693df1a5a6153a6" kind="function"><name>obtainLocation</name></member>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a3586484e15101ab72ef7a414ccd8a413" kind="function"><name>choose_destination</name></member>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a68268017b3ad54dc336f8938fb3db939" kind="function"><name>relocate</name></member>
+    <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a53d17bf95caf35a973a6decf1b11ea0b" kind="function"><name>headToRechargeStation</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_lev_marq" kind="class"><name>aruco::LevMarq</name>
+    <member refid="classaruco_1_1_lev_marq_1a747c31d8687661c91ef882e8b7d075c8" kind="typedef"><name>eVector</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a8a7984b7db969c7973f302a4022e858b" kind="typedef"><name>F_z_x</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a2bc0943b020132439f3a293aba9ab5bc" kind="typedef"><name>F_z_J</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a2723965f2e90bb47ba14273f98fae039" kind="variable"><name>_maxIters</name></member>
+    <member refid="classaruco_1_1_lev_marq_1ab4fd3f1a206b40f2f91c46015d65dacc" kind="variable"><name>_minErrorAllowed</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a79a582966f6dd5ff52f28abd1c73b4d5" kind="variable"><name>_der_epsilon</name></member>
+    <member refid="classaruco_1_1_lev_marq_1ad10ab89bc236c39525a80355c7230e18" kind="variable"><name>_tau</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a6ab97b8abee783182fd38c289ee6fcdc" kind="variable"><name>_min_step_error_diff</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a811e5b42d78a9bd64ab1a3f898683654" kind="variable"><name>_verbose</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a8ece2490311ac7658b3a218c50b137db" kind="variable"><name>curr_z</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a96304a47722ee26a508528e84315fa82" kind="variable"><name>x64</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a297d219387566f6f8674177afbcc5b9e" kind="variable"><name>currErr</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a4bdec07f53a6f99b05ef252e79c862f5" kind="variable"><name>prevErr</name></member>
+    <member refid="classaruco_1_1_lev_marq_1aab61e644f3eb7d956f0be379c8626e73" kind="variable"><name>minErr</name></member>
+    <member refid="classaruco_1_1_lev_marq_1aa207bf543da07c2b444f572c9b174ddd" kind="variable"><name>I</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a1ce8cfca55897b80ff20c5a56be54eba" kind="variable"><name>_J</name></member>
+    <member refid="classaruco_1_1_lev_marq_1afc4176a0e6855b4f776a13513c0c4d8c" kind="variable"><name>mu</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a06c837bd46e621e949a4e51a0ba2c489" kind="variable"><name>v</name></member>
+    <member refid="classaruco_1_1_lev_marq_1aa558cc533cd09620a00fecabaab9ae33" kind="variable"><name>_step_callback</name></member>
+    <member refid="classaruco_1_1_lev_marq_1aadd1ee0d1fcf42a05ae69c2c175fa490" kind="variable"><name>_stopFunction</name></member>
+    <member refid="classaruco_1_1_lev_marq_1aaa53b358b3b926b7088ce01bc9474e68" kind="function"><name>LevMarq</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a39b9f83cbeba8746a23087040b259c03" kind="function"><name>LevMarq</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a7b5b41aa09da3fcd3cd0c5f3eec62c43" kind="function"><name>setParams</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a28534e8cd28e3ec8ad36201082a9a891" kind="function"><name>solve</name></member>
+    <member refid="classaruco_1_1_lev_marq_1aafc362d41310b93bd95bb10c214a1685" kind="function"><name>init</name></member>
+    <member refid="classaruco_1_1_lev_marq_1ab5073e9f622bc99824a49d79276ce98d" kind="function"><name>step</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a20da7831aa64ae928ecc2690ec7ac054" kind="function"><name>step</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a6854ffd2d6dd9ad0173057a91ac7d801" kind="function"><name>getCurrentSolution</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a3a6d6deeea57868cd5fa066ba8f1142a" kind="function"><name>getBestSolution</name></member>
+    <member refid="classaruco_1_1_lev_marq_1ac7789d90810efd3fef6a885517694044" kind="function"><name>solve</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a01decaa085d3fd049b0e2231e71ba0cd" kind="function"><name>verbose</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a0e9ca02d0a2eb4f6e2ded4fb852109c2" kind="function"><name>setStepCallBackFunc</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a660a70801c67e434daac34bf159155ea" kind="function"><name>setStopFunction</name></member>
+    <member refid="classaruco_1_1_lev_marq_1a76d43fda2268c4069e62f13e8ca3a0cd" kind="function"><name>calcDerivates</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker" kind="class"><name>aruco::Marker</name>
+    <member refid="classaruco_1_1_marker_1a7cedb2c6fd80e1b80ca717e97ce81d65" kind="variable"><name>id</name></member>
+    <member refid="classaruco_1_1_marker_1ac5df65736cc539e78d6620307739b5b1" kind="variable"><name>ssize</name></member>
+    <member refid="classaruco_1_1_marker_1a5f31be5060bf2a6762890a1a54c98cfd" kind="variable"><name>Rvec</name></member>
+    <member refid="classaruco_1_1_marker_1a14068630efdf1a5f665a2dcb34e496d0" kind="variable"><name>Tvec</name></member>
+    <member refid="classaruco_1_1_marker_1a6d19e3b4e3276fa51989f706ffd93b9f" kind="variable"><name>dict_info</name></member>
+    <member refid="classaruco_1_1_marker_1ae5a160d0a29fa70fc756244eacdbe358" kind="function"><name>Marker</name></member>
+    <member refid="classaruco_1_1_marker_1ac6031d289ea9164b9c8a5212cff82b37" kind="function"><name>Marker</name></member>
+    <member refid="classaruco_1_1_marker_1af4d016dd025e178046d7726149f42370" kind="function"><name>Marker</name></member>
+    <member refid="classaruco_1_1_marker_1a958371b4fae2ebd37cbced46aec53c4b" kind="function"><name>Marker</name></member>
+    <member refid="classaruco_1_1_marker_1a65efe4f5acd6404e5b9cf4fc86cecd2f" kind="function"><name>~Marker</name></member>
+    <member refid="classaruco_1_1_marker_1aa546c0b79bf647c18b394be6743e235b" kind="function"><name>isValid</name></member>
+    <member refid="classaruco_1_1_marker_1a10e45f8cf22519ca8775cde4ffd577ba" kind="function"><name>isPoseValid</name></member>
+    <member refid="classaruco_1_1_marker_1aca4260c8272571fdad613cf3a0ddf8c9" kind="function"><name>draw</name></member>
+    <member refid="classaruco_1_1_marker_1a923d66443016c7cb73164f0ef97202d5" kind="function"><name>calculateExtrinsics</name></member>
+    <member refid="classaruco_1_1_marker_1ae79bee2e9a3cf6ae8703176154ca5610" kind="function"><name>calculateExtrinsics</name></member>
+    <member refid="classaruco_1_1_marker_1a587d503fbd39a98a6ab8f4abe66d89fd" kind="function"><name>glGetModelViewMatrix</name></member>
+    <member refid="classaruco_1_1_marker_1a468cf05d41362659fa682919744fb035" kind="function"><name>OgreGetPoseParameters</name></member>
+    <member refid="classaruco_1_1_marker_1a324d8c284b80a4c94fa18b16d0900fa4" kind="function"><name>getCenter</name></member>
+    <member refid="classaruco_1_1_marker_1a1e7f5a64f8c3ad42e8fe0e1d007065a3" kind="function"><name>getPerimeter</name></member>
+    <member refid="classaruco_1_1_marker_1aa28b6511217b98086f88d8a2c4e2cab7" kind="function"><name>getArea</name></member>
+    <member refid="classaruco_1_1_marker_1a098116ffae494e8a98f90f22772f88a0" kind="function"><name>operator==</name></member>
+    <member refid="classaruco_1_1_marker_1aa0b81a14041b028f8bc4d03a1f874d08" kind="function"><name>copyTo</name></member>
+    <member refid="classaruco_1_1_marker_1a46e8fb4badf24863a925cd2bf852c818" kind="function"><name>operator=</name></member>
+    <member refid="classaruco_1_1_marker_1ae5f72dbca67e9382842ad60342d74028" kind="function"><name>toStream</name></member>
+    <member refid="classaruco_1_1_marker_1a33d055b892453f1ae9f368bc3f1a7f96" kind="function"><name>fromStream</name></member>
+    <member refid="classaruco_1_1_marker_1a047a6cfac4e5bbca087273618ac1fd52" kind="function"><name>get3DPoints</name></member>
+    <member refid="classaruco_1_1_marker_1a19de3d60e4cd6ddaf3df606158049a0c" kind="friend"><name>operator&lt;</name></member>
+    <member refid="classaruco_1_1_marker_1a745f12e60ee192518d8f5bd19bcea8f4" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classaruco_1_1_marker_1a59d366161f68158ffc67ebc4af99628a" kind="function"><name>get3DPoints</name></member>
+    <member refid="classaruco_1_1_marker_1a4a74c23e584bee84a035209b7c7d8205" kind="function"><name>rotateXAxis</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker3_d_info" kind="class"><name>aruco::Marker3DInfo</name>
+    <member refid="classaruco_1_1_marker3_d_info_1a5b70ac856ba4865f6faedb235a7f6a65" kind="variable"><name>points</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1a5b7de66c2bddcd9df7b8bbb5c9483df4" kind="variable"><name>id</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1aeab8b789a0141d38151b2e7d9bd94456" kind="function"><name>Marker3DInfo</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1a7844f86218603a621bf3d0b432aedb53" kind="function"><name>Marker3DInfo</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1a1f6dd4da0d09f93d2e577932b6e950b9" kind="function"><name>operator==</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1a46d81a658c18e4880e9e145c312a780e" kind="function"><name>getMarkerSize</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1a6066067c3cf318b7e69d5165a76f487f" kind="function"><name>at</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1aecbf07d2bbfad882976e3a1dbe4200ae" kind="function"><name>operator[]</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1af25ee25f5040f6204662af239b93ae37" kind="function"><name>operator[]</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1aa6b7c9310d1a4ebf472ccddf7df60c6c" kind="function"><name>push_back</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1ad3a16b097392ab53833cd39a9c6ee5e2" kind="function"><name>size</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1ab1e0d3694c7e714c7777cc7b544546b6" kind="function"><name>toStream</name></member>
+    <member refid="classaruco_1_1_marker3_d_info_1adc22bec4f4ac31433a8519dbd462d4d2" kind="function"><name>fromStream</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker_detector_1_1_marker_candidate" kind="class"><name>aruco::MarkerDetector::MarkerCandidate</name>
+    <member refid="classaruco_1_1_marker_detector_1_1_marker_candidate_1a0f6abf847dd7f620b6b65d2337171bea" kind="variable"><name>contour</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_marker_candidate_1abc39f35d25852efcb904748646f453b5" kind="variable"><name>idx</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_marker_candidate_1adad7bd66ecc4b887f12630821ee002e1" kind="function"><name>MarkerCandidate</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_marker_candidate_1ab43a9ff111bbfd737a937e572ac3aed0" kind="function"><name>MarkerCandidate</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_marker_candidate_1a3504bfd04335da7f0da103f0a0bdade7" kind="function"><name>MarkerCandidate</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_marker_candidate_1a0e9a7bba2548f5d7d26fdacd612d6f84" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker_detector" kind="class"><name>aruco::MarkerDetector</name>
+    <member refid="classaruco_1_1_marker_detector_1a81f933a8be90d0f39b196bf93a3f5cda" kind="enum"><name>ThresMethod</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a81f933a8be90d0f39b196bf93a3f5cdaaf9e874343a3a88e6640dfc7deb853deb" kind="enumvalue"><name>THRES_ADAPTIVE</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a81f933a8be90d0f39b196bf93a3f5cdaaf2bae099c4f1d5c013b252f822a72b22" kind="enumvalue"><name>THRES_AUTO_FIXED</name></member>
+    <member refid="classaruco_1_1_marker_detector_1abc63bdf2f2362b97d118f1d51176907c" kind="enum"><name>ThreadTasks</name></member>
+    <member refid="classaruco_1_1_marker_detector_1abc63bdf2f2362b97d118f1d51176907cac9980391202ec344c01b34b990c6daa6" kind="enumvalue"><name>THRESHOLD_TASK</name></member>
+    <member refid="classaruco_1_1_marker_detector_1abc63bdf2f2362b97d118f1d51176907caa09f020faa2d2ec1e3c2a415d109892b" kind="enumvalue"><name>ERODE_TASK</name></member>
+    <member refid="classaruco_1_1_marker_detector_1abc63bdf2f2362b97d118f1d51176907caf6cb6d2069ec80c6f4ebaee42355086a" kind="enumvalue"><name>EXIT_TASK</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ab1532a8dbadfb039b6a39d53ae7b39ea" kind="variable"><name>_params</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aff9050f2164bec5c90fa1afd566f4e43" kind="variable"><name>_detectMode</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a4d67711d5b81e75832dd837401886209" kind="variable"><name>grey</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a9b34f63ac4459452b50f7975efad045a" kind="variable"><name>thres</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aec97181a4b507ef4212ac4efd979ae0a" kind="variable"><name>markerIdDetector</name></member>
+    <member refid="classaruco_1_1_marker_detector_1af79fca96716a0686a5fc498e6cf3bb7b" kind="variable"><name>imagePyramid</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a877e83f4ad2aa3f57db359698ba3271b" kind="variable"><name>_thres_Images</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a0d51b80ca2e388f39e8ef40a4ff76916" kind="variable"><name>_vcandidates</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ac26723ee2f56f82e8a257b412fc60670" kind="variable"><name>_candidates</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a5f9593ea64b53e98d31874f68c0cf4cb" kind="variable"><name>_tasks</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aeb11e4c8d99e619338f9453b03252722" kind="function"><name>MarkerDetector</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a82730f3e3d28c9ce870b1f93eace2c8c" kind="function"><name>MarkerDetector</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aa63291611f860ad6e65e2f02b99cc933" kind="function"><name>MarkerDetector</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aafadf4a0b81a7f03e443f0ad79fdf8a9" kind="function"><name>~MarkerDetector</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aae185d2d22809bacc71bcc331da813c8" kind="function"><name>setDetectionMode</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ae5566e7f8817717824c57efbb2c9708b" kind="function"><name>getDetectionMode</name></member>
+    <member refid="classaruco_1_1_marker_detector_1adfb8f5e750be70433fff38e7270aaf82" kind="function"><name>detect</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ad24697ba1c2e6843ce6405c9ae8ec7fa" kind="function"><name>detect</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a4176a6d9e64212d7d45bf05415d57ba4" kind="function"><name>detect</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aa5ef3d6b8aadedfc41ad55dca2d3801f" kind="function"><name>detect</name></member>
+    <member refid="classaruco_1_1_marker_detector_1afc3be319bb1db9237d9db80cc0bafc89" kind="function"><name>getParameters</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a11129dac9fa1832ca8a2e97dbb64c92e" kind="function"><name>getParameters</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ab03a1db5dcf75a16a658e5ac144b8b5f" kind="function"><name>setDictionary</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a45ccc7e785ed6bcb5a4898e305471ce2" kind="function"><name>setDictionary</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a2d4bb5e1e4ba58d54b2619045427cf16" kind="function"><name>getThresholdedImage</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a4113e5b1bd4ca80af475e14885d10ca0" kind="function"><name>setMarkerLabeler</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a10154ebc733ce6f5bab431c6531505e4" kind="function"><name>getMarkerLabeler</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a22763ba34972125b572b6990cca7f484" kind="function"><name>getCandidates</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aedcd73ff274bad9885b3086d3b216b08" kind="function"><name>warp</name></member>
+    <member refid="classaruco_1_1_marker_detector_1abdbc6e2da414d4961dd51c74610753cb" kind="function"><name>perimeter</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a0e651dc42bea5fda9407e899900b8a34" kind="function"><name>interpolate2Dline</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aae5e4dddeabe8d5b0b1211bc5efd21df" kind="function"><name>getCrossPoint</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a0564aa66a4b4f1949013b1e5b4dd4502" kind="function"><name>distortPoints</name></member>
+    <member refid="classaruco_1_1_marker_detector_1aa4b07b2b7e0bff5d413e937bf2537abf" kind="function"><name>getMinMarkerSizePix</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ae0dfba916bb860e05ea77b6e957ef839" kind="function"><name>getMarkerWarpSize</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a5618b6840f53ccf30897081245475b27" kind="function"><name>removeElements</name></member>
+    <member refid="classaruco_1_1_marker_detector_1af84b7ef8114f3c3dab6e0bc9047cadc3" kind="function"><name>joinVectors</name></member>
+    <member refid="classaruco_1_1_marker_detector_1acc0abea4754a451805a001bd4036fb82" kind="function"><name>enlargeMarkerCandidate</name></member>
+    <member refid="classaruco_1_1_marker_detector_1afc278a9223142250bf777f0aef39d6f5" kind="function"><name>cornerUpsample</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a4256a746a951f81b5a0ac50f2f3283f2" kind="function"><name>cornerUpsample_SUBP</name></member>
+    <member refid="classaruco_1_1_marker_detector_1acbeb9035e20906b7b66f7b87085731a8" kind="function"><name>buildPyramid</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ab0b0cbe18d45ac268e74cef900bfa2d8" kind="function"><name>thresholdAndDetectRectangles</name></member>
+    <member refid="classaruco_1_1_marker_detector_1abaf9adf91ce57b6fb0bc9dd23e6234af" kind="function"><name>thresholdAndDetectRectangles</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a3cac4386749854168c710e89142472cc" kind="function"><name>prefilterCandidates</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ad55cd1bc62be305a225de1f48e13fe8d" kind="function"><name>drawApproxCurve</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a7bb7bf643750654e4f4435605e5d6c60" kind="function"><name>drawContour</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a7d23ebc6c4f856e4c0f5c2526327e10c" kind="function"><name>drawAllContours</name></member>
+    <member refid="classaruco_1_1_marker_detector_1a351b148668f21c4a6650396d64927eb0" kind="function"><name>draw</name></member>
+    <member refid="classaruco_1_1_marker_detector_1ac20eeeddb74805f5a679034164effe1f" kind="function"><name>thresholdAndDetectRectangles_thread</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker_labeler" kind="class"><name>aruco::MarkerLabeler</name>
+    <member refid="classaruco_1_1_marker_labeler_1a390b5884aa8a4ef974be26d3ae7fd0aa" kind="function"><name>create</name></member>
+    <member refid="classaruco_1_1_marker_labeler_1ac6ee6f6094c678de888e7bdf77e6b082" kind="function"><name>create</name></member>
+    <member refid="classaruco_1_1_marker_labeler_1a22ca23eae5eef46651b7678a89683ddf" kind="function"><name>detect</name></member>
+    <member refid="classaruco_1_1_marker_labeler_1a6a8d716f8a739ef97666207c3ce26644" kind="function"><name>getBestInputSize</name></member>
+    <member refid="classaruco_1_1_marker_labeler_1a833249727c1a539e6cafa848d0ab2814" kind="function"><name>getNSubdivisions</name></member>
+    <member refid="classaruco_1_1_marker_labeler_1ac1e8812e6b9015b0ca9a4f80438e8378" kind="function"><name>getName</name></member>
+    <member refid="classaruco_1_1_marker_labeler_1ac11b9294d2b99f5aa70bc6b4f8ba94b7" kind="function"><name>~MarkerLabeler</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker_map" kind="class"><name>aruco::MarkerMap</name>
+    <member refid="classaruco_1_1_marker_map_1a9736596e94b88d0e5d3ee231c8983058" kind="enum"><name>Marker3DInfoType</name></member>
+    <member refid="classaruco_1_1_marker_map_1a9736596e94b88d0e5d3ee231c8983058a76aa2534eb74133e8b71ecc1d9aa7153" kind="enumvalue"><name>NONE</name></member>
+    <member refid="classaruco_1_1_marker_map_1a9736596e94b88d0e5d3ee231c8983058a4e2a453d5f8a044dce3ec9586b30d0e8" kind="enumvalue"><name>PIX</name></member>
+    <member refid="classaruco_1_1_marker_map_1a9736596e94b88d0e5d3ee231c8983058a0155b5bb70787c1cd7f927b7a56d99d3" kind="enumvalue"><name>METERS</name></member>
+    <member refid="classaruco_1_1_marker_map_1aee23774bb36c828c351c5c09f6e76c80" kind="variable"><name>mInfoType</name></member>
+    <member refid="classaruco_1_1_marker_map_1ae527bfcf6a178119183e33cfbd35c856" kind="variable"><name>dictionary</name></member>
+    <member refid="classaruco_1_1_marker_map_1a2cbe9f978ca45b049ea96f84cf899ea9" kind="function"><name>MarkerMap</name></member>
+    <member refid="classaruco_1_1_marker_map_1a0168f97ca3b454951389b116105d258f" kind="function"><name>MarkerMap</name></member>
+    <member refid="classaruco_1_1_marker_map_1a0cb41604560fb2e7965c4719aef591c6" kind="function"><name>isExpressedInMeters</name></member>
+    <member refid="classaruco_1_1_marker_map_1a89dddf63bc3583306ebd1250022338d4" kind="function"><name>isExpressedInPixels</name></member>
+    <member refid="classaruco_1_1_marker_map_1a351d1a005e3795cc2ce19ab63f5b12fc" kind="function"><name>convertToMeters</name></member>
+    <member refid="classaruco_1_1_marker_map_1acd8cd2b4b4d1209e190a40c6a9b982da" kind="function"><name>getIndices</name></member>
+    <member refid="classaruco_1_1_marker_map_1af2ba172a21eba9a49e6b9721f3504bf5" kind="function"><name>getMarker3DInfo</name></member>
+    <member refid="classaruco_1_1_marker_map_1aa67cde0f07efb989485314800930e3ca" kind="function"><name>getIndexOfMarkerId</name></member>
+    <member refid="classaruco_1_1_marker_map_1a9c0096cac0fd31b40ad63036c2c17938" kind="function"><name>getIdList</name></member>
+    <member refid="classaruco_1_1_marker_map_1adabbd2530deb4503e166fbf614b93ef2" kind="function"><name>getImage</name></member>
+    <member refid="classaruco_1_1_marker_map_1aee1e1a9e395c6e15fea1d35b23ebe928" kind="function"><name>saveToFile</name></member>
+    <member refid="classaruco_1_1_marker_map_1a29281f49985496b4ea640b3209729f33" kind="function"><name>readFromFile</name></member>
+    <member refid="classaruco_1_1_marker_map_1a1ee7588e4c4e108a7fa02fdd18f128ef" kind="function"><name>calculateExtrinsics</name></member>
+    <member refid="classaruco_1_1_marker_map_1a2c4996b265cd68d4fdd501639791b5cd" kind="function"><name>getDictionary</name></member>
+    <member refid="classaruco_1_1_marker_map_1ade0533891f1f4a19c80c32346e0387a5" kind="function"><name>setDictionary</name></member>
+    <member refid="classaruco_1_1_marker_map_1a2922b2f8434714290b5565ee48428d51" kind="function"><name>toStream</name></member>
+    <member refid="classaruco_1_1_marker_map_1a1fce17d5b10546a29400cac1e00e5880" kind="function"><name>fromStream</name></member>
+    <member refid="classaruco_1_1_marker_map_1acb359c9b8b897d854cc1daa418b995fb" kind="function"><name>saveToFile</name></member>
+    <member refid="classaruco_1_1_marker_map_1a73cfe40193c32db61abbb352b136cfb8" kind="function"><name>readFromFile</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker_map_pose_tracker" kind="class"><name>aruco::MarkerMapPoseTracker</name>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1aae1a47d7791046ccb365c7c2cbe524a1" kind="variable"><name>_rvec</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a74e07a63e4737ae65e88809050517772" kind="variable"><name>_tvec</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a51e1e39709ab8e43683f7c79198204cd" kind="variable"><name>_cam_params</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a75fc016e92054c3dc3a02337d11ed1ca" kind="variable"><name>_msconf</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1ae34991cb04e0ecced356f58afa0809cd" kind="variable"><name>_map_mm</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a1fd3e438685f6ad1bddba2de9f73e4a4" kind="variable"><name>_isValid</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1af43f78047b5590dc63a3395542aaeb67" kind="variable"><name>aruco_minerrratio_valid</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a6647c220da19dff28a153596328bd317" kind="variable"><name>marker_m2g</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a4cd411e3c8a1bbd724ef8956faa37f35" kind="function"><name>MarkerMapPoseTracker</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a60cba24ce68b8fb99b1fd15c83003069" kind="function"><name>setParams</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a8d99c71f38fac0e34ea1966002f17454" kind="function"><name>isValid</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a8332b5ccd3ddaf7d6845c7de2c6f5e30" kind="function"><name>reset</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1abd678d2bb687984bfb13cea41ae59b0b" kind="function"><name>estimatePose</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a30d84078a230ea6bbb99ee266399efb1" kind="function"><name>getRTMatrix</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a1e8147bf23f5e80e9bc6c231ebd7cfb1" kind="function"><name>getRvec</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a678aa3f9a6913eb7727a159301cd89a3" kind="function"><name>getTvec</name></member>
+    <member refid="classaruco_1_1_marker_map_pose_tracker_1a2f374cc5631ece53b519a478cdf15cd7" kind="function"><name>relocalization</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker_pose_tracker" kind="class"><name>aruco::MarkerPoseTracker</name>
+    <member refid="classaruco_1_1_marker_pose_tracker_1aa48eb71a054f7554f9c8161f7cfed3cb" kind="variable"><name>_rvec</name></member>
+    <member refid="classaruco_1_1_marker_pose_tracker_1a1838ac59bdefb64b2437a2cf30a3a2cc" kind="variable"><name>_tvec</name></member>
+    <member refid="classaruco_1_1_marker_pose_tracker_1a8eeb8ba3c29a89c7c9c20e33197b59a7" kind="function"><name>estimatePose</name></member>
+    <member refid="classaruco_1_1_marker_pose_tracker_1a9b84a982a094e9315e7fe59d1c4ebe81" kind="function"><name>getRTMatrix</name></member>
+    <member refid="classaruco_1_1_marker_pose_tracker_1adeb0721dd6c63c52087dfd49dffcf8a0" kind="function"><name>getRvec</name></member>
+    <member refid="classaruco_1_1_marker_pose_tracker_1ab66e164a12b39e78d1427f55a4e088c5" kind="function"><name>getTvec</name></member>
+    <member refid="classaruco_1_1_marker_pose_tracker_1a3f4dd858184318c6f32fbc407e1ff719" kind="function"><name>solve_pnp</name></member>
+  </compound>
+  <compound refid="structaruco_1_1_marker_detector_1_1_params" kind="struct"><name>aruco::MarkerDetector::Params</name>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a6966891b087596b0dbb97426804778e7" kind="variable"><name>maxThreads</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a847238d36d833fe61ec4ef1d2f4d7bb2" kind="variable"><name>borderDistThres</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a09bf488555cc288c17219f5ea75adff8" kind="variable"><name>lowResMarkerSize</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a0916c04a7beeee1be77c10557055b66e" kind="variable"><name>minSize</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a4ff96d2eea19dc170188861abdd6c73a" kind="variable"><name>minSize_pix</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1aac457f02da3b3bc56d6345ab61485dab" kind="variable"><name>enclosedMarker</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a6c4eacc72612ef548bed5ed6e895e93e" kind="variable"><name>_thresMethod</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a358967d73173b4107064a92cb439d254" kind="variable"><name>NAttemptsAutoThresFix</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a497ba1b54f28b9abfb2417d604b3c2a2" kind="variable"><name>_AdaptiveThresWindowSize</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1ad1efbebed1ee31c4067e8d40870dac2d" kind="variable"><name>_ThresHold</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1aed8c0910c2f7472274f3944d85d8947d" kind="variable"><name>_AdaptiveThresWindowSize_range</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a755d91c3304f94287af641fab0850c59" kind="variable"><name>_markerWarpPixSize</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a4eb546885f1c64555e74a1d285c56824" kind="variable"><name>_autoSize</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a97ecbe801e86587f48016ded55f1a8eb" kind="variable"><name>_ts</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1aa74f07a309d1d58e81bffd70481d5b0c" kind="variable"><name>pyrfactor</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a38112203b37659cb6a6cb3d5359df7d4" kind="function"><name>setThresholdMethod</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a60b8c8b9dce067a0441fb5cf7f10884c" kind="function"><name>setAutoSizeSpeedUp</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_params_1a70207c4836da57da0cd257c2d5ca40cb" kind="function"><name>getAutoSizeSpeedUp</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_marker_detector_1_1_queue" kind="class"><name>aruco::MarkerDetector::Queue</name>
+    <member refid="classaruco_1_1_marker_detector_1_1_queue_1aef5e1c55854c73114dd5cd256efc3e9c" kind="variable"><name>queue_</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_queue_1a77bb55cb6381da795ba85ea106f70422" kind="variable"><name>mutex_</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_queue_1af5edcb932b43f7bbca2bd4a76e754722" kind="variable"><name>cond_</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_queue_1a8910cee9f0c2ce58fde45219c35b109d" kind="function"><name>pop</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_queue_1a46182c7c9f63127c81ef9b2560626f34" kind="function"><name>push</name></member>
+    <member refid="classaruco_1_1_marker_detector_1_1_queue_1a9c97af180a48bde7ac1d492efa3341f2" kind="function"><name>size</name></member>
+  </compound>
+  <compound refid="classscripts_1_1robot__states_1_1_robot_state" kind="class"><name>scripts::robot_states::RobotState</name>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a357082b6625b42db6d4bf16bfbe61f5e" kind="variable"><name>_pose</name></member>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a87ef43e30268956bedcb3218f0353a2f" kind="variable"><name>_battery_low</name></member>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a9707315a45d5b71b7ba19518bb05fc0b" kind="variable"><name>_randomness</name></member>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a4b57c645acb463e10f93cbde92fca4b1" kind="variable"><name>_random_battery_time</name></member>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a289b65abb54f7189f8429607f069fac0" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a19c0c35d918aaaa53eecfd0096d95c6c" kind="function"><name>set_pose</name></member>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a28bdc89286a0944832c908a6339e8578" kind="function"><name>get_pose</name></member>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a50c738916e44a5d455f715c9b245c801" kind="function"><name>is_battery_low_</name></member>
+    <member refid="classscripts_1_1robot__states_1_1_robot_state_1a68bf48ecc86f4ac0c8eb1eb7ca686896" kind="function"><name>battery_notifier_</name></member>
+  </compound>
+  <compound refid="structaruco_1_1_scoped_timer_events" kind="struct"><name>aruco::ScopedTimerEvents</name>
+    <member refid="structaruco_1_1_scoped_timer_events_1a894991ee9e29c38fa384915f33582715" kind="enum"><name>SCALE</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a894991ee9e29c38fa384915f33582715a62b1ff6cfe422733692ce72045ea644a" kind="enumvalue"><name>NSEC</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a894991ee9e29c38fa384915f33582715ade5de9849560384d4391837b971522ed" kind="enumvalue"><name>MSEC</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a894991ee9e29c38fa384915f33582715a2e6e762a3b80d7c15a47c521978ec247" kind="enumvalue"><name>SEC</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a259ab0144084aaae9de82a6b6f9af8cb" kind="variable"><name>sc</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1afcd77e84392b0b0cfba3ce72c4a1b5c4" kind="variable"><name>vtimes</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a68099bbab1fa7c5655d0a327a575d8c5" kind="variable"><name>names</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a5962b16dfa8ce7406437dfd11fea3308" kind="variable"><name>_name</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a0e88e60bc7befd9f41c02ad1d12b9325" kind="function"><name>ScopedTimerEvents</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a7546bc427be35ef97eba3c1a4d5075bd" kind="function"><name>add</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a2d7df86d2d6881a1ce971f230d917613" kind="function"><name>addspaces</name></member>
+    <member refid="structaruco_1_1_scoped_timer_events_1a90b04f7bf0440005e4958baf95c6bd21" kind="function"><name>~ScopedTimerEvents</name></member>
+  </compound>
+  <compound refid="structaruco_1_1_scope_timer" kind="struct"><name>aruco::ScopeTimer</name>
+    <member refid="structaruco_1_1_scope_timer_1a4daf60773aa551240f15a7bffc79ecba" kind="enum"><name>SCALE</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a4daf60773aa551240f15a7bffc79ecbaac0666ee077800628ffb5e9f4fe7af785" kind="enumvalue"><name>NSEC</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a4daf60773aa551240f15a7bffc79ecbaa80d56b66f889bafa201517775e4b4b0b" kind="enumvalue"><name>MSEC</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a4daf60773aa551240f15a7bffc79ecbaa2928101445814904b026d3f1f8350792" kind="enumvalue"><name>SEC</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a67ec52934a4d2634715dccca99990f31" kind="variable"><name>begin</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a9cd0ee75359d6f90b5878eed35430e11" kind="variable"><name>end</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a1e1ce6b04f13b6df7ec1ba7c1dc58ff8" kind="variable"><name>name</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a4aae1dc6ea7e744e6a4cd5727a77948b" kind="variable"><name>use</name></member>
+    <member refid="structaruco_1_1_scope_timer_1aa21fddcfbc7b5dc9c298ef834b137002" kind="variable"><name>sc</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a887873cd74f7a639b8d6bfebd7844478" kind="function"><name>ScopeTimer</name></member>
+    <member refid="structaruco_1_1_scope_timer_1a4796da7fbf5dc44515804279cfe6a749" kind="function"><name>~ScopeTimer</name></member>
+  </compound>
+  <compound refid="classaruco_1_1impl_1_1_s_v_m_markers" kind="class"><name>aruco::impl::SVMMarkers</name>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1a013d11b9bfce699597dacd129451cf79" kind="variable"><name>_minFeatureValue</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1a07273f32cee5599a91ae0fefcb465474" kind="variable"><name>_maxFeatureValue</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1a316893155785b42eccf892595ef84205" kind="variable"><name>_patchSize</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1a46e3c6a31c93e22706e81b3e5d9899e6" kind="variable"><name>_dictSize</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1a02145b3f6a8f7b47b00e19dfc3f64f73" kind="variable"><name>_rotateMarkers</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1ab32ecd5b6ea2a380e5eaadf1a869fb0d" kind="variable"><name>_model</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1a8fc8ced972536469bbe126dd5533901c" kind="function"><name>SVMMarkers</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1a2d95900b834c9bba1110c5890f8d6f3c" kind="function"><name>getBestInputSize</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1a0d2b5fa1f0739473960bae3426912719" kind="function"><name>load</name></member>
+    <member refid="classaruco_1_1impl_1_1_s_v_m_markers_1af2be078093b5bf1779f8b68a78a9b492" kind="function"><name>detect</name></member>
+  </compound>
+  <compound refid="classaruco_1_1_s_v_m_markers" kind="class"><name>aruco::SVMMarkers</name>
+    <member refid="classaruco_1_1_s_v_m_markers_1aade930f85409f0e96240828e5f4fb1ff" kind="variable"><name>_impl</name></member>
+    <member refid="classaruco_1_1_s_v_m_markers_1a7681d2c3b618e0a538f093aac7506645" kind="function"><name>SVMMarkers</name></member>
+    <member refid="classaruco_1_1_s_v_m_markers_1a32757dfe50001a7a06ec4a100b0627bd" kind="function"><name>~SVMMarkers</name></member>
+    <member refid="classaruco_1_1_s_v_m_markers_1a14c4d873883e7a8c2dbb1da228302cbc" kind="function"><name>getName</name></member>
+    <member refid="classaruco_1_1_s_v_m_markers_1ac30b48f82eb1448f35c1adf482f29620" kind="function"><name>load</name></member>
+    <member refid="classaruco_1_1_s_v_m_markers_1a8cfb011d740393712ede91010053637f" kind="function"><name>detect</name></member>
+    <member refid="classaruco_1_1_s_v_m_markers_1a30b2b45910e9757bee7f58bcd3ae799f" kind="function"><name>getBestInputSize</name></member>
+  </compound>
+  <compound refid="structaruco_1_1_marker_detector_1_1_thres_and_detect_rect_t_a_s_k" kind="struct"><name>aruco::MarkerDetector::ThresAndDetectRectTASK</name>
+    <member refid="structaruco_1_1_marker_detector_1_1_thres_and_detect_rect_t_a_s_k_1ac15643695d5f0b97ede61cb2320d86a7" kind="variable"><name>inIdx</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_thres_and_detect_rect_t_a_s_k_1a6758fd5cfe889acb2e2df72d4ac556ad" kind="variable"><name>outIdx</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_thres_and_detect_rect_t_a_s_k_1ad09d7f0a49b505c4fd6ee0a1fe39259a" kind="variable"><name>param1</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_thres_and_detect_rect_t_a_s_k_1aa97d131819d2cdae03096f0e640f19bd" kind="variable"><name>param2</name></member>
+    <member refid="structaruco_1_1_marker_detector_1_1_thres_and_detect_rect_t_a_s_k_1ab8c1cef8c04ba2a5c97cd36c9b28124b" kind="variable"><name>task</name></member>
+  </compound>
+  <compound refid="structaruco_1_1_timer" kind="struct"><name>aruco::Timer</name>
+    <member refid="structaruco_1_1_timer_1a4cc94043c14677946e767d2ea66ee9f8" kind="enum"><name>SCALE</name></member>
+    <member refid="structaruco_1_1_timer_1a4cc94043c14677946e767d2ea66ee9f8a66155ba375da3e4121f00505e56dc8db" kind="enumvalue"><name>NSEC</name></member>
+    <member refid="structaruco_1_1_timer_1a4cc94043c14677946e767d2ea66ee9f8acba5923ac44851a859c0c14daeda5715" kind="enumvalue"><name>MSEC</name></member>
+    <member refid="structaruco_1_1_timer_1a4cc94043c14677946e767d2ea66ee9f8aa98af9c9dd7e6f4dba960b40cc8186a0" kind="enumvalue"><name>SEC</name></member>
+    <member refid="structaruco_1_1_timer_1a7dc2ef30dc5c4e938b3ec68dd5198872" kind="variable"><name>_s</name></member>
+    <member refid="structaruco_1_1_timer_1aff9c1119100e74218c1551866682cf57" kind="variable"><name>sum</name></member>
+    <member refid="structaruco_1_1_timer_1af7c2b52244c4481ad1b65fb862a5c467" kind="variable"><name>n</name></member>
+    <member refid="structaruco_1_1_timer_1a51f2a8c5a844375a5d9cb542f4ee8247" kind="variable"><name>_name</name></member>
+    <member refid="structaruco_1_1_timer_1a9539d0c418e7df8576961267ef170680" kind="function"><name>Timer</name></member>
+    <member refid="structaruco_1_1_timer_1a18ec158b6103355bab5ee91fc0032b3f" kind="function"><name>Timer</name></member>
+    <member refid="structaruco_1_1_timer_1ac0cd9c715d197c11f680903e68c5a49d" kind="function"><name>setName</name></member>
+    <member refid="structaruco_1_1_timer_1a6d7e4bb2f5df7aaae65b836bf51cc157" kind="function"><name>start</name></member>
+    <member refid="structaruco_1_1_timer_1a7f0174dc95873cccb299a4cfa9c2fdd6" kind="function"><name>end</name></member>
+    <member refid="structaruco_1_1_timer_1a118192d6df21378d5e7debb638bde016" kind="function"><name>print</name></member>
+    <member refid="structaruco_1_1_timer_1acda8efd192722e09a607cc232e0c2ef2" kind="function"><name>getAverage</name></member>
+  </compound>
+  <compound refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder" kind="class"><name>scripts::finite_statemachine::UrgentPathfinder</name>
+    <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1a797a623189e1b3a293d6f7746e91f165" kind="variable"><name>_helper</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1aa4db4779fc3cded8b1884dc97c781997" kind="variable"><name>_knowledge</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1a66539754369de0a013d9039a6dbabdac" kind="variable"><name>environment_size</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1adbda0d0e119e86cdb3877301c01a3b48" kind="function"><name>__init__</name></member>
+    <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1aa1c15c4687788b9b9a402daec1c4919c" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="namespacearmor__api" kind="namespace"><name>armor_api</name>
+    <member refid="namespacearmor__api_1a5f100377f44c4b765c3735a6029cad35" kind="variable"><name>__author__</name></member>
+    <member refid="namespacearmor__api_1a01b53f65fa3073b26585d82b2b381215" kind="variable"><name>__copyright__</name></member>
+    <member refid="namespacearmor__api_1a1c730ef977c7a2027cd94ff6f8180fed" kind="variable"><name>__license__</name></member>
+    <member refid="namespacearmor__api_1a6957c36d8c4c72c90085cf77ca1f84fe" kind="variable"><name>__version__</name></member>
+    <member refid="namespacearmor__api_1a4da7e03143fecbf46b9f199d092a9ffb" kind="variable"><name>__maintainer__</name></member>
+    <member refid="namespacearmor__api_1a86a58f4312604fa8b127f358232d8d9e" kind="variable"><name>__email__</name></member>
+    <member refid="namespacearmor__api_1a7d8d163804953f7cf9e71003dfdad5de" kind="variable"><name>__status__</name></member>
+    <member refid="namespacearmor__api_1aef048da471eb586e98fbd8f680bfffef" kind="variable"><name>__all__</name></member>
+  </compound>
+  <compound refid="namespacearmor__api_1_1armor__client" kind="namespace"><name>armor_api::armor_client</name>
+    <member refid="namespacearmor__api_1_1armor__client_1aa7002d3701ef8f00c5564646d465d1f2" kind="variable"><name>__author__</name></member>
+    <member refid="namespacearmor__api_1_1armor__client_1a4a9a15ba8f5291d8e741a0e6f473c92f" kind="variable"><name>__copyright__</name></member>
+    <member refid="namespacearmor__api_1_1armor__client_1a40309b97ffc69d84837b8f6726f4eeed" kind="variable"><name>__license__</name></member>
+    <member refid="namespacearmor__api_1_1armor__client_1ae0299f3128f3c2cbf066769370b05ec3" kind="variable"><name>__version__</name></member>
+    <member refid="namespacearmor__api_1_1armor__client_1adea0b951978b07f0f11f5ea6ebc4ecf6" kind="variable"><name>__maintainer__</name></member>
+    <member refid="namespacearmor__api_1_1armor__client_1a84b5050d8a73dffa57d679d8622bb750" kind="variable"><name>__email__</name></member>
+    <member refid="namespacearmor__api_1_1armor__client_1ae7e62db7fe1db3ec36c4c9f087fdae5f" kind="variable"><name>__status__</name></member>
+  </compound>
+  <compound refid="namespacearmor__api_1_1armor__exceptions" kind="namespace"><name>armor_api::armor_exceptions</name>
+    <member refid="namespacearmor__api_1_1armor__exceptions_1a5f137c7ad6467bb455a1de29dd60e8ec" kind="variable"><name>__author__</name></member>
+    <member refid="namespacearmor__api_1_1armor__exceptions_1a5d40b856a6a3c92de19b8abb7119bd0a" kind="variable"><name>__copyright__</name></member>
+    <member refid="namespacearmor__api_1_1armor__exceptions_1a46a3e8257f405036ce0960c9b266e3c0" kind="variable"><name>__license__</name></member>
+    <member refid="namespacearmor__api_1_1armor__exceptions_1afb8bc77af7359dd76ec783dbeb4f4963" kind="variable"><name>__version__</name></member>
+    <member refid="namespacearmor__api_1_1armor__exceptions_1a4638efbd666d348e93c35a8b13e01da2" kind="variable"><name>__maintainer__</name></member>
+    <member refid="namespacearmor__api_1_1armor__exceptions_1af2e633ceae594ba72e4c1666f99f6884" kind="variable"><name>__email__</name></member>
+    <member refid="namespacearmor__api_1_1armor__exceptions_1a9fc6755b12d1320d4f60134d34a24eca" kind="variable"><name>__status__</name></member>
+  </compound>
+  <compound refid="namespacearmor__api_1_1armor__manipulation__client" kind="namespace"><name>armor_api::armor_manipulation_client</name>
+    <member refid="namespacearmor__api_1_1armor__manipulation__client_1a24c3a7208c343ed14a61ec77d99842f2" kind="variable"><name>__author__</name></member>
+    <member refid="namespacearmor__api_1_1armor__manipulation__client_1afd11c8e3725afd1fec83eeb419f11726" kind="variable"><name>__copyright__</name></member>
+    <member refid="namespacearmor__api_1_1armor__manipulation__client_1a569df08746f0deb9b87316dc8c72cd46" kind="variable"><name>__license__</name></member>
+    <member refid="namespacearmor__api_1_1armor__manipulation__client_1a7579176cefbdc5e4caa5e83785509533" kind="variable"><name>__version__</name></member>
+    <member refid="namespacearmor__api_1_1armor__manipulation__client_1a526e97cd1f3285b3ed9df99de362d1dd" kind="variable"><name>__maintainer__</name></member>
+    <member refid="namespacearmor__api_1_1armor__manipulation__client_1a1a75c773d3ed4829169abede766cf233" kind="variable"><name>__email__</name></member>
+    <member refid="namespacearmor__api_1_1armor__manipulation__client_1aa45fba8d237bb86df94fcdad0ff44cbd" kind="variable"><name>__status__</name></member>
+  </compound>
+  <compound refid="namespacearmor__api_1_1armor__query__client" kind="namespace"><name>armor_api::armor_query_client</name>
+    <member refid="namespacearmor__api_1_1armor__query__client_1a6594df428b91029ddd946e402ac6bf31" kind="variable"><name>__author__</name></member>
+    <member refid="namespacearmor__api_1_1armor__query__client_1ab4261a503b8ce279c18b981b40d4d593" kind="variable"><name>__copyright__</name></member>
+    <member refid="namespacearmor__api_1_1armor__query__client_1aea1bfd2dcf9787b0d3cddc3ee7e0056c" kind="variable"><name>__license__</name></member>
+    <member refid="namespacearmor__api_1_1armor__query__client_1a10299defc002724b2577bc546bcc6a90" kind="variable"><name>__version__</name></member>
+    <member refid="namespacearmor__api_1_1armor__query__client_1a98acbb7176ec4367e3d8a10dfacb82e8" kind="variable"><name>__maintainer__</name></member>
+    <member refid="namespacearmor__api_1_1armor__query__client_1aa93528fe6d02609051d6890d418ef756" kind="variable"><name>__email__</name></member>
+    <member refid="namespacearmor__api_1_1armor__query__client_1a59144305665b3f341269fe5246f83447" kind="variable"><name>__status__</name></member>
+  </compound>
+  <compound refid="namespacearmor__api_1_1armor__utils__client" kind="namespace"><name>armor_api::armor_utils_client</name>
+    <member refid="namespacearmor__api_1_1armor__utils__client_1a923c3fb17d0398be1b3b458b33dd29c8" kind="variable"><name>__author__</name></member>
+    <member refid="namespacearmor__api_1_1armor__utils__client_1aa730152671b8bbc0ec7b34a31a1e08e8" kind="variable"><name>__copyright__</name></member>
+    <member refid="namespacearmor__api_1_1armor__utils__client_1a7b6e9f386ed4f76f4458a495485a7e8b" kind="variable"><name>__license__</name></member>
+    <member refid="namespacearmor__api_1_1armor__utils__client_1a157705608b82cf86d95563f6cdde499c" kind="variable"><name>__version__</name></member>
+    <member refid="namespacearmor__api_1_1armor__utils__client_1a54320c6fb9d041b64c3c65cb19233219" kind="variable"><name>__maintainer__</name></member>
+    <member refid="namespacearmor__api_1_1armor__utils__client_1ad4109616435cacefb947ce5269af3047" kind="variable"><name>__email__</name></member>
+    <member refid="namespacearmor__api_1_1armor__utils__client_1a16f318542d30be27976b125f8414cd82" kind="variable"><name>__status__</name></member>
+  </compound>
+  <compound refid="namespacearmor__api_1_1client__test" kind="namespace"><name>armor_api::client_test</name>
+    <member refid="client__test_8py_1a091f7e4fbbb57b49ea46cc2f723bb3c5" kind="variable"><name>path</name></member>
+    <member refid="client__test_8py_1a30367e29cc8a9c3c71821517c98fcba6" kind="variable"><name>client</name></member>
+  </compound>
+  <compound refid="namespacearuco" kind="namespace"><name>aruco</name>
+    <member refid="namespacearuco_1ad3e67c58edd9a7465b69f2eae833dcbb" kind="enum"><name>DetectionMode</name></member>
+    <member refid="namespacearuco_1ad3e67c58edd9a7465b69f2eae833dcbba0fa3a9e206561c5bf35d2f27bcefcd5e" kind="enumvalue"><name>DM_NORMAL</name></member>
+    <member refid="namespacearuco_1ad3e67c58edd9a7465b69f2eae833dcbba500e0934d202fea26cd667a808985a58" kind="enumvalue"><name>DM_FAST</name></member>
+    <member refid="namespacearuco_1ad3e67c58edd9a7465b69f2eae833dcbba31c1159a1ac3e3550f259cd35d74212a" kind="enumvalue"><name>DM_VIDEO_FAST</name></member>
+    <member refid="namespacearuco_1a8bdf5564fc70b773ac326d5afa004b47" kind="function"><name>solvePnP</name></member>
+    <member refid="namespacearuco_1ac3489ddda33f94f247d9be2e6da021f9" kind="function"><name>solvePnP_</name></member>
+    <member refid="namespacearuco_1a6b478ff675559159f2300e3bd08206ce" kind="function"><name>solvePnP_</name></member>
+    <member refid="namespacearuco_1ada065824d7de806dcd082f8a8ebd1e75" kind="function"><name>solvePoseOfCentredSquare</name></member>
+    <member refid="namespacearuco_1a2433e7d2d8c4d30e0c37e1f6913fff4d" kind="function"><name>IPPEvalBestPose</name></member>
+    <member refid="namespacearuco_1a4627c757960af459bd688e3ad4639e6f" kind="function"><name>IPPEvalReprojectionError</name></member>
+    <member refid="namespacearuco_1a154d65249cb00ec52ea85b4d656befcd" kind="function"><name>IPPERot2vec</name></member>
+    <member refid="namespacearuco_1a27a1e84cb92d795c0bd4361e99db5843" kind="function"><name>IPPComputeTranslation</name></member>
+    <member refid="namespacearuco_1a1a2dce405304f7f7d28f52059283ce41" kind="function"><name>IPPComputeRotations</name></member>
+    <member refid="namespacearuco_1a8cd5a905cfcdfe4362406b9c7a6ab079" kind="function"><name>homographyFromSquarePoints</name></member>
+    <member refid="namespacearuco_1aea554c19cc5919cc0838e1cedbe60a09" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespacearuco_1a0b0389f46ca190a6e2d363db666ff8cc" kind="function"><name>operator&gt;&gt;</name></member>
+    <member refid="namespacearuco_1adccc007d4ba5d0d66831fc31c6694990" kind="function"><name>getRTMatrix</name></member>
+    <member refid="namespacearuco_1a2b40362ac4f2994c0e05ca7bcb0e93f0" kind="function"><name>print</name></member>
+    <member refid="namespacearuco_1a146cb9112b4ee5af5f5981dbd78b88d2" kind="function"><name>addToImageHist</name></member>
+    <member refid="namespacearuco_1ace63f972e86ac736bd95d0bb4e5c2bb8" kind="function"><name>Otsu</name></member>
+    <member refid="namespacearuco_1a15c77d407ba8e62d8a0b08728ecabbe7" kind="function"><name>hamm_distance</name></member>
+    <member refid="namespacearuco_1ad759f5744ed84933588772d5c01b789f" kind="function"><name>__glGetModelViewMatrix</name></member>
+    <member refid="namespacearuco_1a3197db6116a3222abc76fd147c4c90ca" kind="function"><name>__OgreGetPoseParameters</name></member>
+    <member refid="namespacearuco_1ad7304e2d05b6357cf4d6b52af12b430c" kind="function"><name>hubber</name></member>
+    <member refid="namespacearuco_1ad2f9415a52ce3017fd1c46faec6fae58" kind="function"><name>hubberMono</name></member>
+    <member refid="namespacearuco_1acc51a603e2a95802d9958821317d4fc1" kind="function"><name>getHubberMonoWeight</name></member>
+    <member refid="namespacearuco_1ae8d524654335c8fa03df067db2d6e3f0" kind="function"><name>__aruco_solve_pnp</name></member>
+  </compound>
+  <compound refid="namespacearuco_1_1aruco__private" kind="namespace"><name>aruco::aruco_private</name>
+    <member refid="posetracker_8cpp_1ad99ffa19151b36b7e5d3984429019c2e" kind="function"><name>impl__aruco_getRTMatrix</name></member>
+    <member refid="posetracker_8cpp_1ae3d3e913cfca024f2bb948b44496fa1d" kind="function"><name>impl__aruco_getRTfromMatrix44</name></member>
+    <member refid="posetracker_8cpp_1a321d43080bd7449ae0d8448b9bbdd4c3" kind="function"><name>reprj_error</name></member>
+    <member refid="posetracker_8cpp_1aeb25dcbda31030c3dd21e248324ff981" kind="function"><name>rigidBodyTransformation_Horn1987</name></member>
+  </compound>
+  <compound refid="namespacearuco_1_1impl" kind="namespace"><name>aruco::impl</name>
+  </compound>
+  <compound refid="namespacearuco__ros" kind="namespace"><name>aruco_ros</name>
+    <member refid="aruco__ros__utils_8h_1a01af2f60dddb6316ff308a75476918ae" kind="function"><name>rosCameraInfo2ArucoCamParams</name></member>
+    <member refid="aruco__ros__utils_8h_1a61368ffd0381862db4cb8a8c68077f41" kind="function"><name>arucoMarker2Tf</name></member>
+    <member refid="aruco__ros__utils_8h_1a5aa8d83633ddce6beef6663d9217402b" kind="function"><name>arucoMarker2Tf2</name></member>
+    <member refid="aruco__ros__utils_8h_1a2e7094ed95ffed7a8b3bf02e49732b6d" kind="function"><name>detectMarkers</name></member>
+    <member refid="aruco__ros__utils_8h_1a6a2e5c678137b0ca8b0cad20a7f8d019" kind="function"><name>visMarkerFromPose</name></member>
+  </compound>
+  <compound refid="namespaceassignment2_1_1srv" kind="namespace"><name>assignment2::srv</name>
+  </compound>
+  <compound refid="namespaceassignment__1" kind="namespace"><name>assignment_1</name>
+  </compound>
+  <compound refid="namespaceassignment__1_1_1architecture__name__mapper" kind="namespace"><name>assignment_1::architecture_name_mapper</name>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a3689443e2816016ba4f40aecd5cd28d6" kind="variable"><name>PARAM_ENVIRONMENT_SIZE</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a902a850ade85be5f6a3cbe2edac029c9" kind="variable"><name>PARAM_INITIAL_POSE</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a78b1d331403f664fd679d91b0226717c" kind="variable"><name>PARAM_RANDOM_ACTIVE</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a4a1d75b245b57155475bc80712b8502c" kind="variable"><name>NODE_ROBOT_STATE</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a3429096748363657d095f43297722a90" kind="variable"><name>SERVER_GET_POSE</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a4fa7b503e5ee766ed3c34aa6b3cac364" kind="variable"><name>SERVER_SET_POSE</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a0969b71248af073e22adbffbdfd1a0a0" kind="variable"><name>TOPIC_BATTERY_LOW</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a35cc4b839364e270576971cb3d209fa6" kind="variable"><name>ACTION_MOVEBASE</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a05486d02f34da255bfe6b14a635ff218" kind="variable"><name>SLEEP_TIME</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a4331cb222779655b8d5c4956c89821ba" kind="variable"><name>PARAM_BATTERY_TIME</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a351aaf18a8305d35bb752b234e35c91d" kind="variable"><name>MONITOR_TIME</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1abbb0a58d55ca40f2feda27aa3934c546" kind="variable"><name>NODE_PLANNER</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1ace9d1432858a46911b3029b183e00aaf" kind="variable"><name>ACTION_PLANNER</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a6ebe1eb562098e2f332befcf7f60f257" kind="variable"><name>PARAM_PLANNER_POINTS</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a2ad4226e40ae9e73817dfa12857fcc0b" kind="variable"><name>PARAM_PLANNER_TIME</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1ac584772c04fcedf83fffccbd36a24cac" kind="variable"><name>NODE_CONTROLLER</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1ab4f30aa01937417b10ab90d602146667" kind="variable"><name>ACTION_CONTROLLER</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1af581c1f4b05d3b509d094eed16036580" kind="variable"><name>PARAM_CONTROLLER_TIME</name></member>
+    <member refid="namespaceassignment__1_1_1architecture__name__mapper_1a878608bbc9a39ac4bba58349e7476d97" kind="function"><name>tag_log</name></member>
+  </compound>
+  <compound refid="namespaceconf" kind="namespace"><name>conf</name>
+    <member refid="conf_8py_1a332f430461432dc465213f884a1e4967" kind="variable"><name>shell</name></member>
+    <member refid="conf_8py_1a45653c983098153b78e33600e39230eb" kind="variable"><name>project</name></member>
+    <member refid="conf_8py_1a33fa97cf51dcb25970fbf53f10159589" kind="variable"><name>copyright</name></member>
+    <member refid="conf_8py_1a637c239d256432248aa8d9f3ab0b8c52" kind="variable"><name>author</name></member>
+    <member refid="conf_8py_1a325dc746d8bf05c54d26351c35a21d90" kind="variable"><name>release</name></member>
+    <member refid="conf_8py_1ae475e080536acb271a0a0efe56c3ba42" kind="variable"><name>extensions</name></member>
+    <member refid="conf_8py_1ae850ae634911b713e036b43894fdd525" kind="variable"><name>templates_path</name></member>
+    <member refid="conf_8py_1a7ad48fb6f3e9b129c02346ea0d3527c1" kind="variable"><name>exclude_patterns</name></member>
+    <member refid="conf_8py_1a3117edf4443d9b8c70a9f0f44294ba79" kind="variable"><name>highlight_language</name></member>
+    <member refid="conf_8py_1a10af2a769eb3bd3322e874f677e435b1" kind="variable"><name>source_suffix</name></member>
+    <member refid="conf_8py_1a6fcd7e5236f355b1e1a55f9d95988810" kind="variable"><name>master_doc</name></member>
+    <member refid="conf_8py_1a6c3bfcc1a44546c1c75ce20f55bd0fd6" kind="variable"><name>html_theme</name></member>
+    <member refid="conf_8py_1af4fb5d8851ccaade135c2668dd3ced41" kind="variable"><name>html_static_path</name></member>
+    <member refid="conf_8py_1a8375f4f963de3ac8026eaa9beced9564" kind="variable"><name>intersphinx_mapping</name></member>
+    <member refid="conf_8py_1a8fe7f0d85f975f4ecba5cb6066959a09" kind="variable"><name>todo_include_todos</name></member>
+    <member refid="conf_8py_1acb47d2c0c2904fa7d36b63142533f383" kind="variable"><name>breathe_projects</name></member>
+    <member refid="conf_8py_1a6eba2d2c7ae923054b1c49e686ec89b9" kind="variable"><name>breathe_default_project</name></member>
+    <member refid="conf_8py_1a54585428ce84441199d9dfd7087e2243" kind="variable"><name>breathe_default_members</name></member>
+  </compound>
+  <compound refid="namespacegeometry__msgs_1_1msg" kind="namespace"><name>geometry_msgs::msg</name>
+  </compound>
+  <compound refid="namespacemove__base__msgs_1_1msg" kind="namespace"><name>move_base_msgs::msg</name>
+  </compound>
+  <compound refid="namespacenav__msgs_1_1msg" kind="namespace"><name>nav_msgs::msg</name>
+  </compound>
+  <compound refid="namespacescripts" kind="namespace"><name>scripts</name>
+  </compound>
+  <compound refid="namespacescripts_1_1finite__statemachine" kind="namespace"><name>scripts::finite_statemachine</name>
+    <member refid="namespacescripts_1_1finite__statemachine_1aba3a0b9884bece1d27fdf4170c20f720" kind="variable"><name>reached</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a04169f776506a682c1c3e7536a33a3e3" kind="variable"><name>INITIALIZING</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a3b82c7a24ea5fb8ebd493ff344f4e5b2" kind="variable"><name>CHOOSING_PATH</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a672b4f306c73a469f629092d706783df" kind="variable"><name>URGENT_SELECTION</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1aeaa23f44b3b63d595cb58807b61e16f5" kind="variable"><name>MOVING_TO_CORRIDOR</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a4fec927f3e02cbb7501cd151863c5423" kind="variable"><name>MOVING_TO_URGENT</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a872723eb0b474357a9dbfdacc7e31709" kind="variable"><name>SURVEY_IN_PROGRESS</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a88d0e861e3adcc0b36a7adc0d42bf6a2" kind="variable"><name>RECHARGING_BATTERY</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1aa83d92c52667f4111c83b65d5e3de194" kind="variable"><name>START_URGENT_OP</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1ace21f5750e8fd06c3c52566e5856ae8f" kind="variable"><name>START_CORRIDOR_OP</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a23f5c7b9d5f2852acdd6ab00d510d64f" kind="variable"><name>IN_ROOM</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a3fb33dc77bde67b196b56cd6f6fadf53" kind="variable"><name>INITIALIZATION_COMPLETE</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a4c3419e6dfa580337061e99f5548f140" kind="variable"><name>CORRIDOR_CHOICE_MADE</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1aa7be23d3126058cb45e1560c2c0fb52b" kind="variable"><name>MOVING_IN_CORRIDOR</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a58e4187058370094cf237099e0717eda" kind="variable"><name>URGENT_MOVE</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1ab6dbc00be4d1b7ceb8ec0422c6ba4eb6" kind="variable"><name>URGENT_CHOICE_MADE</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a04cc3880047b11a94f7c515a3b936fda" kind="variable"><name>LOW_BATTERY_WARNING</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a289a7ed8bc0f5450dae53894aad40b40" kind="variable"><name>RECHARGING_IN_PROGRESS</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1ad78da5d0502ce3e0c16d73dc08e3d668" kind="variable"><name>RECHARGING_COMPLETE</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a969605c00ff8e3f3a8e3d0336d9096b0" kind="variable"><name>LOOP_SLEEP_TIME</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1ae2770279cd180c441dc5a369a685c875" kind="variable"><name>SCAN_ENVIRONMENT</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1ad3b753d2f5c8f67f033ae762b41506c7" kind="variable"><name>UPDATED_TRANSITION_STATE</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a19172c6551b45d687c9501198db18b43" kind="function"><name>rotate</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1aa94ad567badc45f2accba503461756c7" kind="function"><name>rotate_arm_1</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1adb0d836a4d7ec91a9126eb0b94c86175" kind="function"><name>rotate_arm_2</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1ac470b9d6c37219a1d1bd1460f5c6c6e0" kind="function"><name>rotate_base</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a018d426329bc5cd5cc7bd1548c2f62bb" kind="function"><name>marker_CallBack</name></member>
+    <member refid="namespacescripts_1_1finite__statemachine_1a80e10c493fc88cefd86be2e42fd85a4c" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="namespacescripts_1_1helper" kind="namespace"><name>scripts::helper</name>
+    <member refid="namespacescripts_1_1helper_1a6ae573fac116eebf8624b0616c747aa8" kind="variable"><name>client</name></member>
+  </compound>
+  <compound refid="namespacescripts_1_1load__environment" kind="namespace"><name>scripts::load_environment</name>
+    <member refid="namespacescripts_1_1load__environment_1a2860c5c4fd7cbbd38924dd8a4a4a1cd1" kind="variable"><name>client</name></member>
+    <member refid="namespacescripts_1_1load__environment_1a7af971dfc7cf29d2d815be85f64368af" kind="variable"><name>path</name></member>
+    <member refid="namespacescripts_1_1load__environment_1add645c9db705915749997032ec1b6441" kind="function"><name>LoadKnowledgeGraph</name></member>
+  </compound>
+  <compound refid="namespacescripts_1_1robot__states" kind="namespace"><name>scripts::robot_states</name>
+    <member refid="namespacescripts_1_1robot__states_1a64a8499e15271245694d48b200f24194" kind="variable"><name>LOG_TAG</name></member>
+    <member refid="namespacescripts_1_1robot__states_1a3fdbd716f2227a009ab44c4a82e43e77" kind="variable"><name>helper</name></member>
+    <member refid="namespacescripts_1_1robot__states_1ab2796d79848babdbc68e3415a976b54e" kind="variable"><name>robot_pose_param</name></member>
+  </compound>
+  <compound refid="namespacesetup" kind="namespace"><name>setup</name>
+    <member refid="setup_8py_1a504ffa482edfe0eff08f64b2f5dff0e9" kind="variable"><name>setup_args</name></member>
+  </compound>
+  <compound refid="namespacestd__msgs_1_1msg" kind="namespace"><name>std_msgs::msg</name>
+  </compound>
+  <compound refid="aruco__ros_2aruco_2_c_make_lists_8txt" kind="file"><name>CMakeLists.txt</name>
+    <member refid="aruco__ros_2aruco_2_c_make_lists_8txt_1a568106bac57c72cd74c219299b3a2994" kind="function"><name>cmake_minimum_required</name></member>
+  </compound>
+  <compound refid="aruco__ros_2aruco_2src_2aruco_2_c_make_lists_8txt" kind="file"><name>CMakeLists.txt</name>
+    <member refid="aruco__ros_2aruco_2src_2aruco_2_c_make_lists_8txt_1a490557a10016e2cc08409075b58fae6f" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="aruco__ros_2aruco__msgs_2_c_make_lists_8txt" kind="file"><name>CMakeLists.txt</name>
+  </compound>
+  <compound refid="aruco__ros_2aruco__ros_2_c_make_lists_8txt" kind="file"><name>CMakeLists.txt</name>
+  </compound>
+  <compound refid="_c_make_lists_8txt" kind="file"><name>CMakeLists.txt</name>
+  </compound>
+  <compound refid="aruco_8h" kind="file"><name>aruco.h</name>
+    <member refid="aruco_8h_1a8c978c9f9a61adf1685211a4f9ae9c77" kind="define"><name>ARUCO_VERSION_MAJOR</name></member>
+    <member refid="aruco_8h_1a7801abf9cfd9791807ed9a75ec4fdd60" kind="define"><name>ARUCO_VERSION_MINOR</name></member>
+  </compound>
+  <compound refid="aruco__export_8h" kind="file"><name>aruco_export.h</name>
+    <member refid="aruco__export_8h_1a47f9a248e0fcb66919073dec9c96dbe7" kind="define"><name>ARUCO_EXPORT</name></member>
+  </compound>
+  <compound refid="cameraparameters_8h" kind="file"><name>cameraparameters.h</name>
+  </compound>
+  <compound refid="cvdrawingutils_8h" kind="file"><name>cvdrawingutils.h</name>
+  </compound>
+  <compound refid="debug_8h" kind="file"><name>debug.h</name>
+    <member refid="debug_8h_1a5b9e9e20d7b87fc130bd3c969ef68d8c" kind="define"><name>_debug_msg</name></member>
+    <member refid="debug_8h_1a9e18ae431617608c8836d97cadb18098" kind="define"><name>_debug_msg_</name></member>
+    <member refid="debug_8h_1af0211f4c0fcc31ef8fa6180965e440ee" kind="define"><name>_debug_exec</name></member>
+    <member refid="debug_8h_1a7619ae99906c8489d459f9790a4dc62f" kind="define"><name>_debug_exec_</name></member>
+  </compound>
+  <compound refid="dictionary_8h" kind="file"><name>dictionary.h</name>
+  </compound>
+  <compound refid="ippe_8h" kind="file"><name>ippe.h</name>
+  </compound>
+  <compound refid="levmarq_8h" kind="file"><name>levmarq.h</name>
+    <member refid="levmarq_8h_1aa4f01fddd441d028673ddb8cfb091f43" kind="define"><name>splm_get_time</name></member>
+  </compound>
+  <compound refid="marker_8h" kind="file"><name>marker.h</name>
+  </compound>
+  <compound refid="markerdetector_8h" kind="file"><name>markerdetector.h</name>
+  </compound>
+  <compound refid="markerlabeler_8h" kind="file"><name>markerlabeler.h</name>
+  </compound>
+  <compound refid="markermap_8h" kind="file"><name>markermap.h</name>
+  </compound>
+  <compound refid="posetracker_8h" kind="file"><name>posetracker.h</name>
+  </compound>
+  <compound refid="timers_8h" kind="file"><name>timers.h</name>
+  </compound>
+  <compound refid="cameraparameters_8cpp" kind="file"><name>cameraparameters.cpp</name>
+  </compound>
+  <compound refid="cvdrawingutils_8cpp" kind="file"><name>cvdrawingutils.cpp</name>
+  </compound>
+  <compound refid="debug_8cpp" kind="file"><name>debug.cpp</name>
+  </compound>
+  <compound refid="dictionary_8cpp" kind="file"><name>dictionary.cpp</name>
+  </compound>
+  <compound refid="ippe_8cpp" kind="file"><name>ippe.cpp</name>
+  </compound>
+  <compound refid="marker_8cpp" kind="file"><name>marker.cpp</name>
+    <member refid="marker_8cpp_1a525335710b53cb064ca56b936120431e" kind="define"><name>_USE_MATH_DEFINES</name></member>
+  </compound>
+  <compound refid="markerdetector_8cpp" kind="file"><name>markerdetector.cpp</name>
+  </compound>
+  <compound refid="markerlabeler_8cpp" kind="file"><name>markerlabeler.cpp</name>
+  </compound>
+  <compound refid="dictionary__based_8cpp" kind="file"><name>dictionary_based.cpp</name>
+  </compound>
+  <compound refid="dictionary__based_8h" kind="file"><name>dictionary_based.h</name>
+  </compound>
+  <compound refid="svmmarkers_8cpp" kind="file"><name>svmmarkers.cpp</name>
+  </compound>
+  <compound refid="svmmarkers_8h" kind="file"><name>svmmarkers.h</name>
+  </compound>
+  <compound refid="markermap_8cpp" kind="file"><name>markermap.cpp</name>
+  </compound>
+  <compound refid="posetracker_8cpp" kind="file"><name>posetracker.cpp</name>
+  </compound>
+  <compound refid="aruco__ros__utils_8h" kind="file"><name>aruco_ros_utils.h</name>
+  </compound>
+  <compound refid="aruco__ros__utils_8cpp" kind="file"><name>aruco_ros_utils.cpp</name>
+  </compound>
+  <compound refid="marker__publish_8cpp" kind="file"><name>marker_publish.cpp</name>
+    <member refid="marker__publish_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="simple__double_8cpp" kind="file"><name>simple_double.cpp</name>
+    <member refid="simple__double_8cpp_1a374b17b49a8f5297b86083844a543b80" kind="variable"><name>inImage</name></member>
+    <member refid="simple__double_8cpp_1af9b4bd72c1496c26430342bffcfaa085" kind="variable"><name>camParam</name></member>
+    <member refid="simple__double_8cpp_1adc28859d360ee148d87879c7965c9c38" kind="variable"><name>useRectifiedImages</name></member>
+    <member refid="simple__double_8cpp_1acb51ef956b850739085e630552a16b0a" kind="variable"><name>normalizeImageIllumination</name></member>
+    <member refid="simple__double_8cpp_1a317ad42313f4ad5d8a3255dab470f277" kind="variable"><name>dctComponentsToRemove</name></member>
+    <member refid="simple__double_8cpp_1ad8cb3a609f794f135f65302c4cd5b479" kind="variable"><name>mDetector</name></member>
+    <member refid="simple__double_8cpp_1ad3609934b55a628fdda977ca8724ce34" kind="variable"><name>markers</name></member>
+    <member refid="simple__double_8cpp_1a446e78c2b7fcfece0cad1346b2658e2c" kind="variable"><name>cam_info_sub</name></member>
+    <member refid="simple__double_8cpp_1a0e7581e6ac1ad94e359c0d568426c438" kind="variable"><name>cam_info_received</name></member>
+    <member refid="simple__double_8cpp_1a087dfb98bb2b81122d7d59298493d59a" kind="variable"><name>image_pub</name></member>
+    <member refid="simple__double_8cpp_1ab71cb34efed9852a4d655854cb0057ff" kind="variable"><name>debug_pub</name></member>
+    <member refid="simple__double_8cpp_1a3438f13838a9a4a4702dd3dde6d27887" kind="variable"><name>pose_pub1</name></member>
+    <member refid="simple__double_8cpp_1a9ffbb87cf91383bb4335003044cf7661" kind="variable"><name>pose_pub2</name></member>
+    <member refid="simple__double_8cpp_1a4d5996436f79e2011926fae26503875d" kind="variable"><name>child_name1</name></member>
+    <member refid="simple__double_8cpp_1a5b968540fee0dca27dc7c98c6c911983" kind="variable"><name>parent_name</name></member>
+    <member refid="simple__double_8cpp_1a48d2853dcc7728f761b3ee190794b1f4" kind="variable"><name>child_name2</name></member>
+    <member refid="simple__double_8cpp_1a46ba90e214408b92c4329be16a5cd5d0" kind="variable"><name>marker_size</name></member>
+    <member refid="simple__double_8cpp_1afb3aec919ca846ab5cf417b6a0e118a6" kind="variable"><name>marker_id1</name></member>
+    <member refid="simple__double_8cpp_1ad9408e0fd76a3952ac741584c167bbf4" kind="variable"><name>marker_id2</name></member>
+    <member refid="simple__double_8cpp_1af119c0685c1216bb9cdbc352ea016cd2" kind="function"><name>image_callback</name></member>
+    <member refid="simple__double_8cpp_1a04d4946bb26d3f5c41cf92db196e7671" kind="function"><name>cam_info_callback</name></member>
+    <member refid="simple__double_8cpp_1a3afb5bc706808560385b706e0a0cf52e" kind="function"><name>reconf_callback</name></member>
+    <member refid="simple__double_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="simple__single_8cpp" kind="file"><name>simple_single.cpp</name>
+    <member refid="simple__single_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="conf_8py" kind="file"><name>conf.py</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="scripts_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="utilities_2armor__api_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="utilities_2assignment__1_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="finite__statemachine_8py" kind="file"><name>finite_statemachine.py</name>
+  </compound>
+  <compound refid="helper_8py" kind="file"><name>helper.py</name>
+  </compound>
+  <compound refid="load__environment_8py" kind="file"><name>load_environment.py</name>
+  </compound>
+  <compound refid="robot__states_8py" kind="file"><name>robot_states.py</name>
+  </compound>
+  <compound refid="setup_8py" kind="file"><name>setup.py</name>
+  </compound>
+  <compound refid="marker__server_8cpp" kind="file"><name>marker_server.cpp</name>
+    <member refid="marker__server_8cpp_1acb386145eddd7e35588ea2b3a5ec6ca5" kind="function"><name>markerCallback</name></member>
+    <member refid="marker__server_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="armor__client_8py" kind="file"><name>armor_client.py</name>
+  </compound>
+  <compound refid="armor__exceptions_8py" kind="file"><name>armor_exceptions.py</name>
+  </compound>
+  <compound refid="armor__manipulation__client_8py" kind="file"><name>armor_manipulation_client.py</name>
+  </compound>
+  <compound refid="armor__query__client_8py" kind="file"><name>armor_query_client.py</name>
+  </compound>
+  <compound refid="armor__utils__client_8py" kind="file"><name>armor_utils_client.py</name>
+  </compound>
+  <compound refid="client__test_8py" kind="file"><name>client_test.py</name>
+  </compound>
+  <compound refid="architecture__name__mapper_8py" kind="file"><name>architecture_name_mapper.py</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
+  <compound refid="todo" kind="page"><name>todo</name>
+  </compound>
+  <compound refid="dir_24fab40fc2732f128295dd90e2e29ba6" kind="dir"><name>utilities/armor_api</name>
+  </compound>
+  <compound refid="dir_41ddc396a94ce2b6c7df9d8e1b6c61a4" kind="dir"><name>aruco_ros/aruco/src/aruco</name>
+  </compound>
+  <compound refid="dir_55434c3d32e5824cf6fcea5d63cb7053" kind="dir"><name>aruco_ros/aruco/include/aruco</name>
+  </compound>
+  <compound refid="dir_c96833ec69e5d153a7927e790f765ccf" kind="dir"><name>aruco_ros/aruco</name>
+  </compound>
+  <compound refid="dir_9fe4adf88796342f6a16b5600624a386" kind="dir"><name>aruco_ros/aruco_msgs</name>
+  </compound>
+  <compound refid="dir_f3943b26ff311151f15efa388b51f622" kind="dir"><name>aruco_ros</name>
+  </compound>
+  <compound refid="dir_d11c0bfc89fc550fabb4a72b71115364" kind="dir"><name>aruco_ros/aruco_ros/include/aruco_ros</name>
+  </compound>
+  <compound refid="dir_3e8f19c710def292de402344e20d78e1" kind="dir"><name>aruco_ros/aruco_ros</name>
+  </compound>
+  <compound refid="dir_eb3f4ad10a695a66749a76a2f4c5f387" kind="dir"><name>utilities/assignment_1</name>
+  </compound>
+  <compound refid="dir_324471aff79e58983d43e9586f092582" kind="dir"><name>aruco_ros/aruco_ros/include</name>
+  </compound>
+  <compound refid="dir_697faaa43993fb7b3fb9965eaaec09b2" kind="dir"><name>aruco_ros/aruco/include</name>
+  </compound>
+  <compound refid="dir_22c8f002cd5de39af5b8d45f06b96c1f" kind="dir"><name>aruco_ros/aruco/src/aruco/markerlabelers</name>
+  </compound>
+  <compound refid="dir_53e6fa9553ac22a5646d2a2b2d7b97a1" kind="dir"><name>scripts</name>
+  </compound>
+  <compound refid="dir_22422a982b8564588243ff05d2777655" kind="dir"><name>aruco_ros/aruco/src</name>
+  </compound>
+  <compound refid="dir_fd843b7c277051a10667414cd4a0302f" kind="dir"><name>aruco_ros/aruco_ros/src</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_df38b2a5d584e0f6066b4518b95c638b" kind="dir"><name>utilities</name>
+  </compound>
+</doxygenindex>

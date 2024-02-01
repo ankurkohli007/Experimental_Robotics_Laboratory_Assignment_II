@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1helper_1_1_interface_helper" kind="class" language="Python" prot="public">
+    <compoundname>scripts::helper::InterfaceHelper</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_interface_helper_1a4af586f9c051bc6ed185497516e933fe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.InterfaceHelper::mutex</definition>
+        <argsstring></argsstring>
+        <name>mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="224" column="1" bodyfile="scripts/helper.py" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_interface_helper_1a1b5ddbc05746177a9923c3d1a88a2447" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.InterfaceHelper::planner_client</definition>
+        <argsstring></argsstring>
+        <name>planner_client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="230" column="1" bodyfile="scripts/helper.py" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_interface_helper_1a82111907b4975d2ef2394ae36ddca117" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.InterfaceHelper::controller_client</definition>
+        <argsstring></argsstring>
+        <name>controller_client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="231" column="1" bodyfile="scripts/helper.py" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_interface_helper_1a1a676e1018646046bc82434288d2051f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.InterfaceHelper::_battery_low</definition>
+        <argsstring></argsstring>
+        <name>_battery_low</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="244" column="1" bodyfile="scripts/helper.py" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_interface_helper_1a596cfc29bec05654fcd9f9696f86bfec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.InterfaceHelper.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="222" column="1" bodyfile="scripts/helper.py" bodystart="222" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_interface_helper_1aeb73b53d49243ab745d169b4fa04948a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.InterfaceHelper.reset_states</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset_states</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function designed to reset the stimulus related to the battery, stored as a state variable, under the assumption that no states of the Finite State Machine run concurrently.
+
+Args: 
+    None
+
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="233" column="1" bodyfile="scripts/helper.py" bodystart="233" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_interface_helper_1a01b2d00360a4ae90ba428e4012cfa3cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.InterfaceHelper.battery_callback_</definition>
+        <argsstring>(self, msg)</argsstring>
+        <name>battery_callback_</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>msg</type>
+          <defname>msg</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A subscriber function responsible for receiving messages published by the `robot_state` node on the `/state/battery_low/` topic.
+
+Args:
+    msg(Bool): battery status
+    
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="246" column="1" bodyfile="scripts/helper.py" bodystart="246" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_interface_helper_1af0f568770822d23f775f79983c1343f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.InterfaceHelper.is_battery_low</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_battery_low</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function designed to retrieve the state variable related to the battery level encoded within this class.
+
+Args:
+    None
+
+Returns:
+    Bool: Returns `True` if the battery is in a low state, and `False` otherwise.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="266" column="1" bodyfile="scripts/helper.py" bodystart="266" bodyend="278"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_interface_helper_1a2ed15ac28e35d484f946799b2eaefefc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.InterfaceHelper.init_robot_pose</definition>
+        <argsstring>(point)</argsstring>
+        <name>init_robot_pose</name>
+        <param>
+          <type>point</type>
+          <defname>point</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function responsible for updating the robot&apos;s current position, stored within the `robot_state` node.
+
+Args:
+    point(Point): A point that represents the robot&apos;s pose using (x, y) coordinates.
+    
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="280" column="1" bodyfile="scripts/helper.py" bodystart="280" bodyend="300"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This class serves to separate the implementation of the Finite State Machine from the stimuli that trigger state transitions. It handles synchronization with subscribers and action servers, enhancing modularity 
+and organization in the system architecture.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/helper.py" line="216" column="1" bodyfile="scripts/helper.py" bodystart="216" bodyend="301"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1a596cfc29bec05654fcd9f9696f86bfec" prot="public" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1a1a676e1018646046bc82434288d2051f" prot="private" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>_battery_low</name></member>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1a01b2d00360a4ae90ba428e4012cfa3cc" prot="public" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>battery_callback_</name></member>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1a82111907b4975d2ef2394ae36ddca117" prot="public" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>controller_client</name></member>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1a2ed15ac28e35d484f946799b2eaefefc" prot="public" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>init_robot_pose</name></member>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1af0f568770822d23f775f79983c1343f4" prot="public" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>is_battery_low</name></member>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1a4af586f9c051bc6ed185497516e933fe" prot="public" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>mutex</name></member>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1a1b5ddbc05746177a9923c3d1a88a2447" prot="public" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>planner_client</name></member>
+      <member refid="classscripts_1_1helper_1_1_interface_helper_1aeb73b53d49243ab745d169b4fa04948a" prot="public" virt="non-virtual"><scope>scripts::helper::InterfaceHelper</scope><name>reset_states</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

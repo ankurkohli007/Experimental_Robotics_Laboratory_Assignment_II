@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classarmor__api_1_1armor__client_1_1_armor_client" kind="class" language="Python" prot="public">
+    <compoundname>armor_api::armor_client::ArmorClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1a4aa034dfd63c295f18747cf7e7b2b4ef" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::_handle</definition>
+        <argsstring></argsstring>
+        <name>_handle</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="28" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1aad699d31f13c567067675986114f2b16" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::_serial_handle</definition>
+        <argsstring></argsstring>
+        <name>_serial_handle</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="29" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1a50dc7200c5756522134205fcad9559d3" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::_service_name</definition>
+        <argsstring></argsstring>
+        <name>_service_name</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="30" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1a0059723b7ddf18d1fc5e9a63fce426bc" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::_serial_service_name</definition>
+        <argsstring></argsstring>
+        <name>_serial_service_name</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="31" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1acf2bbfdc1bce69e31ffb4abbf2df79df" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::_buffered_commands_list</definition>
+        <argsstring></argsstring>
+        <name>_buffered_commands_list</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="32" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1a40ca3f8e5a9ab3d65c77e4858d535779" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::reference_name</definition>
+        <argsstring></argsstring>
+        <name>reference_name</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="34" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1a99bc7c3c95717c99ccb73dfa7e445d94" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::client_id</definition>
+        <argsstring></argsstring>
+        <name>client_id</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="35" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1aacb177b5c9b2968b41491d58d89545b9" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int armor_api.armor_client.ArmorClient::timeout</definition>
+        <argsstring></argsstring>
+        <name>timeout</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="36" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1a0d24eba637b6a85afbc2e6d763ead20e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::manipulation</definition>
+        <argsstring></argsstring>
+        <name>manipulation</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="38" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1a1f67596c11bdbf5c10b367d53481c2d3" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::query</definition>
+        <argsstring></argsstring>
+        <name>query</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="39" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1a40fe59806af0d77072c14ed1f418d1a6" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::utils</definition>
+        <argsstring></argsstring>
+        <name>utils</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="40" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classarmor__api_1_1armor__client_1_1_armor_client_1ad2572ed53d3de2eb347ffac95996c424" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_client.ArmorClient::timeout</definition>
+        <argsstring></argsstring>
+        <name>timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="47" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classarmor__api_1_1armor__client_1_1_armor_client_1ac530f89a2e81980ef3484b00f3b70361" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_client.ArmorClient.__init__</definition>
+        <argsstring>(self, client_id, reference_name, service_name=&apos;/armor_interface_srv&apos;, serial_service_name=&apos;/armor_interface_serialized_srv&apos;, timeout=5)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>client_id</type>
+          <defname>client_id</defname>
+        </param>
+        <param>
+          <type>reference_name</type>
+          <defname>reference_name</defname>
+        </param>
+        <param>
+          <type>service_name</type>
+          <defname>service_name</defname>
+          <defval>&apos;/armor_interface_srv&apos;</defval>
+        </param>
+        <param>
+          <type>serial_service_name</type>
+          <defname>serial_service_name</defname>
+          <defval>&apos;/armor_interface_serialized_srv&apos;</defval>
+        </param>
+        <param>
+          <type>timeout</type>
+          <defname>timeout</defname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="44" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="44" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__client_1_1_armor_client_1a43087b28f88045f26e19738e490fcbe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_client.ArmorClient.call</definition>
+        <argsstring>(self, command, first_spec, second_spec, args_list)</argsstring>
+        <name>call</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>command</type>
+          <defname>command</defname>
+        </param>
+        <param>
+          <type>first_spec</type>
+          <defname>first_spec</defname>
+        </param>
+        <param>
+          <type>second_spec</type>
+          <defname>second_spec</defname>
+        </param>
+        <param>
+          <type>args_list</type>
+          <defname>args_list</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="58" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="58" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classarmor__api_1_1armor__client_1_1_armor_client_1a4c46d50a6d0abdbba2538ffa2ac49081" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_client.ArmorClient._prepare_request</definition>
+        <argsstring>(self, command, first_spec, second_spec, args_list)</argsstring>
+        <name>_prepare_request</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>command</type>
+          <defname>command</defname>
+        </param>
+        <param>
+          <type>first_spec</type>
+          <defname>first_spec</defname>
+        </param>
+        <param>
+          <type>second_spec</type>
+          <defname>second_spec</defname>
+        </param>
+        <param>
+          <type>args_list</type>
+          <defname>args_list</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_client.py" line="64" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="64" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>object</label>
+      </node>
+      <node id="1">
+        <label>armor_api.armor_client.ArmorClient</label>
+        <link refid="classarmor__api_1_1armor__client_1_1_armor_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>object</label>
+      </node>
+      <node id="1">
+        <label>armor_api.armor_client.ArmorClient</label>
+        <link refid="classarmor__api_1_1armor__client_1_1_armor_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="utilities/armor_api/armor_client.py" line="27" column="1" bodyfile="utilities/armor_api/armor_client.py" bodystart="27" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1ac530f89a2e81980ef3484b00f3b70361" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>__init__</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1acf2bbfdc1bce69e31ffb4abbf2df79df" prot="private" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>_buffered_commands_list</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a4aa034dfd63c295f18747cf7e7b2b4ef" prot="private" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>_handle</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a4c46d50a6d0abdbba2538ffa2ac49081" prot="private" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>_prepare_request</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1aad699d31f13c567067675986114f2b16" prot="private" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>_serial_handle</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a0059723b7ddf18d1fc5e9a63fce426bc" prot="private" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>_serial_service_name</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a50dc7200c5756522134205fcad9559d3" prot="private" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>_service_name</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a43087b28f88045f26e19738e490fcbe4" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>call</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a99bc7c3c95717c99ccb73dfa7e445d94" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>client_id</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a0d24eba637b6a85afbc2e6d763ead20e" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>manipulation</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a1f67596c11bdbf5c10b367d53481c2d3" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>query</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a40ca3f8e5a9ab3d65c77e4858d535779" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>reference_name</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1aacb177b5c9b2968b41491d58d89545b9" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>timeout</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1ad2572ed53d3de2eb347ffac95996c424" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>timeout</name></member>
+      <member refid="classarmor__api_1_1armor__client_1_1_armor_client_1a40fe59806af0d77072c14ed1f418d1a6" prot="public" virt="non-virtual"><scope>armor_api::armor_client::ArmorClient</scope><name>utils</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

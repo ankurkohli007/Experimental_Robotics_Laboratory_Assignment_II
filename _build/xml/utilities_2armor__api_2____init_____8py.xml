@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="utilities_2armor__api_2____init_____8py" kind="file" language="Python">
+    <compoundname>__init__.py</compoundname>
+    <innernamespace refid="namespacearmor__api">armor_api</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacearmor__api" refkind="compound"><highlight class="comment">#!/usr/bin/env<sp/>python</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">The<sp/>**ArmorPy**<sp/>armor_api<sp/>module.</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral">Includes<sp/>three<sp/>commands<sp/>submodules:</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>+<sp/>**Manipulation**<sp/>-<sp/>commands<sp/>that<sp/>can<sp/>modify<sp/>the<sp/>information<sp/>stored<sp/>in<sp/>an<sp/>ontology.</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>+<sp/>**Query**<sp/>-<sp/>commands<sp/>used<sp/>to<sp/>query<sp/>information<sp/>from<sp/>the<sp/>ontology.</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>+<sp/>**Sysutil**<sp/>-<sp/>utility<sp/>commands<sp/>such<sp/>as<sp/>load/save<sp/>ontology,<sp/>toggle<sp/>ARMOR<sp/>logging,<sp/>etc.</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral">Also<sp/>includes:</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>+<sp/>**Exceptions**<sp/>-<sp/>All<sp/>exceptions<sp/>armor_api<sp/>commands<sp/>can<sp/>possibly<sp/>raise.</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>armor_manipulation_client,<sp/>armor_query_client,<sp/>armor_utils_client,<sp/>armor_exceptions,<sp/>armor_client</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">__author__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Alessio<sp/>Capitanelli&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">__copyright__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Copyright<sp/>2016,<sp/>ArmorPy&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">__license__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GNU&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">__version__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1.0.0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">__maintainer__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Alessio<sp/>Capitanelli&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">__email__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;alessio.capitanelli@dibris.unige.it&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">__status__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Development&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">__all__<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;ArmorManipulationClient.py&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;ArmorQueryClient.py&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;ArmorUtilsClient.py&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;ArmorExceptions.py&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;ArmorClient.py&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;TopologicalMap.py&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="utilities/armor_api/__init__.py"/>
+  </compounddef>
+</doxygen>

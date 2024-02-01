@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="armor__exceptions_8py" kind="file" language="Python">
+    <compoundname>armor_exceptions.py</compoundname>
+    <innerclass refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception" prot="public">armor_api::armor_exceptions::ArmorPyException</innerclass>
+    <innerclass refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_call_error" prot="public">armor_api::armor_exceptions::ArmorServiceCallError</innerclass>
+    <innerclass refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error" prot="public">armor_api::armor_exceptions::ArmorServiceInternalError</innerclass>
+    <innernamespace refid="namespacearmor__api_1_1armor__exceptions">armor_api::armor_exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacearmor__api_1_1armor__exceptions" refkind="compound"><highlight class="comment">#!/usr/bin/env<sp/>python</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">Exceptions<sp/>raised<sp/>by<sp/>Armor<sp/>Python<sp/>API<sp/>--ArmorPy</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">__author__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Alessio<sp/>Capitanelli&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">__copyright__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Copyright<sp/>2016,<sp/>ArmorPy&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">__license__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GNU&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">__version__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1.0.0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">__maintainer__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Alessio<sp/>Capitanelli&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">__email__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;alessio.capitanelli@dibris.unige.it&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">__status__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Development&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception" kindref="compound">ArmorPyException</ref>(Exception):</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>message):</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1a8d82ddb2fb30134207c9e180d614eba4" kindref="member">msg</ref><sp/>=<sp/>message</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(ArmorPyException,<sp/>self).__init__(self.<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1a8d82ddb2fb30134207c9e180d614eba4" kindref="member">msg</ref>)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_call_error" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_call_error" kindref="compound">ArmorServiceCallError</ref>(<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception" kindref="compound">ArmorPyException</ref>):</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>message):</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1a8d82ddb2fb30134207c9e180d614eba4" kindref="member">msg</ref><sp/>=<sp/>message</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(ArmorServiceCallError,<sp/>self).__init__(self.<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1a8d82ddb2fb30134207c9e180d614eba4" kindref="member">msg</ref>)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error" kindref="compound">ArmorServiceInternalError</ref>(<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception" kindref="compound">ArmorPyException</ref>):</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>message,<sp/>exit_code):</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1a8d82ddb2fb30134207c9e180d614eba4" kindref="member">msg</ref><sp/>=<sp/>message</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1a2586cf1605fbc7644d10491d5564738a" kindref="member">code</ref><sp/>=<sp/>exit_code</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err_msg<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ARMOR<sp/>internal<sp/>error<sp/>%s:<sp/>%s&quot;</highlight><highlight class="normal"><sp/>%<sp/>(self.<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error_1a2586cf1605fbc7644d10491d5564738a" kindref="member">code</ref>,<sp/>self.<ref refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception_1a8d82ddb2fb30134207c9e180d614eba4" kindref="member">msg</ref>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(ArmorServiceInternalError,<sp/>self).__init__(err_msg)</highlight></codeline>
+    </programlisting>
+    <location file="utilities/armor_api/armor_exceptions.py"/>
+  </compounddef>
+</doxygen>

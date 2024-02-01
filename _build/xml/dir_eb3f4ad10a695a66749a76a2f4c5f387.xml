@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_eb3f4ad10a695a66749a76a2f4c5f387" kind="dir">
+    <compoundname>utilities/assignment_1</compoundname>
+    <innerfile refid="utilities_2assignment__1_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="architecture__name__mapper_8py">architecture_name_mapper.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="utilities/assignment_1/"/>
+  </compounddef>
+</doxygen>

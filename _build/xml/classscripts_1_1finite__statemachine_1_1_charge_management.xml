@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1finite__statemachine_1_1_charge_management" kind="class" language="Python" prot="public">
+    <compoundname>scripts::finite_statemachine::ChargeManagement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">State</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_charge_management_1a15034befe5c2a96197b2b670d293cc96" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.ChargeManagement::_helper</definition>
+        <argsstring></argsstring>
+        <name>_helper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="484" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_charge_management_1a2fe33e2f406e4842ff2f81fba921591f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.ChargeManagement::_knowledge</definition>
+        <argsstring></argsstring>
+        <name>_knowledge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="485" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="485" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_charge_management_1a9e62c8dd495341cfd6db2711cdbf0d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.ChargeManagement.__init__</definition>
+        <argsstring>(self, interface_helper, knowledge_helper)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>interface_helper</type>
+          <defname>interface_helper</defname>
+        </param>
+        <param>
+          <type>knowledge_helper</type>
+          <defname>knowledge_helper</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="482" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="482" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_charge_management_1a80d7f05c95740a8c84a843f0c9a189c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.ChargeManagement.execute</definition>
+        <argsstring>(self, userdata)</argsstring>
+        <name>execute</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>userdata</type>
+          <defname>userdata</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function manages the transition from the `RECHARGING_BATTERY` state to the `NORMAL_STATE` state, 
+with the robot remaining in this state until the battery reaches an adequate level.
+ 
+Args:
+    userdata: not used
+
+Returns:
+    RECHARGING_COMPLETE(str): transition to NORMAL_STATE</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="492" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="492" bodyend="517"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This a class responsible for overseeing and managing the charging process for a robot, ensuring it effectively maintains its power source to continue its operations autonomously or as directed.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>State</label>
+      </node>
+      <node id="1">
+        <label>scripts.finite_statemachine.ChargeManagement</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_charge_management"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>State</label>
+      </node>
+      <node id="1">
+        <label>scripts.finite_statemachine.ChargeManagement</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_charge_management"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="scripts/finite_statemachine.py" line="477" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="477" bodyend="518"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1finite__statemachine_1_1_charge_management_1a9e62c8dd495341cfd6db2711cdbf0d33" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::ChargeManagement</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_charge_management_1a15034befe5c2a96197b2b670d293cc96" prot="private" virt="non-virtual"><scope>scripts::finite_statemachine::ChargeManagement</scope><name>_helper</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_charge_management_1a2fe33e2f406e4842ff2f81fba921591f" prot="private" virt="non-virtual"><scope>scripts::finite_statemachine::ChargeManagement</scope><name>_knowledge</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_charge_management_1a80d7f05c95740a8c84a843f0c9a189c4" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::ChargeManagement</scope><name>execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

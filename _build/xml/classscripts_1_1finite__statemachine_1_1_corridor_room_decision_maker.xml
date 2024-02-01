@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker" kind="class" language="Python" prot="public">
+    <compoundname>scripts::finite_statemachine::CorridorRoomDecisionMaker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">State</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1aff5b88764fc3f24bc8282eb59b1ee431" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.CorridorRoomDecisionMaker::_helper</definition>
+        <argsstring></argsstring>
+        <name>_helper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="230" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a985182f538473cf1770da9ea445da47e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.CorridorRoomDecisionMaker::_knowledge</definition>
+        <argsstring></argsstring>
+        <name>_knowledge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="231" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1ab3f9da93a6e18c6cbb2c839dd4656fd9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.CorridorRoomDecisionMaker::environment_size</definition>
+        <argsstring></argsstring>
+        <name>environment_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="233" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a3ae3b58c67aefe9d826329ada8887d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.CorridorRoomDecisionMaker.__init__</definition>
+        <argsstring>(self, interface_helper, knowledge_helper)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>interface_helper</type>
+          <defname>interface_helper</defname>
+        </param>
+        <param>
+          <type>knowledge_helper</type>
+          <defname>knowledge_helper</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="227" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="227" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a2af7d90b8ec6db63537882b58fbf80c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.CorridorRoomDecisionMaker.execute</definition>
+        <argsstring>(self, userdata)</argsstring>
+        <name>execute</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>userdata</type>
+          <defname>userdata</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function manages transitions between the `CHOOSING_PATH` state and either `RECHARGING_BATTERY`, `MOVING_TO_CORRIDOR`, or `URGENT_SELECTION` states, based on conditions: low battery triggers
+`RECHARGING_BATTERY`, corridor target leads to `MOVING_TO_CORRIDOR`, and an urgent room prompts `URGENT_SELECTION`, utilizing a planner for path planning.
+
+Args:
+    userdata: utilized in output_keys to convey information to subsequent states in the process.
+
+Returns:
+    RECHARGING_IN_PROGRESS (str): transition to RECHARGING_BATTERY.
+
+Returns:
+    URGENT_CHOICE_MADE (str): transition to the URGENT_SELECTION.
+    
+.Returns:
+    CORRIDOR_CHOICE_MADE (str): transition to the CHOOSING_PATH.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="236" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="236" bodyend="302"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This class refers to a component or module which is responsible for making decisions related to corridors and rooms robot should reach, often used in navigation or robotics contexts.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>scripts.finite_statemachine.CorridorRoomDecisionMaker</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>State</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>scripts.finite_statemachine.CorridorRoomDecisionMaker</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>State</label>
+      </node>
+    </collaborationgraph>
+    <location file="scripts/finite_statemachine.py" line="222" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="222" bodyend="303"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a3ae3b58c67aefe9d826329ada8887d7a" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorRoomDecisionMaker</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1aff5b88764fc3f24bc8282eb59b1ee431" prot="private" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorRoomDecisionMaker</scope><name>_helper</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a985182f538473cf1770da9ea445da47e" prot="private" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorRoomDecisionMaker</scope><name>_knowledge</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1ab3f9da93a6e18c6cbb2c839dd4656fd9" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorRoomDecisionMaker</scope><name>environment_size</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker_1a2af7d90b8ec6db63537882b58fbf80c3" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorRoomDecisionMaker</scope><name>execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

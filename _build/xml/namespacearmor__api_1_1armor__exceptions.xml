@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacearmor__api_1_1armor__exceptions" kind="namespace" language="Python">
+    <compoundname>armor_api::armor_exceptions</compoundname>
+    <innerclass refid="classarmor__api_1_1armor__exceptions_1_1_armor_py_exception" prot="public">armor_api::armor_exceptions::ArmorPyException</innerclass>
+    <innerclass refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_call_error" prot="public">armor_api::armor_exceptions::ArmorServiceCallError</innerclass>
+    <innerclass refid="classarmor__api_1_1armor__exceptions_1_1_armor_service_internal_error" prot="public">armor_api::armor_exceptions::ArmorServiceInternalError</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__exceptions_1a5f137c7ad6467bb455a1de29dd60e8ec" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_exceptions.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <initializer>=  &quot;Alessio Capitanelli&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="7" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__exceptions_1a5d40b856a6a3c92de19b8abb7119bd0a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_exceptions.__copyright__</definition>
+        <argsstring></argsstring>
+        <name>__copyright__</name>
+        <initializer>=  &quot;Copyright 2016, ArmorPy&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="8" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__exceptions_1a46a3e8257f405036ce0960c9b266e3c0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_exceptions.__license__</definition>
+        <argsstring></argsstring>
+        <name>__license__</name>
+        <initializer>=  &quot;GNU&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="9" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__exceptions_1afb8bc77af7359dd76ec783dbeb4f4963" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_exceptions.__version__</definition>
+        <argsstring></argsstring>
+        <name>__version__</name>
+        <initializer>=  &quot;1.0.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="10" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__exceptions_1a4638efbd666d348e93c35a8b13e01da2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_exceptions.__maintainer__</definition>
+        <argsstring></argsstring>
+        <name>__maintainer__</name>
+        <initializer>=  &quot;Alessio Capitanelli&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="11" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__exceptions_1af2e633ceae594ba72e4c1666f99f6884" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_exceptions.__email__</definition>
+        <argsstring></argsstring>
+        <name>__email__</name>
+        <initializer>=  &quot;alessio.capitanelli@dibris.unige.it&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="12" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__exceptions_1a9fc6755b12d1320d4f60134d34a24eca" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_exceptions.__status__</definition>
+        <argsstring></argsstring>
+        <name>__status__</name>
+        <initializer>=  &quot;Development&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_exceptions.py" line="13" column="1" bodyfile="utilities/armor_api/armor_exceptions.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Exceptions raised by Armor Python API --ArmorPy
+</verbatim> </para>
+    </detaileddescription>
+    <location file="utilities/armor_api/armor_exceptions.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

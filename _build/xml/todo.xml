@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="todo" kind="page">
+    <compoundname>todo</compoundname>
+    <title>Todo List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Member <ref refid="classaruco_1_1_dictionary_1a283574d1fa128c868902ec6ac3a49735" kindref="member">aruco::Dictionary::createMarkerMap</ref>  (cv::Size gridSize, int MarkerSize, int MarkerDistance, const std::vector&lt; int &gt; &amp;Ids, bool chess_board=false)</term></varlistentry>
+<listitem><para><anchor id="todo_1_todo000001"/>use const auto &amp; </para>
+<para><anchor id="todo_1_todo000002"/>use const auto &amp; </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

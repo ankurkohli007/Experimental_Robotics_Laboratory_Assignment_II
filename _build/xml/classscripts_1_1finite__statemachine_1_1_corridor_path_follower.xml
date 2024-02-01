@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1finite__statemachine_1_1_corridor_path_follower" kind="class" language="Python" prot="public">
+    <compoundname>scripts::finite_statemachine::CorridorPathFollower</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">State</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1a8e995eb2aa487bab0562a4a20a761ef1" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.CorridorPathFollower::_helper</definition>
+        <argsstring></argsstring>
+        <name>_helper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="310" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1af8e23b7a4690f45fce3910d5646236c3" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.CorridorPathFollower::_knowledge</definition>
+        <argsstring></argsstring>
+        <name>_knowledge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="311" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1aea88f0f2813e2eadf64bc5dd555b4aa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.CorridorPathFollower.__init__</definition>
+        <argsstring>(self, interface_helper, knowledge_helper)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>interface_helper</type>
+          <defname>interface_helper</defname>
+        </param>
+        <param>
+          <type>knowledge_helper</type>
+          <defname>knowledge_helper</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="308" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="308" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1a4ee8579a444766cb37c20df81dcc49e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.CorridorPathFollower.execute</definition>
+        <argsstring>(self, userdata)</argsstring>
+        <name>execute</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>userdata</type>
+          <defname>userdata</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function manages transitions between the `MOVING_TO_CORRIDOR` state and either `RECHARGING_BATTERY` or `CHOOSING_PATH`, where it guides the robot to a designated corridor, ensures it remains 
+there for a specified duration, and employs a controller for robot movement.
+
+Args:
+    userdata: utilize input_keys to retrieve data and output_keys to transmit data between components or states in the system.
+Returns:
+    RECHARGING_IN_PROGRESS(str): transition to the RECHARGING_BATTERY.
+
+Returns:
+    MOVING_IN_CORRIDOR(str): transition to STATE_DECISION_CORRIDOR.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="315" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="315" bodyend="394"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>A class designed to facilitate the robot&apos;s movement to a previously obtained corridor.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>State</label>
+      </node>
+      <node id="1">
+        <label>scripts.finite_statemachine.CorridorPathFollower</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>State</label>
+      </node>
+      <node id="1">
+        <label>scripts.finite_statemachine.CorridorPathFollower</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="scripts/finite_statemachine.py" line="303" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="303" bodyend="395"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1aea88f0f2813e2eadf64bc5dd555b4aa9" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorPathFollower</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1a8e995eb2aa487bab0562a4a20a761ef1" prot="private" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorPathFollower</scope><name>_helper</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1af8e23b7a4690f45fce3910d5646236c3" prot="private" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorPathFollower</scope><name>_knowledge</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower_1a4ee8579a444766cb37c20df81dcc49e1" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::CorridorPathFollower</scope><name>execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

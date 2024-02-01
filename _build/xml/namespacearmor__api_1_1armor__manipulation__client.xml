@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacearmor__api_1_1armor__manipulation__client" kind="namespace" language="Python">
+    <compoundname>armor_api::armor_manipulation_client</compoundname>
+    <innerclass refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client" prot="public">armor_api::armor_manipulation_client::ArmorManipulationClient</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__manipulation__client_1a24c3a7208c343ed14a61ec77d99842f2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_manipulation_client.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <initializer>=  &quot;Alessio Capitanelli&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="10" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__manipulation__client_1afd11c8e3725afd1fec83eeb419f11726" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_manipulation_client.__copyright__</definition>
+        <argsstring></argsstring>
+        <name>__copyright__</name>
+        <initializer>=  &quot;Copyright 2016, ArmorPy&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="11" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__manipulation__client_1a569df08746f0deb9b87316dc8c72cd46" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_manipulation_client.__license__</definition>
+        <argsstring></argsstring>
+        <name>__license__</name>
+        <initializer>=  &quot;GNU&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="12" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__manipulation__client_1a7579176cefbdc5e4caa5e83785509533" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_manipulation_client.__version__</definition>
+        <argsstring></argsstring>
+        <name>__version__</name>
+        <initializer>=  &quot;1.0.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="13" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__manipulation__client_1a526e97cd1f3285b3ed9df99de362d1dd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_manipulation_client.__maintainer__</definition>
+        <argsstring></argsstring>
+        <name>__maintainer__</name>
+        <initializer>=  &quot;Alessio Capitanelli&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="14" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__manipulation__client_1a1a75c773d3ed4829169abede766cf233" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_manipulation_client.__email__</definition>
+        <argsstring></argsstring>
+        <name>__email__</name>
+        <initializer>=  &quot;alessio.capitanelli@dibris.unige.it&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="15" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1_1armor__manipulation__client_1aa45fba8d237bb86df94fcdad0ff44cbd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api::armor_manipulation_client.__status__</definition>
+        <argsstring></argsstring>
+        <name>__status__</name>
+        <initializer>=  &quot;Development&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="16" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Manipulation commands for Armor Python API --ArmorPy.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="utilities/armor_api/armor_manipulation_client.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

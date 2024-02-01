@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_41ddc396a94ce2b6c7df9d8e1b6c61a4" kind="dir">
+    <compoundname>aruco_ros/aruco/src/aruco</compoundname>
+    <innerdir refid="dir_22c8f002cd5de39af5b8d45f06b96c1f">aruco_ros/aruco/src/aruco/markerlabelers</innerdir>
+    <innerfile refid="cameraparameters_8cpp">cameraparameters.cpp</innerfile>
+    <innerfile refid="cvdrawingutils_8cpp">cvdrawingutils.cpp</innerfile>
+    <innerfile refid="debug_8cpp">debug.cpp</innerfile>
+    <innerfile refid="dictionary_8cpp">dictionary.cpp</innerfile>
+    <innerfile refid="ippe_8cpp">ippe.cpp</innerfile>
+    <innerfile refid="marker_8cpp">marker.cpp</innerfile>
+    <innerfile refid="markerdetector_8cpp">markerdetector.cpp</innerfile>
+    <innerfile refid="markerlabeler_8cpp">markerlabeler.cpp</innerfile>
+    <innerfile refid="markermap_8cpp">markermap.cpp</innerfile>
+    <innerfile refid="posetracker_8cpp">posetracker.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="aruco_ros/aruco/src/aruco/"/>
+  </compounddef>
+</doxygen>

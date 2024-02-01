@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacearmor__api" kind="namespace" language="Python">
+    <compoundname>armor_api</compoundname>
+    <innernamespace refid="namespacearmor__api_1_1armor__client">armor_api::armor_client</innernamespace>
+    <innernamespace refid="namespacearmor__api_1_1armor__exceptions">armor_api::armor_exceptions</innernamespace>
+    <innernamespace refid="namespacearmor__api_1_1armor__manipulation__client">armor_api::armor_manipulation_client</innernamespace>
+    <innernamespace refid="namespacearmor__api_1_1armor__query__client">armor_api::armor_query_client</innernamespace>
+    <innernamespace refid="namespacearmor__api_1_1armor__utils__client">armor_api::armor_utils_client</innernamespace>
+    <innernamespace refid="namespacearmor__api_1_1client__test">armor_api::client_test</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacearmor__api_1a5f100377f44c4b765c3735a6029cad35" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <initializer>=  &quot;Alessio Capitanelli&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/__init__.py" line="21" column="1" bodyfile="utilities/armor_api/__init__.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1a01b53f65fa3073b26585d82b2b381215" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api.__copyright__</definition>
+        <argsstring></argsstring>
+        <name>__copyright__</name>
+        <initializer>=  &quot;Copyright 2016, ArmorPy&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/__init__.py" line="22" column="1" bodyfile="utilities/armor_api/__init__.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1a1c730ef977c7a2027cd94ff6f8180fed" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api.__license__</definition>
+        <argsstring></argsstring>
+        <name>__license__</name>
+        <initializer>=  &quot;GNU&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/__init__.py" line="23" column="1" bodyfile="utilities/armor_api/__init__.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1a6957c36d8c4c72c90085cf77ca1f84fe" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api.__version__</definition>
+        <argsstring></argsstring>
+        <name>__version__</name>
+        <initializer>=  &quot;1.0.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/__init__.py" line="24" column="1" bodyfile="utilities/armor_api/__init__.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1a4da7e03143fecbf46b9f199d092a9ffb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api.__maintainer__</definition>
+        <argsstring></argsstring>
+        <name>__maintainer__</name>
+        <initializer>=  &quot;Alessio Capitanelli&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/__init__.py" line="25" column="1" bodyfile="utilities/armor_api/__init__.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1a86a58f4312604fa8b127f358232d8d9e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api.__email__</definition>
+        <argsstring></argsstring>
+        <name>__email__</name>
+        <initializer>=  &quot;alessio.capitanelli@dibris.unige.it&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/__init__.py" line="26" column="1" bodyfile="utilities/armor_api/__init__.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1a7d8d163804953f7cf9e71003dfdad5de" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string armor_api.__status__</definition>
+        <argsstring></argsstring>
+        <name>__status__</name>
+        <initializer>=  &quot;Development&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/__init__.py" line="27" column="1" bodyfile="utilities/armor_api/__init__.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacearmor__api_1aef048da471eb586e98fbd8f680bfffef" prot="private" static="no" mutable="no">
+        <type>list</type>
+        <definition>list armor_api.__all__</definition>
+        <argsstring></argsstring>
+        <name>__all__</name>
+        <initializer>=  [&apos;ArmorManipulationClient.py&apos;, &apos;ArmorQueryClient.py&apos;, &apos;ArmorUtilsClient.py&apos;, &apos;ArmorExceptions.py&apos;, &apos;ArmorClient.py&apos;, &apos;TopologicalMap.py&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/__init__.py" line="29" column="1" bodyfile="utilities/armor_api/__init__.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The **ArmorPy** armor_api module.
+
+Includes three commands submodules:
+
+    + **Manipulation** - commands that can modify the information stored in an ontology.
+
+    + **Query** - commands used to query information from the ontology.
+
+    + **Sysutil** - utility commands such as load/save ontology, toggle ARMOR logging, etc.
+
+Also includes:
+
+    + **Exceptions** - All exceptions armor_api commands can possibly raise.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="utilities/armor_api/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacescripts_1_1load__environment" kind="namespace" language="Python">
+    <compoundname>scripts::load_environment</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacescripts_1_1load__environment_1a2860c5c4fd7cbbd38924dd8a4a4a1cd1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts::load_environment.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <initializer>=  <ref refid="classarmor__api_1_1armor__client_1_1_armor_client" kindref="compound">ArmorClient</ref>(&quot;armor_client&quot;, &quot;my_ontology&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/load_environment.py" line="19" column="1" bodyfile="scripts/load_environment.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1load__environment_1a7af971dfc7cf29d2d815be85f64368af" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>string scripts::load_environment::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer>=  dirname(realpath(__file__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/load_environment.py" line="21" column="1" bodyfile="scripts/load_environment.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacescripts_1_1load__environment_1add645c9db705915749997032ec1b6441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.load_environment.LoadKnowledgeGraph</definition>
+        <argsstring>()</argsstring>
+        <name>LoadKnowledgeGraph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/load_environment.py" line="31" column="1" bodyfile="scripts/load_environment.py" bodystart="31" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>.. module:: load_environment
+   :platform: Unix
+   :synopsis: &quot;load_environment&quot; typically refers to a process of loading or importing ontological data(environment), often used in 
+      knowledge management systems or semantic web applications. Also, This node helps to load the environmental map to the robot
+
+.. moduleauthor:: Ankur Kohli
+
+ Client:
+    /armor_client: A client used to interact with the aRMOR server for the purpose of ontology creation.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/load_environment.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

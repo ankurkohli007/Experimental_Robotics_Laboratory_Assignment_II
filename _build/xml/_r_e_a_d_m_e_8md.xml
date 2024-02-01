@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Assignment2</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>second<sp/>assignment<sp/>of<sp/>the<sp/>Experimental<sp/>Robotics<sp/>Laboratory<sp/>course,<sp/>you<sp/>are<sp/>requested<sp/>to<sp/>integrate<sp/>the<sp/>architecture<sp/>developed<sp/>in<sp/>the<sp/>first<sp/>assignment<sp/>with<sp/>a<sp/>robotic<sp/>simulation.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">To<sp/>start,<sp/>you<sp/>are<sp/>provided<sp/>with<sp/>this<sp/>package,<sp/>which<sp/>contains:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>the<sp/>definition<sp/>of<sp/>a<sp/>custom<sp/>message<sp/>and<sp/>a<sp/>custom<sp/>service</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>a<sp/>simulation<sp/>environment<sp/>representing<sp/>the<sp/>&quot;house&quot;<sp/>to<sp/>be<sp/>monitored</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>a<sp/>node<sp/>that<sp/>implements<sp/>a<sp/>service:<sp/>it<sp/>requires<sp/>the<sp/>id<sp/>(marker)<sp/>detected<sp/>by<sp/>the<sp/>robot<sp/>and<sp/>it<sp/>replies<sp/>with<sp/>the<sp/>information<sp/>about<sp/>the<sp/>corresponding<sp/>room<sp/>(name<sp/>of<sp/>the<sp/>room,<sp/>coordinates<sp/>of<sp/>the<sp/>center,<sp/>connections<sp/>with<sp/>other<sp/>rooms)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>A<sp/>launch<sp/>file,<sp/>which<sp/>starts<sp/>Gazebo<sp/>with<sp/>the<sp/>simulation<sp/>environment,<sp/>and<sp/>the<sp/>service<sp/>node<sp/>(assignment.launch).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>have<sp/>to:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Add<sp/>a<sp/>robot<sp/>to<sp/>the<sp/>environment;</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Integrate<sp/>(if<sp/>needed,<sp/>modify<sp/>it)<sp/>the<sp/>architecture<sp/>that<sp/>you<sp/>have<sp/>developed<sp/>in<sp/>the<sp/>first<sp/>assignment<sp/>to<sp/>the<sp/>given<sp/>scenario.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>particular,<sp/>the<sp/>robot<sp/>will<sp/>have<sp/>to:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Be<sp/>spawned<sp/>in<sp/>the<sp/>initial<sp/>position<sp/>x<sp/>=<sp/>-6.0,<sp/>y<sp/>=<sp/>11.0</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Build<sp/>the<sp/>&quot;semantic&quot;<sp/>map<sp/>of<sp/>the<sp/>environment<sp/>by<sp/>detecting,<sp/>without<sp/>moving<sp/>the<sp/>base<sp/>of<sp/>the<sp/>robot,<sp/>all<sp/>seven<sp/>markers<sp/>that<sp/>are<sp/>present<sp/>around<sp/>it,<sp/>by<sp/>calling<sp/>the<sp/>provided<sp/>service<sp/>node.<sp/>Try<sp/>to<sp/>&quot;scan&quot;<sp/>the<sp/>environment<sp/>in<sp/>a<sp/>comprehensive<sp/>way,<sp/>possibly<sp/>exploring<sp/>different<sp/>solutions<sp/>related<sp/>to<sp/>the<sp/>robot&apos;s<sp/>model.<sp/></highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Start<sp/>the<sp/>patrolling<sp/>algorithm<sp/>by<sp/>relying<sp/>on<sp/>autonomous<sp/>navigation<sp/>strategies<sp/>(mapping/planning)<sp/>and<sp/>on<sp/>the<sp/>information<sp/>collected<sp/>and<sp/>stored<sp/>in<sp/>the<sp/>ontology<sp/>during<sp/>the<sp/>previous<sp/>step.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>When<sp/>a<sp/>room<sp/>is<sp/>reached,<sp/>perform<sp/>a<sp/>complete<sp/>scan<sp/>of<sp/>the<sp/>room<sp/>(by<sp/>rotating<sp/>the<sp/>base<sp/>or<sp/>the<sp/>camera).</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

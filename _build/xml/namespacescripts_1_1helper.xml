@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacescripts_1_1helper" kind="namespace" language="Python">
+    <compoundname>scripts::helper</compoundname>
+    <innerclass refid="classscripts_1_1helper_1_1_action_client_helper" prot="public">scripts::helper::ActionClientHelper</innerclass>
+    <innerclass refid="classscripts_1_1helper_1_1_interface_helper" prot="public">scripts::helper::InterfaceHelper</innerclass>
+    <innerclass refid="classscripts_1_1helper_1_1_knowledge_graph_helper" prot="public">scripts::helper::KnowledgeGraphHelper</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacescripts_1_1helper_1a6ae573fac116eebf8624b0616c747aa8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts::helper.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <initializer>=  <ref refid="classarmor__api_1_1armor__client_1_1_armor_client" kindref="compound">ArmorClient</ref>(&quot;armor_client&quot;, &quot;my_ontology&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="41" column="1" bodyfile="scripts/helper.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>.. module:: helper
+   :platform: Unix
+   :synopsis: A node equipped with Interface Helper and ActionClient Helper to facilitate the Finite State Machine by providing 
+  information about the action client&apos;s status and executing battery-related stimuli.
+
+.. moduleauthor:: Ankur Kohli &amp; Prof. Luca Buoncompagni
+
+Clients:
+    :armor_client- A client designed for communication with the aRMOR server.
+    :motion/planner- A client responsible for communicating with the planner server, enabling the planning of a random path with via points.
+    :motion/controller- A client designed for communication with the controller server, responsible for following the path provided by the planner server.
+Subscribers:
+    :state/battery_low- The battery state (high or low) is broadcast or published.
+Servers:
+    :state/set_pose- A server responsible for updating or setting the current robot pose within the robot-states node.</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/helper.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

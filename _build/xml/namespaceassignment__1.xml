@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceassignment__1" kind="namespace" language="Python">
+    <compoundname>assignment_1</compoundname>
+    <innernamespace refid="namespaceassignment__1_1_1architecture__name__mapper">assignment_1::architecture_name_mapper</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="utilities/assignment_1/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceassignment__1_1_1architecture__name__mapper" kind="namespace" language="Python">
+    <compoundname>assignment_1::architecture_name_mapper</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a3689443e2816016ba4f40aecd5cd28d6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.PARAM_ENVIRONMENT_SIZE</definition>
+        <argsstring></argsstring>
+        <name>PARAM_ENVIRONMENT_SIZE</name>
+        <initializer>=  &apos;config/environment_size&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="16" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a902a850ade85be5f6a3cbe2edac029c9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.PARAM_INITIAL_POSE</definition>
+        <argsstring></argsstring>
+        <name>PARAM_INITIAL_POSE</name>
+        <initializer>=  &apos;state/initial_pose&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="19" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a78b1d331403f664fd679d91b0226717c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.PARAM_RANDOM_ACTIVE</definition>
+        <argsstring></argsstring>
+        <name>PARAM_RANDOM_ACTIVE</name>
+        <initializer>=  &apos;test/random_sense/active&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="21" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a4a1d75b245b57155475bc80712b8502c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.NODE_ROBOT_STATE</definition>
+        <argsstring></argsstring>
+        <name>NODE_ROBOT_STATE</name>
+        <initializer>=  &apos;robot_states&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="24" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a3429096748363657d095f43297722a90" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.SERVER_GET_POSE</definition>
+        <argsstring></argsstring>
+        <name>SERVER_GET_POSE</name>
+        <initializer>=  &apos;state/get_pose&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="27" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a4fa7b503e5ee766ed3c34aa6b3cac364" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.SERVER_SET_POSE</definition>
+        <argsstring></argsstring>
+        <name>SERVER_SET_POSE</name>
+        <initializer>=  &apos;state/set_pose&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="30" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a0969b71248af073e22adbffbdfd1a0a0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.TOPIC_BATTERY_LOW</definition>
+        <argsstring></argsstring>
+        <name>TOPIC_BATTERY_LOW</name>
+        <initializer>=  &apos;state/battery_low&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="33" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a35cc4b839364e270576971cb3d209fa6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.ACTION_MOVEBASE</definition>
+        <argsstring></argsstring>
+        <name>ACTION_MOVEBASE</name>
+        <initializer>=  &apos;move_base&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="36" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a05486d02f34da255bfe6b14a635ff218" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float assignment_1::architecture_name_mapper.SLEEP_TIME</definition>
+        <argsstring></argsstring>
+        <name>SLEEP_TIME</name>
+        <initializer>=  0.3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="40" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a4331cb222779655b8d5c4956c89821ba" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.PARAM_BATTERY_TIME</definition>
+        <argsstring></argsstring>
+        <name>PARAM_BATTERY_TIME</name>
+        <initializer>=  &apos;test/random_sense/battery_time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="43" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a351aaf18a8305d35bb752b234e35c91d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int assignment_1::architecture_name_mapper.MONITOR_TIME</definition>
+        <argsstring></argsstring>
+        <name>MONITOR_TIME</name>
+        <initializer>=  5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="45" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1abbb0a58d55ca40f2feda27aa3934c546" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.NODE_PLANNER</definition>
+        <argsstring></argsstring>
+        <name>NODE_PLANNER</name>
+        <initializer>=  &apos;planner&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="48" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1ace9d1432858a46911b3029b183e00aaf" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.ACTION_PLANNER</definition>
+        <argsstring></argsstring>
+        <name>ACTION_PLANNER</name>
+        <initializer>=  &apos;motion/planner&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="51" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a6ebe1eb562098e2f332befcf7f60f257" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.PARAM_PLANNER_POINTS</definition>
+        <argsstring></argsstring>
+        <name>PARAM_PLANNER_POINTS</name>
+        <initializer>=  &apos;test/random_plan_points&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="55" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1a2ad4226e40ae9e73817dfa12857fcc0b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.PARAM_PLANNER_TIME</definition>
+        <argsstring></argsstring>
+        <name>PARAM_PLANNER_TIME</name>
+        <initializer>=  &apos;test/random_plan_time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="60" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1ac584772c04fcedf83fffccbd36a24cac" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.NODE_CONTROLLER</definition>
+        <argsstring></argsstring>
+        <name>NODE_CONTROLLER</name>
+        <initializer>=  &apos;controller&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="65" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1ab4f30aa01937417b10ab90d602146667" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.ACTION_CONTROLLER</definition>
+        <argsstring></argsstring>
+        <name>ACTION_CONTROLLER</name>
+        <initializer>=  &apos;motion/controller&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="68" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment__1_1_1architecture__name__mapper_1af581c1f4b05d3b509d094eed16036580" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string assignment_1::architecture_name_mapper.PARAM_CONTROLLER_TIME</definition>
+        <argsstring></argsstring>
+        <name>PARAM_CONTROLLER_TIME</name>
+        <initializer>=  &apos;test/random_motion_time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="73" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceassignment__1_1_1architecture__name__mapper_1a878608bbc9a39ac4bba58349e7476d97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def assignment_1.architecture_name_mapper.tag_log</definition>
+        <argsstring>(msg, producer_tag)</argsstring>
+        <name>tag_log</name>
+        <param>
+          <type>msg</type>
+          <defname>msg</defname>
+        </param>
+        <param>
+          <type>producer_tag</type>
+          <defname>producer_tag</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Function used to label each log with a producer tag.
+
+Args:
+    msg(Str): message that will be visualized
+    producer_tag(Str): tag identifying the log producer
+        
+Returns:
+    log_msg(Str): message for the log
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/assignment_1/architecture_name_mapper.py" line="77" column="1" bodyfile="utilities/assignment_1/architecture_name_mapper.py" bodystart="77" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>.. File:: architecture_name_mapper
+:synopsis: Python module containing the name of each node, topic, server, actions and parameters used in this architecture.
+
+.. author:: Aatheethyaa Dhanasekaran
+
+This module was created to define some useful parameters and the names of servers, nodes and topics, so that if the user wants to change them, they do not
+have to do so in every file, it is sufficient to change them here.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="utilities/assignment_1/architecture_name_mapper.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

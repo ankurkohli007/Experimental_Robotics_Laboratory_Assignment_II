@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacescripts_1_1finite__statemachine" kind="namespace" language="Python">
+    <compoundname>scripts::finite_statemachine</compoundname>
+    <innerclass refid="classscripts_1_1finite__statemachine_1_1_charge_management" prot="public">scripts::finite_statemachine::ChargeManagement</innerclass>
+    <innerclass refid="classscripts_1_1finite__statemachine_1_1_corridor_path_follower" prot="public">scripts::finite_statemachine::CorridorPathFollower</innerclass>
+    <innerclass refid="classscripts_1_1finite__statemachine_1_1_corridor_room_decision_maker" prot="public">scripts::finite_statemachine::CorridorRoomDecisionMaker</innerclass>
+    <innerclass refid="classscripts_1_1finite__statemachine_1_1_environment___scanning" prot="public">scripts::finite_statemachine::Environment_Scanning</innerclass>
+    <innerclass refid="classscripts_1_1finite__statemachine_1_1_environment_initializer" prot="public">scripts::finite_statemachine::EnvironmentInitializer</innerclass>
+    <innerclass refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder" prot="public">scripts::finite_statemachine::UrgentPathfinder</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1aba3a0b9884bece1d27fdf4170c20f720" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool scripts::finite_statemachine.reached</definition>
+        <argsstring></argsstring>
+        <name>reached</name>
+        <initializer>= False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="50" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a04169f776506a682c1c3e7536a33a3e3" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.INITIALIZING</definition>
+        <argsstring></argsstring>
+        <name>INITIALIZING</name>
+        <initializer>=  &apos;LOADING_MAP&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="54" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a3b82c7a24ea5fb8ebd493ff344f4e5b2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.CHOOSING_PATH</definition>
+        <argsstring></argsstring>
+        <name>CHOOSING_PATH</name>
+        <initializer>=  &apos;DETERMINING_CORRIDOR_OR_ROOM&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="55" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a672b4f306c73a469f629092d706783df" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.URGENT_SELECTION</definition>
+        <argsstring></argsstring>
+        <name>URGENT_SELECTION</name>
+        <initializer>=  &apos;CHOOSING_URGENT_ROOM&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="56" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1aeaa23f44b3b63d595cb58807b61e16f5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.MOVING_TO_CORRIDOR</definition>
+        <argsstring></argsstring>
+        <name>MOVING_TO_CORRIDOR</name>
+        <initializer>=  &quot;ON_CORRIDOR_MOVE&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="57" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a4fec927f3e02cbb7501cd151863c5423" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.MOVING_TO_URGENT</definition>
+        <argsstring></argsstring>
+        <name>MOVING_TO_URGENT</name>
+        <initializer>=  &quot;ON_URGENT_MOVE&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="58" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a872723eb0b474357a9dbfdacc7e31709" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.SURVEY_IN_PROGRESS</definition>
+        <argsstring></argsstring>
+        <name>SURVEY_IN_PROGRESS</name>
+        <initializer>=  &apos;EVALUATING_CORRIDOR_ROOM&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="59" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a88d0e861e3adcc0b36a7adc0d42bf6a2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.RECHARGING_BATTERY</definition>
+        <argsstring></argsstring>
+        <name>RECHARGING_BATTERY</name>
+        <initializer>=  &apos;RECHARGING_STATION&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="60" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1aa83d92c52667f4111c83b65d5e3de194" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.START_URGENT_OP</definition>
+        <argsstring></argsstring>
+        <name>START_URGENT_OP</name>
+        <initializer>= &apos;INITIATE_URGENT_OPERATION&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="61" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1ace21f5750e8fd06c3c52566e5856ae8f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.START_CORRIDOR_OP</definition>
+        <argsstring></argsstring>
+        <name>START_CORRIDOR_OP</name>
+        <initializer>= &apos;INITIATE_CORRIDOR_OPERATION&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="62" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a23f5c7b9d5f2852acdd6ab00d510d64f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.IN_ROOM</definition>
+        <argsstring></argsstring>
+        <name>IN_ROOM</name>
+        <initializer>= &apos;WITHIN_ROOM&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="63" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a3fb33dc77bde67b196b56cd6f6fadf53" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.INITIALIZATION_COMPLETE</definition>
+        <argsstring></argsstring>
+        <name>INITIALIZATION_COMPLETE</name>
+        <initializer>=  &apos;MAP_LOADED&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="67" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a4c3419e6dfa580337061e99f5548f140" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.CORRIDOR_CHOICE_MADE</definition>
+        <argsstring></argsstring>
+        <name>CORRIDOR_CHOICE_MADE</name>
+        <initializer>=  &apos;CORRIDOR_SELECTED&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="68" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1aa7be23d3126058cb45e1560c2c0fb52b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.MOVING_IN_CORRIDOR</definition>
+        <argsstring></argsstring>
+        <name>MOVING_IN_CORRIDOR</name>
+        <initializer>=  &apos;CORRIDOR_TRAVERSAL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="69" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a58e4187058370094cf237099e0717eda" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.URGENT_MOVE</definition>
+        <argsstring></argsstring>
+        <name>URGENT_MOVE</name>
+        <initializer>=  &apos;URGENT_ROOM_TRAVERSAL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="70" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1ab6dbc00be4d1b7ceb8ec0422c6ba4eb6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.URGENT_CHOICE_MADE</definition>
+        <argsstring></argsstring>
+        <name>URGENT_CHOICE_MADE</name>
+        <initializer>=  &apos;URGENT_ROOM_SELECTED&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="71" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a04cc3880047b11a94f7c515a3b936fda" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.LOW_BATTERY_WARNING</definition>
+        <argsstring></argsstring>
+        <name>LOW_BATTERY_WARNING</name>
+        <initializer>=  &apos;BATTERY_DEPLETION_WARNING&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="72" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a289a7ed8bc0f5450dae53894aad40b40" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.RECHARGING_IN_PROGRESS</definition>
+        <argsstring></argsstring>
+        <name>RECHARGING_IN_PROGRESS</name>
+        <initializer>=  &apos;BATTERY_RECHARGING&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="73" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1ad78da5d0502ce3e0c16d73dc08e3d668" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.RECHARGING_COMPLETE</definition>
+        <argsstring></argsstring>
+        <name>RECHARGING_COMPLETE</name>
+        <initializer>=  &apos;BATTERY_RECHARGED&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="74" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1a969605c00ff8e3f3a8e3d0336d9096b0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float scripts::finite_statemachine.LOOP_SLEEP_TIME</definition>
+        <argsstring></argsstring>
+        <name>LOOP_SLEEP_TIME</name>
+        <initializer>=  0.3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="78" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1ae2770279cd180c441dc5a369a685c875" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.SCAN_ENVIRONMENT</definition>
+        <argsstring></argsstring>
+        <name>SCAN_ENVIRONMENT</name>
+        <initializer>= &apos;SCAN&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="82" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1finite__statemachine_1ad3b753d2f5c8f67f033ae762b41506c7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string scripts::finite_statemachine.UPDATED_TRANSITION_STATE</definition>
+        <argsstring></argsstring>
+        <name>UPDATED_TRANSITION_STATE</name>
+        <initializer>=  &apos;SCANNED&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="85" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacescripts_1_1finite__statemachine_1a19172c6551b45d687c9501198db18b43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.rotate</definition>
+        <argsstring>(w)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>w</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Function responsible for the robot to rotate.
+
+Args:
+    w: Angular velocity</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="87" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="87" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacescripts_1_1finite__statemachine_1aa94ad567badc45f2accba503461756c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.rotate_arm_1</definition>
+        <argsstring>(w)</argsstring>
+        <name>rotate_arm_1</name>
+        <param>
+          <type>w</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Function responsible for rotating arm_1 to scan the markers
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="100" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="100" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacescripts_1_1finite__statemachine_1adb0d836a4d7ec91a9126eb0b94c86175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.rotate_arm_2</definition>
+        <argsstring>(w)</argsstring>
+        <name>rotate_arm_2</name>
+        <param>
+          <type>w</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Function responsible for rotating arm_2 to scan the markers
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="108" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="108" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacescripts_1_1finite__statemachine_1ac470b9d6c37219a1d1bd1460f5c6c6e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.rotate_base</definition>
+        <argsstring>(w)</argsstring>
+        <name>rotate_base</name>
+        <param>
+          <type>w</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Function responsible for rotating arm_base to scan the markers
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="116" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacescripts_1_1finite__statemachine_1a018d426329bc5cd5cc7bd1548c2f62bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.marker_CallBack</definition>
+        <argsstring>(data)</argsstring>
+        <name>marker_CallBack</name>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Function responsible for executing the CallBack when the /scan_marktopic is published.
+
+Args:
+    data: Marker data</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="125" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="125" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacescripts_1_1finite__statemachine_1a80e10c493fc88cefd86be2e42fd85a4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function constructs the state machine and specifies all the transitions, including the creation of two nested state machines.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="518" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="518" bodyend="578"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>.. module:: finite_statemachine
+   :platform: Unix
+   :synopsis: A finite state machine is a computational model that represents an entity&apos;s behaviour through a finite number of states 
+              and transitions between them. Also, Python module for implementing the Finite State Machine.
+
+.. moduleauthor:: Ankur Kohli
+
+In ROS (Robot Operating System), a finite state machine (FSM) is a programming paradigm that helps control a robot&apos;s behaviour by dividing its operation into distinct states and managing transitions between these states, allowing for organized and responsive robot control. Moreover, ROS node for implementing the Finite State Machine.
+
+
+This the core of all ROS nodes, the finite state machine, plays a pivotal role in orchestrating state changes, enabling the robot to achieve desired conditions by coordinating actions across two action servers.
+
+Service: 
+    /server_name: To visualize the finite state machine, initiate and activate the introspection server using sm_introspection.</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/finite_statemachine.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

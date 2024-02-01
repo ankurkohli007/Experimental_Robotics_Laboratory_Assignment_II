@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_df38b2a5d584e0f6066b4518b95c638b" kind="dir">
+    <compoundname>utilities</compoundname>
+    <innerdir refid="dir_24fab40fc2732f128295dd90e2e29ba6">utilities/armor_api</innerdir>
+    <innerdir refid="dir_eb3f4ad10a695a66749a76a2f4c5f387">utilities/assignment_1</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="utilities/"/>
+  </compounddef>
+</doxygen>

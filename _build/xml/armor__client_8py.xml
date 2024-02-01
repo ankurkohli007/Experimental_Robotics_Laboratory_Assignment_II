@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="armor__client_8py" kind="file" language="Python">
+    <compoundname>armor_client.py</compoundname>
+    <innerclass refid="classarmor__api_1_1armor__client_1_1_armor_client" prot="public">armor_api::armor_client::ArmorClient</innerclass>
+    <innernamespace refid="namespacearmor__api_1_1armor__client">armor_api::armor_client</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacearmor__api_1_1armor__client" refkind="compound"><highlight class="comment">#!/usr/bin/env<sp/>python</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">Python<sp/>client<sp/>manager<sp/>class<sp/>for<sp/>Armor<sp/>--ArmorPy.</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>armor_msgs.srv<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ArmorDirective,<sp/>ArmorDirectiveList,<sp/>ArmorDirectiveListRequest</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>armor_msgs.msg<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>_ArmorDirectiveReq</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacearmor__api_1_1armor__exceptions" kindref="compound">armor_api.armor_exceptions</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ArmorServiceInternalError,<sp/>ArmorServiceCallError</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacearmor__api_1_1armor__manipulation__client" kindref="compound">armor_api.armor_manipulation_client</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ArmorManipulationClient</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacearmor__api_1_1armor__query__client" kindref="compound">armor_api.armor_query_client</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ArmorQueryClient</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacearmor__api_1_1armor__utils__client" kindref="compound">armor_api.armor_utils_client</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ArmorUtilsClient</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>rospy</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">__author__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Alessio<sp/>Capitanelli&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">__copyright__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Copyright<sp/>2016,<sp/>ArmorPy&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">__license__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GNU&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">__version__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1.0.0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">__maintainer__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Alessio<sp/>Capitanelli&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">__email__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;alessio.capitanelli@dibris.unige.it&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">__status__<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Development&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">#<sp/>=========================================<sp/><sp/><sp/><sp/><sp/>CLIENT<sp/><sp/><sp/><sp/><sp/><sp/>=========================================<sp/>#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classarmor__api_1_1armor__client_1_1_armor_client" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classarmor__api_1_1armor__client_1_1_armor_client" kindref="compound">ArmorClient</ref>(object):</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>_handle<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>_serial_handle<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>_service_name<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>_serial_service_name<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>_buffered_commands_list<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>reference_name<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>client_id<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>timeout<sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>manipulation<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>query<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>utils<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>TODO<sp/>add<sp/>support<sp/>for<sp/>list<sp/>of<sp/>queries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>client_id,<sp/>reference_name,<sp/>service_name=&apos;/armor_interface_srv&apos;,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serial_service_name=&apos;/armor_interface_serialized_srv&apos;,<sp/>timeout=5):</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a40ca3f8e5a9ab3d65c77e4858d535779" kindref="member">reference_name</ref><sp/>=<sp/>reference_name</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a99bc7c3c95717c99ccb73dfa7e445d94" kindref="member">client_id</ref><sp/>=<sp/>client_id</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1aacb177b5c9b2968b41491d58d89545b9" kindref="member">timeout</ref><sp/>=<sp/>timeout</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a50dc7200c5756522134205fcad9559d3" kindref="member">_service_name</ref><sp/>=<sp/>service_name</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a0059723b7ddf18d1fc5e9a63fce426bc" kindref="member">_serial_service_name</ref><sp/>=<sp/>serial_service_name</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a4aa034dfd63c295f18747cf7e7b2b4ef" kindref="member">_handle</ref><sp/>=<sp/>rospy.ServiceProxy(self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a50dc7200c5756522134205fcad9559d3" kindref="member">_service_name</ref>,<sp/>ArmorDirective)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1aad699d31f13c567067675986114f2b16" kindref="member">_serial_handle</ref><sp/>=<sp/>rospy.ServiceProxy(self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a0059723b7ddf18d1fc5e9a63fce426bc" kindref="member">_serial_service_name</ref>,<sp/>ArmorDirectiveList)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a0d24eba637b6a85afbc2e6d763ead20e" kindref="member">manipulation</ref><sp/>=<sp/><ref refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client" kindref="compound">ArmorManipulationClient</ref>(self)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a1f67596c11bdbf5c10b367d53481c2d3" kindref="member">query</ref><sp/>=<sp/><ref refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client" kindref="compound">ArmorQueryClient</ref>(self)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a40fe59806af0d77072c14ed1f418d1a6" kindref="member">utils</ref><sp/>=<sp/><ref refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client" kindref="compound">ArmorUtilsClient</ref>(self)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">call(self,<sp/>command,<sp/>first_spec,<sp/>second_spec,<sp/>args_list):</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req<sp/>=<sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a4c46d50a6d0abdbba2538ffa2ac49081" kindref="member">_prepare_request</ref>(command,<sp/>first_spec,<sp/>second_spec,<sp/>args_list)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rospy.wait_for_service(self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a50dc7200c5756522134205fcad9559d3" kindref="member">_service_name</ref>,<sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1aacb177b5c9b2968b41491d58d89545b9" kindref="member">timeout</ref>)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res<sp/>=<sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a4aa034dfd63c295f18747cf7e7b2b4ef" kindref="member">_handle</ref>(req).armor_response</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">_prepare_request(self,<sp/>command,<sp/>first_spec,<sp/>second_spec,<sp/>args_list):</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req<sp/>=<sp/>_ArmorDirectiveReq.ArmorDirectiveReq()</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req.client_name<sp/>=<sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a99bc7c3c95717c99ccb73dfa7e445d94" kindref="member">client_id</ref></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req.reference_name<sp/>=<sp/>self.<ref refid="classarmor__api_1_1armor__client_1_1_armor_client_1a40ca3f8e5a9ab3d65c77e4858d535779" kindref="member">reference_name</ref></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req.command<sp/>=<sp/>command</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req.primary_command_spec<sp/>=<sp/>first_spec</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req.secondary_command_spec<sp/>=<sp/>second_spec</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req.args<sp/>=<sp/>args_list</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>req</highlight></codeline>
+    </programlisting>
+    <location file="utilities/armor_api/armor_client.py"/>
+  </compounddef>
+</doxygen>

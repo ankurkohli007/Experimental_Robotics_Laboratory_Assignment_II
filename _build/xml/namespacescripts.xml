@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacescripts" kind="namespace" language="Python">
+    <compoundname>scripts</compoundname>
+    <innernamespace refid="namespacescripts_1_1finite__statemachine">scripts::finite_statemachine</innernamespace>
+    <innernamespace refid="namespacescripts_1_1helper">scripts::helper</innernamespace>
+    <innernamespace refid="namespacescripts_1_1load__environment">scripts::load_environment</innernamespace>
+    <innernamespace refid="namespacescripts_1_1robot__states">scripts::robot_states</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="scripts/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

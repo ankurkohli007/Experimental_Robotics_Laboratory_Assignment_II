@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacearuco__ros" kind="namespace" language="C++">
+    <compoundname>aruco_ros</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="aruco__ros__utils_8h_1a01af2f60dddb6316ff308a75476918ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classaruco_1_1_camera_parameters" kindref="compound">aruco::CameraParameters</ref></type>
+        <definition>aruco::CameraParameters aruco_ros::rosCameraInfo2ArucoCamParams</definition>
+        <argsstring>(const sensor_msgs::CameraInfo &amp;cam_info, bool useRectifiedParameters)</argsstring>
+        <name>rosCameraInfo2ArucoCamParams</name>
+        <param>
+          <type>const sensor_msgs::CameraInfo &amp;</type>
+          <declname>cam_info</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useRectifiedParameters</declname>
+        </param>
+        <briefdescription>
+<para>rosCameraInfo2ArucoCamParams gets the camera intrinsics from a CameraInfo message and copies them to aruco_ros own data structure </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cam_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>useRectifiedParameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, the intrinsics are taken from cam_info.P and the distortion parameters are set to 0. Otherwise, cam_info.K and cam_info.D are taken. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" line="22" column="25" bodyfile="aruco_ros/aruco_ros/src/aruco_ros_utils.cpp" bodystart="9" bodyend="54" declfile="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" declline="22" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="aruco__ros__utils_8h_1a61368ffd0381862db4cb8a8c68077f41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tf::Transform</type>
+        <definition>tf::Transform aruco_ros::arucoMarker2Tf</definition>
+        <argsstring>(const aruco::Marker &amp;marker)</argsstring>
+        <name>arucoMarker2Tf</name>
+        <param>
+          <type>const <ref refid="classaruco_1_1_marker" kindref="compound">aruco::Marker</ref> &amp;</type>
+          <declname>marker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" line="25" column="15" bodyfile="aruco_ros/aruco_ros/src/aruco_ros_utils.cpp" bodystart="56" bodyend="67" declfile="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" declline="25" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="aruco__ros__utils_8h_1a5aa8d83633ddce6beef6663d9217402b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tf2::Transform</type>
+        <definition>tf2::Transform aruco_ros::arucoMarker2Tf2</definition>
+        <argsstring>(const aruco::Marker &amp;marker)</argsstring>
+        <name>arucoMarker2Tf2</name>
+        <param>
+          <type>const <ref refid="classaruco_1_1_marker" kindref="compound">aruco::Marker</ref> &amp;</type>
+          <declname>marker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" line="26" column="16" bodyfile="aruco_ros/aruco_ros/src/aruco_ros_utils.cpp" bodystart="68" bodyend="84" declfile="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" declline="26" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="aruco__ros__utils_8h_1a2e7094ed95ffed7a8b3bf02e49732b6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classaruco_1_1_marker" kindref="compound">aruco::Marker</ref> &gt;</type>
+        <definition>std::vector&lt; aruco::Marker &gt; aruco_ros::detectMarkers</definition>
+        <argsstring>(const cv::Mat &amp;img, const aruco::CameraParameters &amp;cam_params, float marker_size, aruco::MarkerDetector *detector=nullptr, bool normalize_ilumination=false, bool correct_fisheye=false)</argsstring>
+        <name>detectMarkers</name>
+        <param>
+          <type>const cv::Mat &amp;</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classaruco_1_1_camera_parameters" kindref="compound">aruco::CameraParameters</ref> &amp;</type>
+          <declname>cam_params</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>marker_size</declname>
+        </param>
+        <param>
+          <type><ref refid="classaruco_1_1_marker_detector" kindref="compound">aruco::MarkerDetector</ref> *</type>
+          <declname>detector</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>normalize_ilumination</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>correct_fisheye</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" line="28" column="13" bodyfile="aruco_ros/aruco_ros/src/aruco_ros_utils.cpp" bodystart="87" bodyend="119" declfile="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" declline="28" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="aruco__ros__utils_8h_1a6a2e5c678137b0ca8b0cad20a7f8d019" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>visualization_msgs::Marker</type>
+        <definition>visualization_msgs::Marker aruco_ros::visMarkerFromPose</definition>
+        <argsstring>(const geometry_msgs::PoseStamped &amp;pose, double marker_size, int marker_id=1)</argsstring>
+        <name>visMarkerFromPose</name>
+        <param>
+          <type>const geometry_msgs::PoseStamped &amp;</type>
+          <declname>pose</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>marker_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>marker_id</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" line="34" column="28" bodyfile="aruco_ros/aruco_ros/src/aruco_ros_utils.cpp" bodystart="122" bodyend="139" declfile="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" declline="34" declcolumn="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="aruco_ros/aruco_ros/include/aruco_ros/aruco_ros_utils.h" line="13" column="1"/>
+  </compounddef>
+</doxygen>

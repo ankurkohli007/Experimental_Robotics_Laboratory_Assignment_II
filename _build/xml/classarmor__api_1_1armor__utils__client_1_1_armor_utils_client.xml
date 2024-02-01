@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client" kind="class" language="Python" prot="public">
+    <compoundname>armor_api::armor_utils_client::ArmorUtilsClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <innerclass refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1_1_____term_colors" prot="public">armor_api::armor_utils_client::ArmorUtilsClient::__TermColors</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ae06ad75f9653b01e5ccd5684ca8edafc" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_utils_client.ArmorUtilsClient::_client</definition>
+        <argsstring></argsstring>
+        <name>_client</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="22" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1afa8bdaf3252bb1199461fd8dc143120f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.__init__</definition>
+        <argsstring>(self, client)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>client</type>
+          <defname>client</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="34" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a6c2fe0c604513040cc50b9328aa22156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.apply_buffered_changes</definition>
+        <argsstring>(self)</argsstring>
+        <name>apply_buffered_changes</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Apply buffered manipulations to the ontology when its reference has been initialized in buffered manipulation mode
+    
+Returns:
+    bool: True if ontology is consistent, False otherwise
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="37" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="37" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a8c696cc0f2bbe4c01fa9e73e4992455c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.sync_buffered_reasoner</definition>
+        <argsstring>(self)</argsstring>
+        <name>sync_buffered_reasoner</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sync ontology reference reasoner when operating in buffered reasoner mode
+    
+Returns:
+    bool: True if ontology is consistent, False otherwise
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="70" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="70" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a7f2cda0054c2d106c831462166056c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.save_ref_with_inferences</definition>
+        <argsstring>(self, filepath)</argsstring>
+        <name>save_ref_with_inferences</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>filepath</type>
+          <defname>filepath</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Save ontology with latest inferred axioms to specified filepath
+    
+Args:
+    filepath (str):
+    
+Returns:
+    None:
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="98" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="98" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1acb51d0d1292825fd4a96c8fddf3e697b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.save</definition>
+        <argsstring>(self, filepath, inference=False)</argsstring>
+        <name>save</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>filepath</type>
+          <defname>filepath</defname>
+        </param>
+        <param>
+          <type>inference</type>
+          <defname>inference</defname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Save ontology
+    
+Args:
+    filepath (str):
+    
+Returns:
+    None:
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="114" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="114" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ad187705429c497b8b9d5622a4167c1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.load_ref_from_file</definition>
+        <argsstring>(self, owl_file_path, iri, buffered_manipulation=False, reasoner=&quot;PELLET&quot;, buffered_reasoner=False, mounted=False)</argsstring>
+        <name>load_ref_from_file</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>owl_file_path</type>
+          <defname>owl_file_path</defname>
+        </param>
+        <param>
+          <type>iri</type>
+          <defname>iri</defname>
+        </param>
+        <param>
+          <type>buffered_manipulation</type>
+          <defname>buffered_manipulation</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>reasoner</type>
+          <defname>reasoner</defname>
+          <defval>&quot;PELLET&quot;</defval>
+        </param>
+        <param>
+          <type>buffered_reasoner</type>
+          <defname>buffered_reasoner</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>mounted</type>
+          <defname>mounted</defname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Loads an ontology into armor from an .owl file.
+    
+Args:
+    owl_file_path (str):
+    iri (str):
+    buffered_manipulation (bool): set buffered manipulations, default False
+    reasoner (str): set which reasoner to use (PELLET, HERMIT, SNOROCKET, FACT), default PELLET
+    buffered_reasoner (bool): set if reasoner should be buffered, default False
+    mounted (bool): set if the client should be mounted on the reference, default False
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="149" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="149" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ac41f9254c044369c968e34f052ad18d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.mount_on_ref</definition>
+        <argsstring>(self)</argsstring>
+        <name>mount_on_ref</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Mounts a client on an ontology reference.
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="184" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="184" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a9d96024401aacf9a4f07b448ca971db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.unmount_from_ref</definition>
+        <argsstring>(self)</argsstring>
+        <name>unmount_from_ref</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Unmount a client from an ontology.
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="209" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="209" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a5bff71857c916177525a0a54aeaac318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.set_log_to_terminal</definition>
+        <argsstring>(self, switch)</argsstring>
+        <name>set_log_to_terminal</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>switch</type>
+          <defname>switch</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set ARMOR to log to terminal.
+    
+Args:
+    switch (bool):
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="234" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="234" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a89ab9ee17a7e13b2e9015e00ad01a710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_utils_client.ArmorUtilsClient.set_log_to_file</definition>
+        <argsstring>(self, switch, filepath=&apos;&apos;)</argsstring>
+        <name>set_log_to_file</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>switch</type>
+          <defname>switch</defname>
+        </param>
+        <param>
+          <type>filepath</type>
+          <defname>filepath</defname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set ARMOR to log to file.
+    
+Args:
+    switch (bool):
+    filepath (str):
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_utils_client.py" line="261" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="261" bodyend="294"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>armor_api.armor_utils_client.ArmorUtilsClient</label>
+        <link refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>armor_api.armor_utils_client.ArmorUtilsClient</label>
+        <link refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="utilities/armor_api/armor_utils_client.py" line="21" column="1" bodyfile="utilities/armor_api/armor_utils_client.py" bodystart="21" bodyend="294"/>
+    <listofallmembers>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1afa8bdaf3252bb1199461fd8dc143120f" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>__init__</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ae06ad75f9653b01e5ccd5684ca8edafc" prot="private" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>_client</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a6c2fe0c604513040cc50b9328aa22156" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>apply_buffered_changes</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ad187705429c497b8b9d5622a4167c1a8" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>load_ref_from_file</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1ac41f9254c044369c968e34f052ad18d1" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>mount_on_ref</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1acb51d0d1292825fd4a96c8fddf3e697b" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>save</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a7f2cda0054c2d106c831462166056c41" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>save_ref_with_inferences</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a89ab9ee17a7e13b2e9015e00ad01a710" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>set_log_to_file</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a5bff71857c916177525a0a54aeaac318" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>set_log_to_terminal</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a8c696cc0f2bbe4c01fa9e73e4992455c" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>sync_buffered_reasoner</name></member>
+      <member refid="classarmor__api_1_1armor__utils__client_1_1_armor_utils_client_1a9d96024401aacf9a4f07b448ca971db7" prot="public" virt="non-virtual"><scope>armor_api::armor_utils_client::ArmorUtilsClient</scope><name>unmount_from_ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

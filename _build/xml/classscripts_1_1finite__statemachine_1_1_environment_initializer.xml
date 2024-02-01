@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1finite__statemachine_1_1_environment_initializer" kind="class" language="Python" prot="public">
+    <compoundname>scripts::finite_statemachine::EnvironmentInitializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">State</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_environment_initializer_1a597dd3f818a6c5116b95fd3026e52362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.EnvironmentInitializer.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="189" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="189" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_environment_initializer_1a1b8dcdefd2865127a55edcfb4db2feb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.EnvironmentInitializer.execute</definition>
+        <argsstring>(self, userdata)</argsstring>
+        <name>execute</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>userdata</type>
+          <defname>userdata</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The loading of the environment is managed by a function that invokes the `LoadKnowledgeGraph()` function, responsible for creating the environment, 
+with no need for input data from other states as the `userdata` parameter is unused.
+
+Args:
+    userdata: not used
+
+Returns:
+    INITIALIZATION_COMPLETE(str): transits to NORMAL_STATE which is a nested state_machine</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="194" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="194" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>A class to initialize the environment simply we can say upload the ontology map to the robot&apos;s system.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>smach::State</label>
+      </node>
+      <node id="1">
+        <label>scripts.finite_statemachine.EnvironmentInitializer</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_environment_initializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>smach::State</label>
+      </node>
+      <node id="1">
+        <label>scripts.finite_statemachine.EnvironmentInitializer</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_environment_initializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="scripts/finite_statemachine.py" line="185" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="185" bodyend="222"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1finite__statemachine_1_1_environment_initializer_1a597dd3f818a6c5116b95fd3026e52362" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::EnvironmentInitializer</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_environment_initializer_1a1b8dcdefd2865127a55edcfb4db2feb2" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::EnvironmentInitializer</scope><name>execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

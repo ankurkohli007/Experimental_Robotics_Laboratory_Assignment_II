@@ -1,0 +1,759 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client" kind="class" language="Python" prot="public">
+    <compoundname>armor_api::armor_manipulation_client::ArmorManipulationClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a79e729cb94c0d58b094ad2a6b4095b12" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_manipulation_client.ArmorManipulationClient::_client</definition>
+        <argsstring></argsstring>
+        <name>_client</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="23" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a502c5f0547c5a125ff8ee71eab4d25d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.__init__</definition>
+        <argsstring>(self, client)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>client</type>
+          <defname>client</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="25" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a838c86bd80987124f99079377c0e1a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.add_ind_to_class</definition>
+        <argsstring>(self, ind_name, class_name)</argsstring>
+        <name>add_ind_to_class</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>class_name</type>
+          <defname>class_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an individual to a class.
+    
+Args:
+    ind_name (str): individual to be added to the class.
+    class_name (str): individual will be added to this class. It will be created a new class if it does not exist.
+    
+Returns:
+    bool: True if ontology is consistent, else False
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="28" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="28" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a782b9e79036681e0b5843e5227327e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.disj_inds_of_class</definition>
+        <argsstring>(self, class_name)</argsstring>
+        <name>disj_inds_of_class</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>class_name</type>
+          <defname>class_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Disjoint all individuals of a class.
+
+Args:
+class_name (str): class of the individuals to disjoint.
+
+Returns:
+bool: True if ontology is consistent, else False
+
+Raises:
+armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+
+Note:
+It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+if you are working in buffered reasoner or manipulation mode!</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="63" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="63" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5cc24c19cd97e8b4573d08916e5835fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.add_objectprop_to_ind</definition>
+        <argsstring>(self, objectprop_name, ind_name, value_obj_name)</argsstring>
+        <name>add_objectprop_to_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>objectprop_name</type>
+          <defname>objectprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>value_obj_name</type>
+          <defname>value_obj_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an object property to an individual. If the object property to be assigned does not exist, it will be created.
+    
+Args:
+    objectprop_name (str): name of the object property to assign.
+    ind_name (str): individual to assign the data property value.
+    value_obj_name (str): name of the individual to be used as property value.
+    
+Returns:
+    bool: True if ontology is consistent, else False
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="100" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="100" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a59f27571b6cf703c977a7499012f56e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.add_dataprop_to_ind</definition>
+        <argsstring>(self, dataprop_name, ind_name, value_type, value)</argsstring>
+        <name>add_dataprop_to_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dataprop_name</type>
+          <defname>dataprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>value_type</type>
+          <defname>value_type</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add a data property to an individual. If the data property to be assigned does not exist, it will be created.
+    
+Args:
+    dataprop_name (str): name of the data property to assign.
+    ind_name (str): individual to assign the data property value.
+    value_type (str): type of the value to assign (INTEGER, INT, FLOAT, LONG, DOUBLE, STRING, BOOLEAN, BOOL).
+    value (str): value as a string.
+    
+Returns:
+    bool: True if ontology is consistent, else False
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+    
+Note:
+    If *value_type* and *value* does not match, *ArmorServiceInternalError* may be risen or you may break your 
+    ontology consistency. Consistency can break even if you send a proper request but the ontology is expecting 
+    a different value type.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="135" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="135" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a8ffd218532e67bf47c4adb32cc1d2779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.add_batch_dataprop_to_ind</definition>
+        <argsstring>(self, ind_name, dataprops)</argsstring>
+        <name>add_batch_dataprop_to_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>dataprops</type>
+          <defname>dataprops</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add multiple dataprops to a single individual. Properties are passed as list of list, 
+each element of the root list correspond to a property to add.
+    
+Args:
+    ind_name (str): individual to assign the data property value.
+    dataprops: list of [prop_name, value_type, value] objects
+    
+Returns:
+    bool: True if ontology is consistent and every call succeeds,
+  returns False on the first failed call
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+    
+Note:
+    If *value_type* and *value* does not match, *ArmorServiceInternalError* may be risen or you may break your 
+    ontology consistency. Consistency can break even if you send a proper request but the ontology is expecting 
+    a different value type.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="177" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="177" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a2813162318cc5273002159a5f0dec265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.replace_objectprop_b2_ind</definition>
+        <argsstring>(self, objectprop_name, ind_name, new_value, old_value)</argsstring>
+        <name>replace_objectprop_b2_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>objectprop_name</type>
+          <defname>objectprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>new_value</type>
+          <defname>new_value</defname>
+        </param>
+        <param>
+          <type>old_value</type>
+          <defname>old_value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Replace the value of an object property belonging to an individual. If the individual or the property instance
+to be replaced do not exist, they will be created.
+    
+Args:
+    objectprop_name (str): name of the object property to replace.
+    ind_name (str): individual whose property needs to be replaced.
+    new_value (str): new value of the object property.
+    old_value (str): value of the object property to be replaced.
+    
+Returns:
+    bool: True if ontology is consistent, else False.
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails.
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error.
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+    
+Note:
+    *old_value* is necessary since more than one object property instance may be applied to an individual. 
+    Only the specified instance will be replaced.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="209" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="209" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a92edeab75032afbd267e205a345dab60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.replace_dataprop_b2_ind</definition>
+        <argsstring>(self, dataprop_name, ind_name, value_type, new_value, old_value)</argsstring>
+        <name>replace_dataprop_b2_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dataprop_name</type>
+          <defname>dataprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>value_type</type>
+          <defname>value_type</defname>
+        </param>
+        <param>
+          <type>new_value</type>
+          <defname>new_value</defname>
+        </param>
+        <param>
+          <type>old_value</type>
+          <defname>old_value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Replace the value of a data property belonging to an individual. If the individual or the property instance to be
+replaced do not exist, they will be created.
+    
+Args:
+    dataprop_name (str): name of the data property to assign.
+    ind_name (str): individual to assign the data property value.
+    value_type (str): type of the value to assign (INTEGER, INT, FLOAT, LONG, DOUBLE, STRING, BOOLEAN, BOOL).
+    new_value (str): new value of the data property.
+    old_value (str): value of the data property to be replaced.
+    
+Returns:
+    bool: True if ontology is consistent, else False.
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails.
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error.
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+    
+Note:
+    *old_value* is necessary since more than one object property instance may be applied to an individual. 
+    Only the specified instance will be replaced.
+    
+Note:
+    If *value_type* and *value* does not match, *ArmorServiceInternalError* may be risen or you may break your 
+    ontology consistency. Consistency can break even if you send a proper request but the ontology is expecting 
+    a different value type.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="250" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="250" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a37b26fbf899745e4798f0027d79c8a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.replace_one_dataprop_b2_ind</definition>
+        <argsstring>(self, dataprop_name, ind_name, value_type, new_value)</argsstring>
+        <name>replace_one_dataprop_b2_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dataprop_name</type>
+          <defname>dataprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>value_type</type>
+          <defname>value_type</defname>
+        </param>
+        <param>
+          <type>new_value</type>
+          <defname>new_value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>**Use with care:** Utility function that replace the value of the first returned data property value
+associated to an individual without specifying the old value to be replaced. If the individual or the property 
+instance to be replaced do not exist, they will be created. It is supposed to be used with single valued properties.
+    
+Args:
+    dataprop_name (str): name of the data property to assign.
+    ind_name (str): individual to assign the data property value.
+    value_type (str): type of the value to assign (INTEGER, INT, FLOAT, LONG, DOUBLE, STRING, BOOLEAN, BOOL).
+    new_value (str): value of the data property to be replaced.
+    
+Returns:
+    bool: True if ontology is consistent, else False.
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails.
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error.
+    
+Note:
+    This function is meant to be used when only one or less data property instance is expected to be associated
+    to that individual. The function check this condition to protect your ontology and raises
+    *ArmorServiceInternalError* if it is not satisfied.
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+    
+Note:
+    If *value_type* and *value* does not match, *ArmorServiceInternalError* may be risen or you may break your 
+    ontology consistency. Consistency can break even if you send a proper request but the ontology is expecting 
+    a different value type.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="298" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="298" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5a9a16c71dd6b4f5bd6052057456a73b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.replace_one_objectprop_b2_ind</definition>
+        <argsstring>(self, objectprop_name, ind_name, new_value)</argsstring>
+        <name>replace_one_objectprop_b2_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>objectprop_name</type>
+          <defname>objectprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>new_value</type>
+          <defname>new_value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>**Use with care:** Utility function that replace the value of the first returned object property value
+associated to an individual without specifying the old value to be replaced. If the individual or the property 
+instance to be replaced do not exist, they will be created. It is supposed to be used with single valued properties.
+    
+Args:
+    object_name (str): name of the object property to assign.
+    ind_name (str): individual to assign the object property value.
+    new_value (str): value of the object property to be replaced.
+    
+Returns:
+    bool: True if ontology is consistent, else False.
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails.
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error.
+    
+Note:
+    This function is meant to be used when only one or less object property instance is expected to be associated
+    to that individual. The function check this condition to protect your ontology and raises
+    *ArmorServiceInternalError* if it is not satisfied.
+    
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="359" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="359" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5d996c8c0a4e46405284f959525bc9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.remove_dataprop_from_ind</definition>
+        <argsstring>(self, dataprop_name, ind_name, value_type, value)</argsstring>
+        <name>remove_dataprop_from_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dataprop_name</type>
+          <defname>dataprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>value_type</type>
+          <defname>value_type</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove a data property from an individual.
+
+Args:
+    dataprop_name (str): name of the data property to remove.
+    ind_name (str): individual from which to remove the desired data property value.
+    value_type (str): type of the value to remove (INTEGER, INT, FLOAT, LONG, DOUBLE, STRING, BOOLEAN, BOOL).
+    value (str): value as a string.
+
+Returns:
+    bool: True if ontology is consistent, else False
+
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+
+Note:
+    If *value_type* and *value* does not match, *ArmorServiceInternalError* may be risen or you may break your
+    ontology consistency. Consistency can break even if you send a proper request but the ontology is expecting
+    a different value type.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="415" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="415" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a209e25049f32e4931db9b8b7c9674acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.remove_objectprop_from_ind</definition>
+        <argsstring>(self, objectprop_name, ind_name, value)</argsstring>
+        <name>remove_objectprop_from_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>objectprop_name</type>
+          <defname>objectprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove a object property from an individual.
+
+Args:
+    objectprop_name (str): name of the objet property to remove.
+    ind_name (str): individual from which to remove the desired data property value.
+    value (str): value to remove as a string.
+
+Returns:
+    bool: True if ontology is consistent, else False
+
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+
+Note:
+    If *value_type* and *value* does not match, *ArmorServiceInternalError* may be risen or you may break your
+    ontology consistency. Consistency can break even if you send a proper request but the ontology is expecting
+    a different value type.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="456" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="456" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1aed759f30953773abf599082dc8ddbd6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.remove_batch_dataprop_to_ind</definition>
+        <argsstring>(self, ind_name, dataprops)</argsstring>
+        <name>remove_batch_dataprop_to_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>dataprops</type>
+          <defname>dataprops</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove multiple data properties from a single individual. Properties are passed as list of list,
+each element of the root list correspond to a property to remove.
+
+Args:
+    ind_name (str): individual from which to remove the data properties values.
+    dataprops: list of [prop_name, value_type, value] objects
+
+Returns:
+    bool: True if ontology is consistent and every call succeeds,
+  returns False on the first failed call
+
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+
+Note:
+    If *value_type* and *value* does not match, *ArmorServiceInternalError* may be risen or you may break your
+    ontology consistency. Consistency can break even if you send a proper request but the ontology is expecting
+    a different value type.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="496" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="496" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a8e12bb41653ea5f4ff279141cab415dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_manipulation_client.ArmorManipulationClient.remove_ind_from_class</definition>
+        <argsstring>(self, ind_name, class_name)</argsstring>
+        <name>remove_ind_from_class</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <param>
+          <type>class_name</type>
+          <defname>class_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove an individual from a class.
+
+Args:
+    ind_name (str): individual to be removed from the class.
+    class_name (str): individual will be removed to this class. 
+
+Returns:
+    bool: True if ontology is consistent, else False
+
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error
+
+Note:
+    It returns the boolean consistency state of the ontology. This value is not updated to the last operation
+    if you are working in buffered reasoner or manipulation mode!
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_manipulation_client.py" line="529" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="529" bodyend="562"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>armor_api.armor_manipulation_client.ArmorManipulationClient</label>
+        <link refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>armor_api.armor_manipulation_client.ArmorManipulationClient</label>
+        <link refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="utilities/armor_api/armor_manipulation_client.py" line="21" column="1" bodyfile="utilities/armor_api/armor_manipulation_client.py" bodystart="21" bodyend="562"/>
+    <listofallmembers>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a502c5f0547c5a125ff8ee71eab4d25d5" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>__init__</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a79e729cb94c0d58b094ad2a6b4095b12" prot="private" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>_client</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a8ffd218532e67bf47c4adb32cc1d2779" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>add_batch_dataprop_to_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a59f27571b6cf703c977a7499012f56e4" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>add_dataprop_to_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a838c86bd80987124f99079377c0e1a1a" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>add_ind_to_class</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5cc24c19cd97e8b4573d08916e5835fa" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>add_objectprop_to_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a782b9e79036681e0b5843e5227327e86" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>disj_inds_of_class</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1aed759f30953773abf599082dc8ddbd6a" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>remove_batch_dataprop_to_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5d996c8c0a4e46405284f959525bc9ee" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>remove_dataprop_from_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a8e12bb41653ea5f4ff279141cab415dd" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>remove_ind_from_class</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a209e25049f32e4931db9b8b7c9674acf" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>remove_objectprop_from_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a92edeab75032afbd267e205a345dab60" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>replace_dataprop_b2_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a2813162318cc5273002159a5f0dec265" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>replace_objectprop_b2_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a37b26fbf899745e4798f0027d79c8a4d" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>replace_one_dataprop_b2_ind</name></member>
+      <member refid="classarmor__api_1_1armor__manipulation__client_1_1_armor_manipulation_client_1a5a9a16c71dd6b4f5bd6052057456a73b" prot="public" virt="non-virtual"><scope>armor_api::armor_manipulation_client::ArmorManipulationClient</scope><name>replace_one_objectprop_b2_ind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

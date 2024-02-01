@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1helper_1_1_action_client_helper" kind="class" language="Python" prot="public">
+    <compoundname>scripts::helper::ActionClientHelper</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_action_client_helper_1a2a44abef2befe88cd8cfbb4cdc8517e4" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.ActionClientHelper::_service_name</definition>
+        <argsstring></argsstring>
+        <name>_service_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="56" column="1" bodyfile="scripts/helper.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_action_client_helper_1ad0b46b10d9d0596bcf1a47528c70a1e3" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.ActionClientHelper::_mutex</definition>
+        <argsstring></argsstring>
+        <name>_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="60" column="1" bodyfile="scripts/helper.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_action_client_helper_1a996237a3caeecc7b322966906297e6cd" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.ActionClientHelper::_client</definition>
+        <argsstring></argsstring>
+        <name>_client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="64" column="1" bodyfile="scripts/helper.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_action_client_helper_1a5182073e49894f2a2f2204906e0dc1a7" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.ActionClientHelper::_external_done_cb</definition>
+        <argsstring></argsstring>
+        <name>_external_done_cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="66" column="1" bodyfile="scripts/helper.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_action_client_helper_1a39a3fde40d24dff191669243aadfd6b4" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.ActionClientHelper::_external_feedback_cb</definition>
+        <argsstring></argsstring>
+        <name>_external_feedback_cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="67" column="1" bodyfile="scripts/helper.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_action_client_helper_1aee12a3388737e53b9e7e3fd1126a8b34" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.ActionClientHelper::_is_running</definition>
+        <argsstring></argsstring>
+        <name>_is_running</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="89" column="1" bodyfile="scripts/helper.py" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_action_client_helper_1aaf63e1fff68f178fe4e04b682b6b220c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.ActionClientHelper::_is_done</definition>
+        <argsstring></argsstring>
+        <name>_is_done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="90" column="1" bodyfile="scripts/helper.py" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_action_client_helper_1a2b9851a3cedeaa142eb5697d96e328f7" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.ActionClientHelper::_results</definition>
+        <argsstring></argsstring>
+        <name>_results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="91" column="1" bodyfile="scripts/helper.py" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1a36cb72ca39003913e4bb84fe2a690c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.__init__</definition>
+        <argsstring>(self, service_name, action_type, done_callback=None, feedback_callback=None, mutex=None)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>service_name</type>
+          <defname>service_name</defname>
+        </param>
+        <param>
+          <type>action_type</type>
+          <defname>action_type</defname>
+        </param>
+        <param>
+          <type>done_callback</type>
+          <defname>done_callback</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>feedback_callback</type>
+          <defname>feedback_callback</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>mutex</type>
+          <defname>mutex</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="52" column="1" bodyfile="scripts/helper.py" bodystart="52" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1a80f26fd99e46d4806586f9c2ce8bd9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.send_goal</definition>
+        <argsstring>(self, goal)</argsstring>
+        <name>send_goal</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>goal</type>
+          <defname>goal</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> In the ROS architecture, only one client can send a new goal to the action server at a given time, as the server must not be running when a new goal is provided, simplifying the handling of concurrent 
+ requests.
+
+Args:
+    goal(PlanGoal): The goal to be transmitted consists of two Points, one representing the start point and the other indicating the target point, both specified in (x, y) coordinates.
+
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="71" column="1" bodyfile="scripts/helper.py" bodystart="71" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1abeb79d32bc78aba104ae1e92e13d7a42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.cancel_goals</definition>
+        <argsstring>(self)</argsstring>
+        <name>cancel_goals</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Function to halt the computation of the action server.
+
+Args:
+    None
+    
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="95" column="1" bodyfile="scripts/helper.py" bodystart="95" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1af3273b7ef317c3a9d013f51068624a19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.reset_client_states</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset_client_states</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function that resets the client&apos;s stored state variables within this class.
+
+Args:
+    None
+    
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="114" column="1" bodyfile="scripts/helper.py" bodystart="114" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1a97de940e73e2e7b2578a5d2863ee3d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.feedback_callback_</definition>
+        <argsstring>(self, feedback)</argsstring>
+        <name>feedback_callback_</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>feedback</type>
+          <defname>feedback</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function invoked when the action server needs to provide feedback to the client.
+
+Args:
+    feedback: feedback message to be sent to the client
+    
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="129" column="1" bodyfile="scripts/helper.py" bodystart="129" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1ae91da8cd3bd112c6b994cdc05278934b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.done_callback_</definition>
+        <argsstring>(self, status, results)</argsstring>
+        <name>done_callback_</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>status</type>
+          <defname>status</defname>
+        </param>
+        <param>
+          <type>results</type>
+          <defname>results</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>       A function that is triggered when the action server completes its computation.
+
+Args:
+    status: status of the action server
+    results: results from the action server
+    
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="149" column="1" bodyfile="scripts/helper.py" bodystart="149" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1a2bcb62a73fbd7bfc1cd9e307ccaa6fba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.is_done</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_done</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function that returns `True` if the action server has completed its computation and `False` otherwise.
+
+Args:
+    None
+    
+Returns:
+    Bool: Returns `True` if the action server has completed its computation and `False` otherwise.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="173" column="1" bodyfile="scripts/helper.py" bodystart="173" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1a89748f9e1b8c387dd8010f3304be543a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.is_running</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_running</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function that returns `True` if the action server is currently running and `False` otherwise.
+
+Args:
+    None
+    
+Returns:
+    Bool: Indicates `True` if the action server is in an active state and `False` if it&apos;s not running.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="186" column="1" bodyfile="scripts/helper.py" bodystart="186" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_action_client_helper_1ab2d184ef44061ee0c16c56d62c0d5f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.ActionClientHelper.get_results</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_results</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function that retrieves the result generated by the action server.
+
+Args:
+    None
+    
+Returns:
+    Result of the action server, if any, &apos;None&apos; otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="199" column="1" bodyfile="scripts/helper.py" bodystart="199" bodyend="215"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>`ActionClientHelper` is a class or module likely designed to assist in the usage and management of action clients, typically in the context of a ROS (Robot Operating System) application. It may provide 
+ functionality to interact with action servers and handle actions efficiently.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/helper.py" line="46" column="1" bodyfile="scripts/helper.py" bodystart="46" bodyend="216"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a36cb72ca39003913e4bb84fe2a690c3b" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a996237a3caeecc7b322966906297e6cd" prot="private" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>_client</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a5182073e49894f2a2f2204906e0dc1a7" prot="private" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>_external_done_cb</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a39a3fde40d24dff191669243aadfd6b4" prot="private" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>_external_feedback_cb</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1aaf63e1fff68f178fe4e04b682b6b220c" prot="private" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>_is_done</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1aee12a3388737e53b9e7e3fd1126a8b34" prot="private" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>_is_running</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1ad0b46b10d9d0596bcf1a47528c70a1e3" prot="private" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>_mutex</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a2b9851a3cedeaa142eb5697d96e328f7" prot="private" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>_results</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a2a44abef2befe88cd8cfbb4cdc8517e4" prot="private" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>_service_name</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1abeb79d32bc78aba104ae1e92e13d7a42" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>cancel_goals</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1ae91da8cd3bd112c6b994cdc05278934b" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>done_callback_</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a97de940e73e2e7b2578a5d2863ee3d12" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>feedback_callback_</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1ab2d184ef44061ee0c16c56d62c0d5f6e" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>get_results</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a2bcb62a73fbd7bfc1cd9e307ccaa6fba" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>is_done</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a89748f9e1b8c387dd8010f3304be543a" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>is_running</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1af3273b7ef317c3a9d013f51068624a19" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>reset_client_states</name></member>
+      <member refid="classscripts_1_1helper_1_1_action_client_helper_1a80f26fd99e46d4806586f9c2ce8bd9e3" prot="public" virt="non-virtual"><scope>scripts::helper::ActionClientHelper</scope><name>send_goal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

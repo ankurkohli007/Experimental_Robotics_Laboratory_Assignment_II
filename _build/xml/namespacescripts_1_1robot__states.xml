@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacescripts_1_1robot__states" kind="namespace" language="Python">
+    <compoundname>scripts::robot_states</compoundname>
+    <innerclass refid="classscripts_1_1robot__states_1_1_robot_state" prot="public">scripts::robot_states::RobotState</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacescripts_1_1robot__states_1a64a8499e15271245694d48b200f24194" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts::robot_states.LOG_TAG</definition>
+        <argsstring></argsstring>
+        <name>LOG_TAG</name>
+        <initializer>=  anm.NODE_ROBOT_STATE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="34" column="1" bodyfile="scripts/robot_states.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1robot__states_1a3fdbd716f2227a009ab44c4a82e43e77" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts::robot_states.helper</definition>
+        <argsstring></argsstring>
+        <name>helper</name>
+        <initializer>=  <ref refid="classscripts_1_1helper_1_1_interface_helper" kindref="compound">InterfaceHelper</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="156" column="1" bodyfile="scripts/robot_states.py" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacescripts_1_1robot__states_1ab2796d79848babdbc68e3415a976b54e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts::robot_states.robot_pose_param</definition>
+        <argsstring></argsstring>
+        <name>robot_pose_param</name>
+        <initializer>=  rospy.get_param(anm.PARAM_INITIAL_POSE, [0, 0])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="159" column="1" bodyfile="scripts/robot_states.py" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>.. module:: robot_states
+   :platform: Unix
+   :synopsis: robot_states typically refers to a component or module in a robotic system responsible for managing and updating 
+      various states and information related to the robot, such as its pose, battery level, and operational status. Also, A  
+      Python module responsible for publishing the state of the battery, typically utilizing a ROS publisher to broadcast 
+      this information.
+
+.. moduleauthor:: Ankur Kohli &amp; Prof. Luca Buoncompagni
+
+
+Publisher:
+    /state/battery_low to obtain the battery status.
+
+Servers: 
+    /state/set_pose: A server responsible for updating or configuring the current pose of the robot.
+    /state/get_pose: A server designed to retrieve and provide the current pose of the robot.</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/robot_states.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

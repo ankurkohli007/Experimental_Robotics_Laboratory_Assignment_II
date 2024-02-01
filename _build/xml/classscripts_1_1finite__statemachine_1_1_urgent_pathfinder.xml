@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder" kind="class" language="Python" prot="public">
+    <compoundname>scripts::finite_statemachine::UrgentPathfinder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">State</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1a797a623189e1b3a293d6f7746e91f165" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.UrgentPathfinder::_helper</definition>
+        <argsstring></argsstring>
+        <name>_helper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="402" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1aa4db4779fc3cded8b1884dc97c781997" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.UrgentPathfinder::_knowledge</definition>
+        <argsstring></argsstring>
+        <name>_knowledge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="403" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1a66539754369de0a013d9039a6dbabdac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.finite_statemachine.UrgentPathfinder::environment_size</definition>
+        <argsstring></argsstring>
+        <name>environment_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="405" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1adbda0d0e119e86cdb3877301c01a3b48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.UrgentPathfinder.__init__</definition>
+        <argsstring>(self, interface_helper, knowledge_helper)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>interface_helper</type>
+          <defname>interface_helper</defname>
+        </param>
+        <param>
+          <type>knowledge_helper</type>
+          <defname>knowledge_helper</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="400" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="400" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1aa1c15c4687788b9b9a402daec1c4919c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.finite_statemachine.UrgentPathfinder.execute</definition>
+        <argsstring>(self, userdata)</argsstring>
+        <name>execute</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>userdata</type>
+          <defname>userdata</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function manages the transition from the `MOVING_TO_URGENT` state to either `RECHARGING_BATTERY` or `URGENT_SELECTION`. Its role is to guide the robot to a predetermined corridor and ensure 
+it remains   there for a specified duration, utilizing a controller for robot movement.
+
+Args:
+    userdata: for input_keys and output_keys to get data and pass data.
+
+Returns:
+    RECHARGING_IN_PROGRESS(str): transition to the RECHARGING_BATTERY.
+
+Returns:
+    URGENT_MOVE(str): transition to STATE_DECISION_URGENT.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/finite_statemachine.py" line="408" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="408" bodyend="476"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>A class to move the robot to a Urgent room which has been acquired
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>State</label>
+      </node>
+      <node id="1">
+        <label>scripts.finite_statemachine.UrgentPathfinder</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>State</label>
+      </node>
+      <node id="1">
+        <label>scripts.finite_statemachine.UrgentPathfinder</label>
+        <link refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="scripts/finite_statemachine.py" line="395" column="1" bodyfile="scripts/finite_statemachine.py" bodystart="395" bodyend="477"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1adbda0d0e119e86cdb3877301c01a3b48" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::UrgentPathfinder</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1a797a623189e1b3a293d6f7746e91f165" prot="private" virt="non-virtual"><scope>scripts::finite_statemachine::UrgentPathfinder</scope><name>_helper</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1aa4db4779fc3cded8b1884dc97c781997" prot="private" virt="non-virtual"><scope>scripts::finite_statemachine::UrgentPathfinder</scope><name>_knowledge</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1a66539754369de0a013d9039a6dbabdac" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::UrgentPathfinder</scope><name>environment_size</name></member>
+      <member refid="classscripts_1_1finite__statemachine_1_1_urgent_pathfinder_1aa1c15c4687788b9b9a402daec1c4919c" prot="public" virt="non-virtual"><scope>scripts::finite_statemachine::UrgentPathfinder</scope><name>execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

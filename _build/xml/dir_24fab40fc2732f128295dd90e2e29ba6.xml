@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_24fab40fc2732f128295dd90e2e29ba6" kind="dir">
+    <compoundname>utilities/armor_api</compoundname>
+    <innerfile refid="utilities_2armor__api_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="armor__client_8py">armor_client.py</innerfile>
+    <innerfile refid="armor__exceptions_8py">armor_exceptions.py</innerfile>
+    <innerfile refid="armor__manipulation__client_8py">armor_manipulation_client.py</innerfile>
+    <innerfile refid="armor__query__client_8py">armor_query_client.py</innerfile>
+    <innerfile refid="armor__utils__client_8py">armor_utils_client.py</innerfile>
+    <innerfile refid="client__test_8py">client_test.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="utilities/armor_api/"/>
+  </compounddef>
+</doxygen>

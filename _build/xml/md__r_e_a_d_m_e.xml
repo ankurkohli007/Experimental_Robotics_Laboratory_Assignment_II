@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>Assignment2</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>In the second assignment of the Experimental Robotics Laboratory course, you are requested to integrate the architecture developed in the first assignment with a robotic simulation.</para>
+<para>To start, you are provided with this package, which contains:<itemizedlist>
+<listitem><para>the definition of a custom message and a custom service</para>
+</listitem><listitem><para>a simulation environment representing the &quot;house&quot; to be monitored</para>
+</listitem><listitem><para>a node that implements a service: it requires the id (marker) detected by the robot and it replies with the information about the corresponding room (name of the room, coordinates of the center, connections with other rooms)</para>
+</listitem><listitem><para>A launch file, which starts Gazebo with the simulation environment, and the service node (assignment.launch).</para>
+</listitem></itemizedlist>
+</para>
+<para>You have to:<itemizedlist>
+<listitem><para>Add a robot to the environment;</para>
+</listitem><listitem><para>Integrate (if needed, modify it) the architecture that you have developed in the first assignment to the given scenario.</para>
+</listitem></itemizedlist>
+</para>
+<para>In particular, the robot will have to:<itemizedlist>
+<listitem><para>Be spawned in the initial position x = -6.0, y = 11.0</para>
+</listitem><listitem><para>Build the &quot;semantic&quot; map of the environment by detecting, without moving the base of the robot, all seven markers that are present around it, by calling the provided service node. Try to &quot;scan&quot; the environment in a comprehensive way, possibly exploring different solutions related to the robot&apos;s model.</para>
+</listitem><listitem><para>Start the patrolling algorithm by relying on autonomous navigation strategies (mapping/planning) and on the information collected and stored in the ontology during the previous step.</para>
+</listitem><listitem><para>When a room is reached, perform a complete scan of the room (by rotating the base or the camera). </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

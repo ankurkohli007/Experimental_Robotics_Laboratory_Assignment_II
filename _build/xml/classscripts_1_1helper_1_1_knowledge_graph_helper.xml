@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1helper_1_1_knowledge_graph_helper" kind="class" language="Python" prot="public">
+    <compoundname>scripts::helper::KnowledgeGraphHelper</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1af9c967facc31ea51b8b123fda913a35c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.KnowledgeGraphHelper::survillancerobot</definition>
+        <argsstring></argsstring>
+        <name>survillancerobot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="303" column="1" bodyfile="scripts/helper.py" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1a7ce28a25b505800359913fdb4ecf2bd5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.KnowledgeGraphHelper::survillancerobot_position</definition>
+        <argsstring></argsstring>
+        <name>survillancerobot_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="304" column="1" bodyfile="scripts/helper.py" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1a1536ad7dfb16369233e3dcd3f8e8683d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.helper.KnowledgeGraphHelper::survillancerobot_reachable_rooms</definition>
+        <argsstring></argsstring>
+        <name>survillancerobot_reachable_rooms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="305" column="1" bodyfile="scripts/helper.py" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1a87457a40fc97baf84ef18b31b872d9ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.KnowledgeGraphHelper.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="302" column="1" bodyfile="scripts/helper.py" bodystart="302" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1a5aebb6a31b001f150d049a9c4233dd17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.KnowledgeGraphHelper.list_section_formatter</definition>
+        <argsstring>(self, initiallocation, initial, boundary)</argsstring>
+        <name>list_section_formatter</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>initiallocation</type>
+          <defname>initiallocation</defname>
+        </param>
+        <param>
+          <type>initial</type>
+          <defname>initial</defname>
+        </param>
+        <param>
+          <type>boundary</type>
+          <defname>boundary</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="307" column="1" bodyfile="scripts/helper.py" bodystart="307" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1ad84108c8be0162152693df1a5a6153a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.KnowledgeGraphHelper.obtainLocation</definition>
+        <argsstring>(self, location)</argsstring>
+        <name>obtainLocation</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>location</type>
+          <defname>location</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="317" column="1" bodyfile="scripts/helper.py" bodystart="317" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1a3586484e15101ab72ef7a414ccd8a413" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.KnowledgeGraphHelper.choose_destination</definition>
+        <argsstring>(self)</argsstring>
+        <name>choose_destination</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="327" column="1" bodyfile="scripts/helper.py" bodystart="327" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1a68268017b3ad54dc336f8938fb3db939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.KnowledgeGraphHelper.relocate</definition>
+        <argsstring>(self, target, current_position)</argsstring>
+        <name>relocate</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>target</type>
+          <defname>target</defname>
+        </param>
+        <param>
+          <type>current_position</type>
+          <defname>current_position</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="359" column="1" bodyfile="scripts/helper.py" bodystart="359" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1helper_1_1_knowledge_graph_helper_1a53d17bf95caf35a973a6decf1b11ea0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.helper.KnowledgeGraphHelper.headToRechargeStation</definition>
+        <argsstring>(self, robot_location)</argsstring>
+        <name>headToRechargeStation</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>robot_location</type>
+          <defname>robot_location</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function responsible for guiding the robot to its designated charging room location.
+
+Args:
+    robot_location(str): The current robot position obtained E</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/helper.py" line="380" column="1" bodyfile="scripts/helper.py" bodystart="380" bodyend="393"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="scripts/helper.py" line="301" column="1" bodyfile="scripts/helper.py" bodystart="301" bodyend="393"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a87457a40fc97baf84ef18b31b872d9ad" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a3586484e15101ab72ef7a414ccd8a413" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>choose_destination</name></member>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a53d17bf95caf35a973a6decf1b11ea0b" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>headToRechargeStation</name></member>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a5aebb6a31b001f150d049a9c4233dd17" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>list_section_formatter</name></member>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1ad84108c8be0162152693df1a5a6153a6" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>obtainLocation</name></member>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a68268017b3ad54dc336f8938fb3db939" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>relocate</name></member>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1af9c967facc31ea51b8b123fda913a35c" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>survillancerobot</name></member>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a7ce28a25b505800359913fdb4ecf2bd5" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>survillancerobot_position</name></member>
+      <member refid="classscripts_1_1helper_1_1_knowledge_graph_helper_1a1536ad7dfb16369233e3dcd3f8e8683d" prot="public" virt="non-virtual"><scope>scripts::helper::KnowledgeGraphHelper</scope><name>survillancerobot_reachable_rooms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

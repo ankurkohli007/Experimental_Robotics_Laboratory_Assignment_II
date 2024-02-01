@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classscripts_1_1robot__states_1_1_robot_state" kind="class" language="Python" prot="public">
+    <compoundname>scripts::robot_states::RobotState</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classscripts_1_1robot__states_1_1_robot_state_1a357082b6625b42db6d4bf16bfbe61f5e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.robot_states.RobotState::_pose</definition>
+        <argsstring></argsstring>
+        <name>_pose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="48" column="1" bodyfile="scripts/robot_states.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1robot__states_1_1_robot_state_1a87ef43e30268956bedcb3218f0353a2f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.robot_states.RobotState::_battery_low</definition>
+        <argsstring></argsstring>
+        <name>_battery_low</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="50" column="1" bodyfile="scripts/robot_states.py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1robot__states_1_1_robot_state_1a9707315a45d5b71b7ba19518bb05fc0b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.robot_states.RobotState::_randomness</definition>
+        <argsstring></argsstring>
+        <name>_randomness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="51" column="1" bodyfile="scripts/robot_states.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscripts_1_1robot__states_1_1_robot_state_1a4b57c645acb463e10f93cbde92fca4b1" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>scripts.robot_states.RobotState::_random_battery_time</definition>
+        <argsstring></argsstring>
+        <name>_random_battery_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="53" column="1" bodyfile="scripts/robot_states.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscripts_1_1robot__states_1_1_robot_state_1a289b65abb54f7189f8429607f069fac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.robot_states.RobotState.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="44" column="1" bodyfile="scripts/robot_states.py" bodystart="44" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1robot__states_1_1_robot_state_1a19c0c35d918aaaa53eecfd0096d95c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.robot_states.RobotState.set_pose</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>set_pose</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The implementation of the `robot/set_pose` service, which typically handles requests to set or update the robot&apos;s current pose.
+
+Args:
+    request(Point): input parameter is the current robot pose to be set,
+
+Returns:
+    SetPoseResponse(): This server returns an empty `response`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="64" column="1" bodyfile="scripts/robot_states.py" bodystart="64" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1robot__states_1_1_robot_state_1a28bdc89286a0944832c908a6339e8578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.robot_states.RobotState.get_pose</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>get_pose</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function that provides the implementation for the &apos;state/get_pose&apos; service, typically responsible for responding to requests for retrieving the current robot pose.
+
+Args:
+    request: given by the client as empty, it is not used
+    
+Returns:
+    response(Point): current robot position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="82" column="1" bodyfile="scripts/robot_states.py" bodystart="82" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1robot__states_1_1_robot_state_1a50c738916e44a5d455f715c9b245c801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.robot_states.RobotState.is_battery_low_</definition>
+        <argsstring>(self)</argsstring>
+        <name>is_battery_low_</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function that publishes changes in the battery level, typically generating random battery level fluctuations and broadcasting them to indicate varying battery conditions.
+Args:
+    None
+    
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="100" column="1" bodyfile="scripts/robot_states.py" bodystart="100" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classscripts_1_1robot__states_1_1_robot_state_1a68bf48ecc86f4ac0c8eb1eb7ca686896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def scripts.robot_states.RobotState.battery_notifier_</definition>
+        <argsstring>(self, publisher)</argsstring>
+        <name>battery_notifier_</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>publisher</type>
+          <defname>publisher</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Publish battery level changes using a separate thread, introducing delays within the specified interval [`self._random_battery_time[0`], `self._random_battery_time[1]`) between updates.
+
+Args:
+    publisher(Publisher): The publisher responsible for transmitting messages, often used to disseminate data or information to other parts of a system or external components.
+    
+Returns:
+    None
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/robot_states.py" line="115" column="1" bodyfile="scripts/robot_states.py" bodystart="115" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The Node Manager class encapsulates functionality including two services for obtaining and configuring the robot&apos;s current pose, along with a publisher to announce low battery conditions.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/robot_states.py" line="39" column="1" bodyfile="scripts/robot_states.py" bodystart="39" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a289b65abb54f7189f8429607f069fac0" prot="public" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>__init__</name></member>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a87ef43e30268956bedcb3218f0353a2f" prot="private" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>_battery_low</name></member>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a357082b6625b42db6d4bf16bfbe61f5e" prot="private" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>_pose</name></member>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a4b57c645acb463e10f93cbde92fca4b1" prot="private" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>_random_battery_time</name></member>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a9707315a45d5b71b7ba19518bb05fc0b" prot="private" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>_randomness</name></member>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a68bf48ecc86f4ac0c8eb1eb7ca686896" prot="public" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>battery_notifier_</name></member>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a28bdc89286a0944832c908a6339e8578" prot="public" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>get_pose</name></member>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a50c738916e44a5d455f715c9b245c801" prot="public" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>is_battery_low_</name></member>
+      <member refid="classscripts_1_1robot__states_1_1_robot_state_1a19c0c35d918aaaa53eecfd0096d95c6c" prot="public" virt="non-virtual"><scope>scripts::robot_states::RobotState</scope><name>set_pose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

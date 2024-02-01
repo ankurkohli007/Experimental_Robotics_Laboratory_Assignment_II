@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="aruco__ros_2aruco__ros_2_c_make_lists_8txt" kind="file" language="C++">
+    <compoundname>CMakeLists.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">cmake_minimum_required(VERSION<sp/>2.8.3)</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">project(aruco_ros)</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">find_package(OpenCV<sp/>REQUIRED)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">find_package(catkin<sp/>REQUIRED<sp/>COMPONENTS</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/>cv_bridge</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>dynamic_reconfigure</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>geometry_msgs</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>image_transport</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>roscpp</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>rospy</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>tf</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><ref refid="namespacearuco" kindref="compound">aruco</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>aruco_msgs</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>sensor_msgs</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>visualization_msgs</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">generate_dynamic_reconfigure_options(</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>cfg/ArucoThreshold.cfg</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">add_compile_options(-std=c++11)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">catkin_package(</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>INCLUDE_DIRS<sp/>include</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>LIBRARIES<sp/>aruco_ros_utils</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>CATKIN_DEPENDS<sp/><ref refid="namespacearuco" kindref="compound">aruco</ref><sp/>sensor_msgs<sp/>tf<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">include_directories(</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>include)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">include_directories(</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>SYSTEM</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>${catkin_INCLUDE_DIRS}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>${OpenCV_INCLUDE_DIRS}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">add_library(aruco_ros_utils<sp/>src/aruco_ros_utils.cpp)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">target_link_libraries(aruco_ros_utils<sp/>${catkin_LIBRARIES})</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">add_executable(single<sp/>src/simple_single.cpp</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>src/aruco_ros_utils.cpp)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">add_dependencies(single<sp/>${PROJECT_NAME}_gencfg)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">target_link_libraries(single<sp/>${catkin_LIBRARIES}<sp/>${OpenCV_LIBRARIES})</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">add_executable(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>src/simple_double.cpp</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>src/aruco_ros_utils.cpp)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">add_dependencies(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>${PROJECT_NAME}_gencfg)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">target_link_libraries(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>${catkin_LIBRARIES}<sp/>${OpenCV_LIBRARIES})</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">add_executable(marker_publisher<sp/>src/marker_publish.cpp</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>src/aruco_ros_utils.cpp)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">add_dependencies(marker_publisher<sp/>${PROJECT_NAME}_gencfg)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">target_link_libraries(marker_publisher<sp/>${catkin_LIBRARIES}<sp/>${OpenCV_LIBRARIES})</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">#############</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">##<sp/>Install<sp/>##</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">#############</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">install(TARGETS<sp/>single<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>marker_publisher<sp/>aruco_ros_utils</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>ARCHIVE<sp/>DESTINATION<sp/>${CATKIN_PACKAGE_LIB_DESTINATION}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>LIBRARY<sp/>DESTINATION<sp/>${CATKIN_PACKAGE_LIB_DESTINATION}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>RUNTIME<sp/>DESTINATION<sp/>${CATKIN_PACKAGE_BIN_DESTINATION}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">install(DIRECTORY<sp/>include/</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/>DESTINATION<sp/>${CATKIN_GLOBAL_INCLUDE_DESTINATION}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/>FILES_MATCHING<sp/>PATTERN<sp/></highlight><highlight class="stringliteral">&quot;*.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(dir<sp/>etc<sp/>launch)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>install(DIRECTORY<sp/>${dir}/</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DESTINATION<sp/>${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">endforeach(dir)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="aruco_ros/aruco_ros/CMakeLists.txt"/>
+  </compounddef>
+</doxygen>

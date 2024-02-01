@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classarmor__api_1_1armor__query__client_1_1_armor_query_client" kind="class" language="Python" prot="public">
+    <compoundname>armor_api::armor_query_client::ArmorQueryClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a429f26db4142823d58837da87b3ae5f1" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>armor_api.armor_query_client.ArmorQueryClient::_client</definition>
+        <argsstring></argsstring>
+        <name>_client</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_query_client.py" line="22" column="1" bodyfile="utilities/armor_api/armor_query_client.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a9dfd344b3e0b1bc13190654730759fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_query_client.ArmorQueryClient.__init__</definition>
+        <argsstring>(self, client)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>client</type>
+          <defname>client</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_query_client.py" line="24" column="1" bodyfile="utilities/armor_api/armor_query_client.py" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a08205a074391e51560a22f05c3f4c227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_query_client.ArmorQueryClient.ind_b2_class</definition>
+        <argsstring>(self, class_name)</argsstring>
+        <name>ind_b2_class</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>class_name</type>
+          <defname>class_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Query the list of all individuals belonging to a class.
+    
+Args:
+    class_name (str): a class in the ontology
+    
+Returns:
+    list(str): the list of individual belonging to the class
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails.
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_query_client.py" line="27" column="1" bodyfile="utilities/armor_api/armor_query_client.py" bodystart="27" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a88effa5efd5431851eebb6074163df99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_query_client.ArmorQueryClient.dataprop_b2_ind</definition>
+        <argsstring>(self, dataprop_name, ind_name)</argsstring>
+        <name>dataprop_b2_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dataprop_name</type>
+          <defname>dataprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Query all values of a data property associated with an individual.
+    
+Args:
+    dataprop_name (str): data property whose values you want to query.
+    ind_name (str): individual whose value you want to query.
+    
+Returns:
+    list(str): list of queried values as strings.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_query_client.py" line="56" column="1" bodyfile="utilities/armor_api/armor_query_client.py" bodystart="56" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a44fe7c07bb71f046e73e2583378efea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_query_client.ArmorQueryClient.objectprop_b2_ind</definition>
+        <argsstring>(self, objectprop_name, ind_name)</argsstring>
+        <name>objectprop_b2_ind</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>objectprop_name</type>
+          <defname>objectprop_name</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Query all object values of an object property associated with an individual.
+    
+Args:
+    objectprop_name (str): object property whose values you want to query.
+    ind_name (str): individual whose value you want to query.
+    
+Returns:
+    list(str): list of queried values as strings.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_query_client.py" line="82" column="1" bodyfile="utilities/armor_api/armor_query_client.py" bodystart="82" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a911b5bfa62873258e1d283bc3eb3c6fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def armor_api.armor_query_client.ArmorQueryClient.check_ind_exists</definition>
+        <argsstring>(self, ind_name)</argsstring>
+        <name>check_ind_exists</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ind_name</type>
+          <defname>ind_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Utility function to check if an arbitrary named individual exists.
+    
+Args:
+    ind_name (str): the individual to be checked
+    
+Returns:
+    bool: True if individual exists, else False
+    
+Raises:
+    armor_api.exceptions.ArmorServiceCallError: if call to ARMOR fails.
+    armor_api.exceptions.ArmorServiceInternalError: if ARMOR reports an internal error.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utilities/armor_api/armor_query_client.py" line="108" column="1" bodyfile="utilities/armor_api/armor_query_client.py" bodystart="108" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>object</label>
+      </node>
+      <node id="1">
+        <label>armor_api.armor_query_client.ArmorQueryClient</label>
+        <link refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>object</label>
+      </node>
+      <node id="1">
+        <label>armor_api.armor_query_client.ArmorQueryClient</label>
+        <link refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="utilities/armor_api/armor_query_client.py" line="21" column="1" bodyfile="utilities/armor_api/armor_query_client.py" bodystart="21" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a9dfd344b3e0b1bc13190654730759fa8" prot="public" virt="non-virtual"><scope>armor_api::armor_query_client::ArmorQueryClient</scope><name>__init__</name></member>
+      <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a429f26db4142823d58837da87b3ae5f1" prot="private" virt="non-virtual"><scope>armor_api::armor_query_client::ArmorQueryClient</scope><name>_client</name></member>
+      <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a911b5bfa62873258e1d283bc3eb3c6fb" prot="public" virt="non-virtual"><scope>armor_api::armor_query_client::ArmorQueryClient</scope><name>check_ind_exists</name></member>
+      <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a88effa5efd5431851eebb6074163df99" prot="public" virt="non-virtual"><scope>armor_api::armor_query_client::ArmorQueryClient</scope><name>dataprop_b2_ind</name></member>
+      <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a08205a074391e51560a22f05c3f4c227" prot="public" virt="non-virtual"><scope>armor_api::armor_query_client::ArmorQueryClient</scope><name>ind_b2_class</name></member>
+      <member refid="classarmor__api_1_1armor__query__client_1_1_armor_query_client_1a44fe7c07bb71f046e73e2583378efea8" prot="public" virt="non-virtual"><scope>armor_api::armor_query_client::ArmorQueryClient</scope><name>objectprop_b2_ind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

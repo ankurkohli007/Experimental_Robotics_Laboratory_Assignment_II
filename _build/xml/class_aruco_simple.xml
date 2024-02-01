@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_aruco_simple" kind="class" language="C++" prot="public">
+    <compoundname>ArucoSimple</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aruco_simple_1af3bb350a72474018773b5249c9ec3e89" prot="private" static="no" mutable="no">
+        <type>cv::Mat</type>
+        <definition>cv::Mat ArucoSimple::inImage</definition>
+        <argsstring></argsstring>
+        <name>inImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="55" column="11" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1ad8af732876af8f4875d859bb6c987b41" prot="private" static="no" mutable="no">
+        <type><ref refid="classaruco_1_1_camera_parameters" kindref="compound">aruco::CameraParameters</ref></type>
+        <definition>aruco::CameraParameters ArucoSimple::camParam</definition>
+        <argsstring></argsstring>
+        <name>camParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="56" column="27" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a41eadeff26487d7cadd50a07b003c46a" prot="private" static="no" mutable="no">
+        <type>tf::StampedTransform</type>
+        <definition>tf::StampedTransform ArucoSimple::rightToLeft</definition>
+        <argsstring></argsstring>
+        <name>rightToLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="57" column="24" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a3fcf02095c93ad7a7e1324dec2364881" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ArucoSimple::useRectifiedImages</definition>
+        <argsstring></argsstring>
+        <name>useRectifiedImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="58" column="8" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1acbd51e70a69d59d9ae042ec2946e4f41" prot="private" static="no" mutable="no">
+        <type><ref refid="classaruco_1_1_marker_detector" kindref="compound">aruco::MarkerDetector</ref></type>
+        <definition>aruco::MarkerDetector ArucoSimple::mDetector</definition>
+        <argsstring></argsstring>
+        <name>mDetector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="59" column="25" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a8835456ca7d69c2aa0a50b9df5a3cec0" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classaruco_1_1_marker" kindref="compound">aruco::Marker</ref> &gt;</type>
+        <definition>std::vector&lt;aruco::Marker&gt; ArucoSimple::markers</definition>
+        <argsstring></argsstring>
+        <name>markers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="60" column="15" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1afc5e592ce0fadb473a1f57aea3687bf9" prot="private" static="no" mutable="no">
+        <type>ros::Subscriber</type>
+        <definition>ros::Subscriber ArucoSimple::cam_info_sub</definition>
+        <argsstring></argsstring>
+        <name>cam_info_sub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="61" column="19" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1adf3796c7f2f4484d8f179d5cdfb2e285" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ArucoSimple::cam_info_received</definition>
+        <argsstring></argsstring>
+        <name>cam_info_received</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="62" column="8" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1abe0d5a484027e4259da58b9344f5d915" prot="private" static="no" mutable="no">
+        <type>image_transport::Publisher</type>
+        <definition>image_transport::Publisher ArucoSimple::image_pub</definition>
+        <argsstring></argsstring>
+        <name>image_pub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="63" column="30" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1acc004e680799d097484ef61b7fdff3b7" prot="private" static="no" mutable="no">
+        <type>image_transport::Publisher</type>
+        <definition>image_transport::Publisher ArucoSimple::debug_pub</definition>
+        <argsstring></argsstring>
+        <name>debug_pub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="64" column="30" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a996d6d4911c7f2e919f7ee55243893d8" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher ArucoSimple::pose_pub</definition>
+        <argsstring></argsstring>
+        <name>pose_pub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="65" column="18" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a3273dd6abea63fd722638c3e1e9380a8" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher ArucoSimple::transform_pub</definition>
+        <argsstring></argsstring>
+        <name>transform_pub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="66" column="18" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a23a2c4f2488e6b31ce9b3180ee9ad642" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher ArucoSimple::position_pub</definition>
+        <argsstring></argsstring>
+        <name>position_pub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="67" column="18" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a075fb6464e83681d288e1f91ced256f1" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher ArucoSimple::marker_pub</definition>
+        <argsstring></argsstring>
+        <name>marker_pub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="68" column="18" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a3a64588554b702b5b90800c52675e18d" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher ArucoSimple::pixel_pub</definition>
+        <argsstring></argsstring>
+        <name>pixel_pub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="69" column="18" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a3d73dfa0875c0268013d808cc0f9f95c" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ArucoSimple::marker_frame</definition>
+        <argsstring></argsstring>
+        <name>marker_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="70" column="15" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a4c1bfdcbb0587575f09c2ffdf2031b5f" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ArucoSimple::camera_frame</definition>
+        <argsstring></argsstring>
+        <name>camera_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="71" column="15" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1acf859282a52a0d025b636ef32c36ebf5" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ArucoSimple::reference_frame</definition>
+        <argsstring></argsstring>
+        <name>reference_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="72" column="15" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a4e858b4920e5323ee797f73ffc709034" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ArucoSimple::marker_size</definition>
+        <argsstring></argsstring>
+        <name>marker_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="74" column="10" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a3a8e1118c529d7a44b7d69081df8eb57" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ArucoSimple::marker_id</definition>
+        <argsstring></argsstring>
+        <name>marker_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="75" column="7" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a64a584304ce05dd066257699dab3d666" prot="private" static="no" mutable="no">
+        <type>ros::NodeHandle</type>
+        <definition>ros::NodeHandle ArucoSimple::nh</definition>
+        <argsstring></argsstring>
+        <name>nh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="77" column="19" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a6a626450dc3fc71e608af28876090982" prot="private" static="no" mutable="no">
+        <type>image_transport::ImageTransport</type>
+        <definition>image_transport::ImageTransport ArucoSimple::it</definition>
+        <argsstring></argsstring>
+        <name>it</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="78" column="35" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a3f9f58eebe0a03c00ecd190c9bd74bf5" prot="private" static="no" mutable="no">
+        <type>image_transport::Subscriber</type>
+        <definition>image_transport::Subscriber ArucoSimple::image_sub</definition>
+        <argsstring></argsstring>
+        <name>image_sub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="79" column="31" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1a301d840fb7527f9d06cf5fe1f9e53bb1" prot="private" static="no" mutable="no">
+        <type>tf::TransformListener</type>
+        <definition>tf::TransformListener ArucoSimple::_tfListener</definition>
+        <argsstring></argsstring>
+        <name>_tfListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="81" column="25" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aruco_simple_1aa8956f151e8606a69c65290515cb3dac" prot="private" static="no" mutable="no">
+        <type>dynamic_reconfigure::Server&lt; aruco_ros::ArucoThresholdConfig &gt;</type>
+        <definition>dynamic_reconfigure::Server&lt;aruco_ros::ArucoThresholdConfig&gt; ArucoSimple::dyn_rec_server</definition>
+        <argsstring></argsstring>
+        <name>dyn_rec_server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="83" column="31" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aruco_simple_1a274c023c4c1558e33930718910ba1139" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ArucoSimple::ArucoSimple</definition>
+        <argsstring>()</argsstring>
+        <name>ArucoSimple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="86" column="3" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="86" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aruco_simple_1a77841a85544c9871bcdeb309bab5ba8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ArucoSimple::getTransform</definition>
+        <argsstring>(const std::string &amp;refFrame, const std::string &amp;childFrame, tf::StampedTransform &amp;transform)</argsstring>
+        <name>getTransform</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>refFrame</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>childFrame</declname>
+        </param>
+        <param>
+          <type>tf::StampedTransform &amp;</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="158" column="8" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="158" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aruco_simple_1a4187d02eb1f8af79b91dc901c3f96586" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArucoSimple::image_callback</definition>
+        <argsstring>(const sensor_msgs::ImageConstPtr &amp;msg)</argsstring>
+        <name>image_callback</name>
+        <param>
+          <type>const sensor_msgs::ImageConstPtr &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="185" column="8" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="185" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aruco_simple_1a26a273ac0a8990045c98e5ddab939e93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArucoSimple::cam_info_callback</definition>
+        <argsstring>(const sensor_msgs::CameraInfo &amp;msg)</argsstring>
+        <name>cam_info_callback</name>
+        <param>
+          <type>const sensor_msgs::CameraInfo &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="312" column="8" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="312" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aruco_simple_1a0e9ec3c4c943c8e98dd840288e60ef23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArucoSimple::reconf_callback</definition>
+        <argsstring>(aruco_ros::ArucoThresholdConfig &amp;config, uint32_t level)</argsstring>
+        <name>reconf_callback</name>
+        <param>
+          <type>aruco_ros::ArucoThresholdConfig &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="325" column="8" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="325" bodyend="332"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="aruco_ros/aruco_ros/src/simple_single.cpp" line="53" column="1" bodyfile="aruco_ros/aruco_ros/src/simple_single.cpp" bodystart="52" bodyend="333"/>
+    <listofallmembers>
+      <member refid="class_aruco_simple_1a301d840fb7527f9d06cf5fe1f9e53bb1" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>_tfListener</name></member>
+      <member refid="class_aruco_simple_1a274c023c4c1558e33930718910ba1139" prot="public" virt="non-virtual"><scope>ArucoSimple</scope><name>ArucoSimple</name></member>
+      <member refid="class_aruco_simple_1a26a273ac0a8990045c98e5ddab939e93" prot="public" virt="non-virtual"><scope>ArucoSimple</scope><name>cam_info_callback</name></member>
+      <member refid="class_aruco_simple_1adf3796c7f2f4484d8f179d5cdfb2e285" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>cam_info_received</name></member>
+      <member refid="class_aruco_simple_1afc5e592ce0fadb473a1f57aea3687bf9" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>cam_info_sub</name></member>
+      <member refid="class_aruco_simple_1a4c1bfdcbb0587575f09c2ffdf2031b5f" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>camera_frame</name></member>
+      <member refid="class_aruco_simple_1ad8af732876af8f4875d859bb6c987b41" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>camParam</name></member>
+      <member refid="class_aruco_simple_1acc004e680799d097484ef61b7fdff3b7" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>debug_pub</name></member>
+      <member refid="class_aruco_simple_1aa8956f151e8606a69c65290515cb3dac" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>dyn_rec_server</name></member>
+      <member refid="class_aruco_simple_1a77841a85544c9871bcdeb309bab5ba8f" prot="public" virt="non-virtual"><scope>ArucoSimple</scope><name>getTransform</name></member>
+      <member refid="class_aruco_simple_1a4187d02eb1f8af79b91dc901c3f96586" prot="public" virt="non-virtual"><scope>ArucoSimple</scope><name>image_callback</name></member>
+      <member refid="class_aruco_simple_1abe0d5a484027e4259da58b9344f5d915" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>image_pub</name></member>
+      <member refid="class_aruco_simple_1a3f9f58eebe0a03c00ecd190c9bd74bf5" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>image_sub</name></member>
+      <member refid="class_aruco_simple_1af3bb350a72474018773b5249c9ec3e89" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>inImage</name></member>
+      <member refid="class_aruco_simple_1a6a626450dc3fc71e608af28876090982" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>it</name></member>
+      <member refid="class_aruco_simple_1a3d73dfa0875c0268013d808cc0f9f95c" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>marker_frame</name></member>
+      <member refid="class_aruco_simple_1a3a8e1118c529d7a44b7d69081df8eb57" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>marker_id</name></member>
+      <member refid="class_aruco_simple_1a075fb6464e83681d288e1f91ced256f1" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>marker_pub</name></member>
+      <member refid="class_aruco_simple_1a4e858b4920e5323ee797f73ffc709034" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>marker_size</name></member>
+      <member refid="class_aruco_simple_1a8835456ca7d69c2aa0a50b9df5a3cec0" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>markers</name></member>
+      <member refid="class_aruco_simple_1acbd51e70a69d59d9ae042ec2946e4f41" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>mDetector</name></member>
+      <member refid="class_aruco_simple_1a64a584304ce05dd066257699dab3d666" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>nh</name></member>
+      <member refid="class_aruco_simple_1a3a64588554b702b5b90800c52675e18d" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>pixel_pub</name></member>
+      <member refid="class_aruco_simple_1a996d6d4911c7f2e919f7ee55243893d8" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>pose_pub</name></member>
+      <member refid="class_aruco_simple_1a23a2c4f2488e6b31ce9b3180ee9ad642" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>position_pub</name></member>
+      <member refid="class_aruco_simple_1a0e9ec3c4c943c8e98dd840288e60ef23" prot="public" virt="non-virtual"><scope>ArucoSimple</scope><name>reconf_callback</name></member>
+      <member refid="class_aruco_simple_1acf859282a52a0d025b636ef32c36ebf5" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>reference_frame</name></member>
+      <member refid="class_aruco_simple_1a41eadeff26487d7cadd50a07b003c46a" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>rightToLeft</name></member>
+      <member refid="class_aruco_simple_1a3273dd6abea63fd722638c3e1e9380a8" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>transform_pub</name></member>
+      <member refid="class_aruco_simple_1a3fcf02095c93ad7a7e1324dec2364881" prot="private" virt="non-virtual"><scope>ArucoSimple</scope><name>useRectifiedImages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

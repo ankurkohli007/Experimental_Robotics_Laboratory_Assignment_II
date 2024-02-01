@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_22c8f002cd5de39af5b8d45f06b96c1f" kind="dir">
+    <compoundname>aruco_ros/aruco/src/aruco/markerlabelers</compoundname>
+    <innerfile refid="dictionary__based_8cpp">dictionary_based.cpp</innerfile>
+    <innerfile refid="dictionary__based_8h">dictionary_based.h</innerfile>
+    <innerfile refid="svmmarkers_8cpp">svmmarkers.cpp</innerfile>
+    <innerfile refid="svmmarkers_8h">svmmarkers.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="aruco_ros/aruco/src/aruco/markerlabelers/"/>
+  </compounddef>
+</doxygen>
