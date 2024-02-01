@@ -224,7 +224,7 @@ rosrun rqt_graph rqt_graph
 ```
 
 <p align="center">
-  <img width="2500" height="1000" src="https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_II/blob/16b9333feadb5807eb8990bed5772e79feca807c/rosgraph.png">
+  <img width="2000" height="1000" src="https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_II/blob/16b9333feadb5807eb8990bed5772e79feca807c/rosgraph.png">
 </p>
 
 <p align="center">
