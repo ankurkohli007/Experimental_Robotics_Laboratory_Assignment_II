@@ -203,7 +203,8 @@ public:
     camParam_ = aruco::CameraParameters();
   }
 ```
-
+* **Note:** For more details about the assignment follow the repository [link](https://github.com/CarmineD8/assignment2) provided by [Prof. Carmine Tommaso Recchiuto](https://rubrica.unige.it/personale/UkNDWV1r)
+  
 ### Running 
 
 To initialize the software architecture in conjunction with the finite state machine representation, first install ``xterm`` if it is not installed by the command ``sudo apt-get install -y xterm`` and then execute the following commands:
