@@ -249,7 +249,7 @@ Moreover, the utilization of the slam_gmapping package for map creation proved t
 
 Overall, the successful integration and functionality of the developed architecture in the simulated environment showcase its potential for efficient indoor surveillance applications. The results highlight the adaptability, autonomy, and effectiveness of the autonomous surveillance robot architecture in monitoring and patrolling indoor environments, laying the groundwork for future advancements in robotic surveillance systems.
 
-### System Features
+## System Features
 
 The robot follows certain rules when moving around:
 
@@ -262,6 +262,12 @@ The detail explanation of the above:
 - **Exploring Corridors:** The robot will move around the environment, focusing on exploring the corridors or passages. This means it will traverse through the pathways within the space it's in, looking for any areas of interest or potential destinations.
 - **Prioritizing Urgent Locations:** If there are urgent places that the robot needs to visit, it will give them priority over just exploring corridors. Urgent locations could be spots that require immediate attention or action, like specific rooms or areas designated as important. The robot will decide which urgent location to visit first based on a timestamp system, where it considers when each location was last visited.
 - **Camera Rotation:** When the robot arrives at a location, it will use its camera to look around in all directions, covering a full 360-degree view. This ensures that the robot gathers as much visual information as possible about its surroundings, helping it to navigate effectively and gather relevant data.
+
+## System Limitations
+
+In terms of the ontology and policy, the constraints mentioned in the previous [limitations](https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_I?tab=readme-ov-file#path-planning-algorithm) remain applicable to this project. However, when it comes to simulation, the following limitations are observed:
+
+**Marker Detection Alignment:** The system for detecting markers is specifically designed for this particular environment. If a marker were placed in a different position within the environment, the camera might not be able to detect it accurately. This means that the placement of markers needs to be aligned with the capabilities and parameters of the detection system in order for it to function effectively.
 
 
 
