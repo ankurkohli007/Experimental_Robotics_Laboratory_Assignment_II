@@ -235,7 +235,7 @@ rosrun rqt_graph rqt_graph
 
 The figure above shows the `rqt_graph`. 
 
-## Result Discussion
+## Result & Discussion
 
 ### Simulation Phases
 
