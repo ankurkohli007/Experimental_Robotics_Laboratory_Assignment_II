@@ -229,6 +229,11 @@ rosrun rqt_graph rqt_graph
   <img width="1000" height="800" src="https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_II/blob/16b9333feadb5807eb8990bed5772e79feca807c/rosgraph.png">
 </p>
 
+<p align="center">
+    <em>RQT Graph</em>
+</p> 
+
+The figure above shows the `rqt_graph`. 
 
 ## Result Discussion
 
@@ -244,8 +249,4 @@ Moreover, the utilization of the slam_gmapping package for map creation proved t
 
 Overall, the successful integration and functionality of the developed architecture in the simulated environment showcase its potential for efficient indoor surveillance applications. The results highlight the adaptability, autonomy, and effectiveness of the autonomous surveillance robot architecture in monitoring and patrolling indoor environments, laying the groundwork for future advancements in robotic surveillance systems.
 
-<p align="center">
-    <em>RQT Graph</em>
-</p> 
 
-The figure above shows the `rqt_graph`. 
