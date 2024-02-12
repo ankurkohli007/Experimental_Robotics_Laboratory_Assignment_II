@@ -165,7 +165,7 @@ Here, again the ``<distro>`` denotes a package or component associated with a sp
 * Execute ``chmod +x <file_name>`` for each file inside the folder ``scripts`` of the assignment package which was cloned in the last step.
 * Execute ``catkin_make`` from the root of your ROS workspace.
 
-**Note:** For debugging during installation refer Assignment 1 installation steps [from here](https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_I#note-the-author-of-the-armor-developer-found-some-issues-with-the-function-proposed-in-the-script-armor_manipulation_clientpy-to-disjoint-the-individuals-of-the-ontology-hence-another-function-was-created-in-the-script-as).
+**Note:** For debugging during installation refer Assignment 1 installation steps [from here](https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_I?tab=readme-ov-file#note).
 
 There are some useful package can be install for the navigation task by the command below:
 
