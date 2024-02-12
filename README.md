@@ -273,6 +273,16 @@ In terms of the ontology and policy, the constraints mentioned in the previous [
 
 **Marker Detection Alignment:** The system for detecting markers is specifically designed for this particular environment. If a marker were placed in a different position within the environment, the camera might not be able to detect it accurately. This means that the placement of markers needs to be aligned with the capabilities and parameters of the detection system in order for it to function effectively.
 
+**Robot Behaviour** Periodically, the robot may encounter a situation where it stops moving, necessitating a restart of the simulation. This issue is likely attributed to a bug within the move_base functionality. Additionally, when starting from the initial position, the robot may become trapped in a corner of the room, hindering its movement.
+
+##
+
+
+
+
+
+
+
 
 
 
