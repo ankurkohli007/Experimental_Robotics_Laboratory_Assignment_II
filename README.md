@@ -164,7 +164,7 @@ Here, again the ``<distro>`` denotes a package or component associated with a sp
 
 * Execute ``chmod +x <file_name>`` for each file inside the folder ``scripts`` of the assignment package which was cloned in the last step.
 * Execute ``catkin_make`` from the root of your ROS workspace.
-* For the installation of aRMOS package, you can also the provide (link)[https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_I?tab=readme-ov-file#installation].
+* For the installation of aRMOS package, you can also the provide [link](https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_I?tab=readme-ov-file#installation).
 
 **Note:** For debugging during installation refer Assignment 1 installation steps [from here](https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_I?tab=readme-ov-file#note).
 
