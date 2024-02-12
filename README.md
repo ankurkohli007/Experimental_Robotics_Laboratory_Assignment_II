@@ -249,4 +249,26 @@ Moreover, the utilization of the slam_gmapping package for map creation proved t
 
 Overall, the successful integration and functionality of the developed architecture in the simulated environment showcase its potential for efficient indoor surveillance applications. The results highlight the adaptability, autonomy, and effectiveness of the autonomous surveillance robot architecture in monitoring and patrolling indoor environments, laying the groundwork for future advancements in robotic surveillance systems.
 
+### System Features
+
+The robot follows certain rules when moving around:
+
+* If there are no urgent places to go, it will explore the corridors.
+* If there are urgent places to go, it will prioritize them based on when they were last visited. The places that haven't been visited for the longest time will be visited first.
+* When the robot reaches a location, it will rotate its camera 360 degrees to see everything around it.
+
+The detail explanation of the above:
+
+- **Exploring Corridors:** The robot will move around the environment, focusing on exploring the corridors or passages. This means it will traverse through the pathways within the space it's in, looking for any areas of interest or potential destinations.
+- **Prioritizing Urgent Locations:** If there are urgent places that the robot needs to visit, it will give them priority over just exploring corridors. Urgent locations could be spots that require immediate attention or action, like specific rooms or areas designated as important. The robot will decide which urgent location to visit first based on a timestamp system, where it considers when each location was last visited.
+- **Camera Rotation:** When the robot arrives at a location, it will use its camera to look around in all directions, covering a full 360-degree view. This ensures that the robot gathers as much visual information as possible about its surroundings, helping it to navigate effectively and gather relevant data.
+
+
+
+
+
+
+
+
+
 
