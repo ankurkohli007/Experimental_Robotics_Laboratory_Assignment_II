@@ -237,6 +237,10 @@ The figure above shows the `rqt_graph`.
 
 ## Result Discussion
 
+### Simulation Phases
+
+At the begining, the robot begins in a designated room and utilizes the [aruco_detect](https://wiki.ros.org/aruco_detect) library to scan all nearby markers. After collecting the marker IDs, it communicates with a server to retrieve room information and constructs a map, represented as an ontology, with the help of the owl_interface node. Following this, the state machine directs the robot on its next moves, following the logic established in the initial assignment. The physical movement of the robot to different rooms is facilitated by the [move_base](https://wiki.ros.org/move_base) and [gmapping](https://wiki.ros.org/gmapping) functionalities.
+
 The integration of the adaptive autonomous surveillance robot architecture into the robotic simulation environment yielded promising results in terms of indoor monitoring and surveillance. Through the seamless integration process outlined in the assignment, the robot successfully navigated the simulated indoor environment, autonomously building a semantic map and conducting comprehensive room scans.
 
 The initial mapping phase, crucial for subsequent patrolling activities, was effectively executed by the robot. Leveraging the provided service node and markers, the robot autonomously detected and mapped its surroundings. This process demonstrated the robot's capability to interpret environmental cues and construct a semantic map, laying the foundation for efficient navigation and surveillance.
