@@ -229,6 +229,21 @@ rosrun rqt_graph rqt_graph
   <img width="1000" height="800" src="https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_II/blob/16b9333feadb5807eb8990bed5772e79feca807c/rosgraph.png">
 </p>
 
+
+## Result Discussion
+
+The integration of the adaptive autonomous surveillance robot architecture into the robotic simulation environment yielded promising results in terms of indoor monitoring and surveillance. Through the seamless integration process outlined in the assignment, the robot successfully navigated the simulated indoor environment, autonomously building a semantic map and conducting comprehensive room scans.
+
+The initial mapping phase, crucial for subsequent patrolling activities, was effectively executed by the robot. Leveraging the provided service node and markers, the robot autonomously detected and mapped its surroundings. This process demonstrated the robot's capability to interpret environmental cues and construct a semantic map, laying the foundation for efficient navigation and surveillance.
+
+Upon completion of the mapping phase, the robot seamlessly transitioned into the patrolling algorithm. Utilizing autonomous navigation strategies and leveraging the information stored in the ontology from the mapping phase, the robot efficiently patrolled the indoor space. By prioritizing unvisited rooms and conducting thorough scans upon entry, the robot demonstrated its ability to adapt to dynamic environments and enhance surveillance capabilities.
+
+The inclusion of additional nodes such as marker_publisher and move_base further enriched the simulation environment, enabling enhanced functionality and practical application of the developed architecture. The marker_publisher node facilitated image processing through OpenCV, enabling marker detection, while the move_base node enabled navigation and path planning, contributing to the overall autonomy of the surveillance system.
+
+Moreover, the utilization of the slam_gmapping package for map creation proved to be effective, allowing real-time generation of maps using data from the robot's laser scanner and base frame position. This approach eliminated the need for pre-existing map files and enhanced the adaptability of the surveillance system to dynamic environments.
+
+Overall, the successful integration and functionality of the developed architecture in the simulated environment showcase its potential for efficient indoor surveillance applications. The results highlight the adaptability, autonomy, and effectiveness of the autonomous surveillance robot architecture in monitoring and patrolling indoor environments, laying the groundwork for future advancements in robotic surveillance systems.
+
 <p align="center">
     <em>RQT Graph</em>
 </p> 
