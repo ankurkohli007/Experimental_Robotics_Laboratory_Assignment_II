@@ -277,6 +277,8 @@ In terms of the ontology and policy, the constraints mentioned in the previous [
 
 ## Possible Future Improvements
 
+Also, considering the [improvements](https://github.com/ankurkohli007/Experimental_Robotics_Laboratory_Assignment_I?tab=readme-ov-file#improvements) from Assignment, below are the more improvements is to be done to make the system more precise:
+
 ###### Potential Technical Improvements
 
 This include enhancing the robot's design to achieve better balance between its base and manipulator, thus minimizing swaying during real-world operations. Moreover, expanding the ontology aspect of the system could leverage the capabilities of the PELLET reasoner to its full potential.
