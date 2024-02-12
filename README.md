@@ -275,8 +275,31 @@ In terms of the ontology and policy, the constraints mentioned in the previous [
 
 **Robot Behaviour** Periodically, the robot may encounter a situation where it stops moving, necessitating a restart of the simulation. This issue is likely attributed to a bug within the move_base functionality. Additionally, when starting from the initial position, the robot may become trapped in a corner of the room, hindering its movement.
 
-##
+## Possible Future Improvements
 
+###### Potential Technical Improvements
+
+This include enhancing the robot's design to achieve better balance between its base and manipulator, thus minimizing swaying during real-world operations. Moreover, expanding the ontology aspect of the system could leverage the capabilities of the PELLET reasoner to its full potential.
+
+###### Detection phase
+
+One potential improvement involves enhancing the monitoring phase to be more adaptable, enabling the robot to detect markers placed in various locations without difficulty. This could involve fine-tuning parameters to optimize the robot's speed, thereby reducing simulation time.
+
+###### Exploration Phase
+
+Consider integrating the Explore-Lite algorithm for efficient frontier-based exploration. This algorithm allows the robot to systematically explore its surroundings by identifying and navigating towards unexplored areas until all frontiers are exhausted. This can be achieved by continuously sending navigation goals to the Move Base server.
+
+###### Exploration Phase Planner and Controller
+
+Develop a planner that incorporates information about wall presence, ensuring efficient path planning. Additionally, create a controller that guides the robot towards each planned point along the path. Implementing an appropriate planning algorithm will be crucial to ensure accurate and effective point planning by the planner.
+
+## Author & Contacts
+
+Ankur Kohli; ankurkohli1997007@gmail.com
+
+## aRMOR related query contacts
+
+Prof. Carmine Tommaso Recchiuto; carmine.recchiuto@dibris.unige.it & Prof. Luca Buoncompagni; luca.buoncompagni@edu.unige.it
 
 
 
