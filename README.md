@@ -237,7 +237,7 @@ The figure above shows the `rqt_graph`.
 
 ## Result & Discussion
 
-### Simulation Phases
+###### Simulation Phases
 
 At the begining, the robot begins in a designated room and utilizes the [aruco_detect](https://wiki.ros.org/aruco_detect) library to scan all nearby markers. After collecting the marker IDs, it communicates with a server to retrieve room information and constructs a map, represented as an ontology, with the help of the owl_interface node. Following this, the state machine directs the robot on its next moves, following the logic established in the initial assignment. The physical movement of the robot to different rooms is facilitated by the [move_base](https://wiki.ros.org/move_base) and [gmapping](https://wiki.ros.org/gmapping) functionalities.
 
